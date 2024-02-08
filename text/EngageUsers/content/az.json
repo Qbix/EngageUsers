@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Menyu",
+        "Home": "Ev",
+        "Welcome": "Xoş gəldiniz",
+        "About": "Haqqında",
+        "LogIn": "daxil ol",
+        "LogOut": "çıxış",
+        "People": "Xalq",
+        "Conversations": "Söhbətlər",
+        "Events": "Hadisələr",
+        "Me": "Mən",
+        "SetMobileNumber": "Mobil nömrəni təyin edin",
+        "SetEmailAddress": "E-poçt ünvanını təyin edin"
+    },
+    "welcome": {
+        "Title": "{{1}}: xoş gəlmisiniz",
+        "Description": "{{1}} tətbiqinə xoş gəlmisiniz.",
+        "Welcome": "Xoş gəldiniz!",
+        "ToStart": "Yeni proqrama başlamaq üçün <a href='{{1}}'>buradakı<\/a> təlimatlara əməl etməlisiniz.",
+        "RenderedInMs": "Oh, və yeri gəlmişkən, bu {{1}} ms ilə göstərildi.",
+        "RefreshPage": "Səhifəni bir neçə dəfə yeniləyin və Qbix Platformasının nə qədər səmərəli ola biləcəyinə baxın.",
+        "EvenFaster": "Əslində, <a href='{{1}}'>daha sürətli<\/a> icra edə bilər.",
+        "TryItOut": "Sınayın!",
+        "GoToYourForum": "Forumunuza gedin.",
+        "DontHaveAForum?": "Forumunuz yoxdur?",
+        "GetInTouchWithUs": "Bizimlə əlaqə saxlayın – biz sizin üçün bütün icma portalları yaratmağa kömək edirik!",
+        "GenerateAPIKey": "API açarı yaradın",
+        "OnlyForumOwners": "Bu xidmətdən yalnız forum sahibləri istifadə edə bilər.",
+        "PasteAPIKey": "API açarını yapışdırın:",
+        "URLOfTopicOrPost": "Mövzunuzun və ya yazınızın URL-i:",
+        "ChooseAnAttitude": "İfadə etmək üçün bir münasibət seçin:",
+        "WhatShouldItBe?": "Nə olmalıdır?",
+        "attitudes": {
+            "agree + actionable": "Yazı ilə razılaşın və fikirlər təklif edin",
+            "agree + expand": "Razılaşın, lakin daha geniş vacib məsələni genişləndirin",
+            "agree + changeSubject": "Razılaşın, lakin sonra əlaqəli, lakin fərqli bir məsələ qaldırın",
+            "disagree + respectful": "Hörmətlə razılaşmayın və səbəbini izah edin",
+            "disagree + emotive": "Emosional və fikirli bir şəkildə razılaşmayın",
+            "disagree + absurd": "Reductio ad absurdum istifadə edərək, yumşaq istehzalı şəkildə razılaşmayın",
+            "disagree + authority": "Fərqli fikirdə olan səlahiyyətlilərə istinad edərək yumşaq şəkildə razılaşmayın"
+        },
+        "ClickOnTheBelowAgents": "Aşağıdakı avtonom agentlərdən hər hansı birinə klikləyin. Bir neçə saniyə ərzində biz sizin forumunuzda hesab yaradacağıq və həmin agent kimi yazacağıq.",
+        "InvestorPresentation": "İnvestor təqdimatı"
+    },
+    "about": {
+        "About": "{{1}} haqqında",
+        "CanWrite": "Burada bu proqram və ya vebsayt haqqında nəsə yaza bilərsiniz.",
+        "OrRemove": "Və ya istəsəniz bu səhifəni silə bilərsiniz."
+    },
+    "errors": {
+        "Rendering": "<span class='url'>{{1}}<\/span> göstərilərkən xətalar baş verdi"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> heç nəyə işarə etmir."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: {{call 'user.displayName'}} üçün ödəniş işlənib",
+        "ThankForPayment": "{{call 'publisher.displayName'}} ödədiyiniz üçün təşəkkür edirik",
+        "SubscribedToPlan": "{{call 'user.displayName'}} abunə oldu {{plan.title}}",
+        "YouSubscribedToPlan": "Siz {{plan.title'}} kanalına abunə olmusunuz",
+        "Enabled": "Bildirişlər aktivləşdirilib."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Dostlar sizi tanısın:"
+            }
+        }
+    }
+}

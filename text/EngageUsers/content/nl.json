@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Menu",
+        "Home": "Thuis",
+        "Welcome": "Welkom",
+        "About": "Over",
+        "LogIn": "Log in",
+        "LogOut": "uitloggen",
+        "People": "Mensen",
+        "Conversations": "Chatten",
+        "Events": "Evenementen",
+        "Me": "Mij",
+        "SetMobileNumber": "Mobiel nummer instellen",
+        "SetEmailAddress": "E-mailadres instellen"
+    },
+    "welcome": {
+        "Title": "{{1}}: welkom",
+        "Description": "Welkom bij {{1}} applicatie.",
+        "Welcome": "Welkom!",
+        "ToStart": "Volg de instructies <a href='{{1}}'>hier<\/a> om een nieuwe app te starten.",
+        "RenderedInMs": "Oh, en trouwens, dit werd weergegeven in {{1}} ms.",
+        "RefreshPage": "Ververs de pagina een paar keer en zie hoe efficiënt het Qbix Platform kan zijn.",
+        "EvenFaster": "Het kan <a href='{{1}}'>zelfs nog sneller<\/a> worden uitgevoerd.",
+        "TryItOut": "Probeer het!",
+        "GoToYourForum": "Ga naar je forum.",
+        "DontHaveAForum?": "Heb je geen forum?",
+        "GetInTouchWithUs": "Neem contact met ons op - wij helpen u complete communityportalen voor u te bouwen!",
+        "GenerateAPIKey": "een API-sleutel genereren",
+        "OnlyForumOwners": "Alleen forumeigenaren kunnen deze service gebruiken.",
+        "PasteAPIKey": "API-sleutel plakken:",
+        "URLOfTopicOrPost": "URL van uw onderwerp of bericht:",
+        "ChooseAnAttitude": "Kies een houding om uit te drukken:",
+        "WhatShouldItBe?": "Wat zou het moeten zijn?",
+        "attitudes": {
+            "agree + actionable": "Ga akkoord met post en stel ideeën voor",
+            "agree + expand": "Mee eens, maar ga dan dieper in op de bredere belangrijke kwestie",
+            "agree + changeSubject": "Mee eens, maar breng dan een gerelateerd maar ander probleem ter sprake",
+            "disagree + respectful": "Respectvol oneens en leg uit waarom",
+            "disagree + emotive": "Het oneens zijn op een emotionele en eigenzinnige manier",
+            "disagree + absurd": "Ben het op een licht sarcastische manier oneens met reductio ad absurdum",
+            "disagree + authority": "Lichtelijk oneens door autoriteiten aan te halen die een andere mening hebben"
+        },
+        "ClickOnTheBelowAgents": "Klik op een van de onderstaande autonome agenten. Binnen enkele seconden maken we een account aan op uw forum en posten we als die agent.",
+        "InvestorPresentation": "Presentatie voor investeerders"
+    },
+    "about": {
+        "About": "Over {{1}}",
+        "CanWrite": "Hier kun je iets schrijven over deze app of website.",
+        "OrRemove": "Of als je wilt, kun je deze pagina verwijderen."
+    },
+    "errors": {
+        "Rendering": "Er zijn fouten opgetreden bij het weergeven van <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> wijst nergens naar."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: afschrijving verwerkt voor {{call 'user.displayName'}}",
+        "ThankForPayment": "Bedankt voor je betaling aan {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} geabonneerd op {{plan.title}}",
+        "YouSubscribedToPlan": "Je bent geabonneerd op {{plan.title'}}",
+        "Enabled": "Meldingen zijn ingeschakeld."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Laat vrienden je herkennen:"
+            }
+        }
+    }
+}

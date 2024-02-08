@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Menu",
+        "Home": "Bahay",
+        "Welcome": "Maligayang pagdating",
+        "About": "Tungkol sa",
+        "LogIn": "mag log in",
+        "LogOut": "mag log out",
+        "People": "Mga tao",
+        "Conversations": "Mga chat",
+        "Events": "Mga kaganapan",
+        "Me": "Ako",
+        "SetMobileNumber": "Itakda ang Numero ng Mobile",
+        "SetEmailAddress": "Itakda ang Email Address"
+    },
+    "welcome": {
+        "Title": "{{1}}: maligayang pagdating",
+        "Description": "Maligayang pagdating sa {{1}} application.",
+        "Welcome": "Maligayang pagdating!",
+        "ToStart": "Upang magsimula ng bagong app, dapat mong sundin ang mga tagubilin <a href='{{1}}'>dito<\/a> .",
+        "RenderedInMs": "Oh, at siya nga pala, na-render ito sa {{1}} ms.",
+        "RefreshPage": "I-refresh ang page nang ilang beses at tingnan kung gaano kahusay ang Qbix Platform.",
+        "EvenFaster": "Sa katunayan, maaari itong mag-execute <a href='{{1}}'>nang mas mabilis<\/a> .",
+        "TryItOut": "Subukan!",
+        "GoToYourForum": "Pumunta sa iyong forum.",
+        "DontHaveAForum?": "Walang forum?",
+        "GetInTouchWithUs": "Makipag-ugnayan sa amin – tumutulong kami sa pagbuo ng buong mga portal ng komunidad para sa iyo!",
+        "GenerateAPIKey": "bumuo ng API key",
+        "OnlyForumOwners": "Tanging ang mga may-ari ng forum ang maaaring gumamit ng serbisyong ito.",
+        "PasteAPIKey": "I-paste ang API key:",
+        "URLOfTopicOrPost": "URL ng iyong paksa o post:",
+        "ChooseAnAttitude": "Pumili ng saloobin upang ipahayag:",
+        "WhatShouldItBe?": "Ano ba dapat?",
+        "attitudes": {
+            "agree + actionable": "Sumang-ayon sa post at magmungkahi ng mga ideya",
+            "agree + expand": "Sumang-ayon ngunit pagkatapos ay palawakin ang mas malawak na mahalagang isyu",
+            "agree + changeSubject": "Sumang-ayon ngunit pagkatapos ay maglabas ng kaugnay ngunit ibang isyu",
+            "disagree + respectful": "Magalang na hindi sumasang-ayon at ipaliwanag kung bakit",
+            "disagree + emotive": "Hindi sumasang-ayon sa isang madamdamin at opinyon na paraan",
+            "disagree + absurd": "Hindi sumang-ayon sa medyo sarkastikong paraan, gamit ang reductio ad absurdum",
+            "disagree + authority": "Bahagyang hindi sumang-ayon sa pamamagitan ng pagbanggit sa mga awtoridad na may ibang opinyon"
+        },
+        "ClickOnTheBelowAgents": "Mag-click sa alinman sa mga autonomous na ahente sa ibaba. Sa loob ng ilang segundo, gagawa kami ng account sa iyong forum at magpo-post bilang ahente na iyon.",
+        "InvestorPresentation": "Pagtatanghal ng Mamumuhunan"
+    },
+    "about": {
+        "About": "Tungkol sa {{1}}",
+        "CanWrite": "Dito maaari kang magsulat ng isang bagay tungkol sa app o website na ito.",
+        "OrRemove": "O kung gusto mo, maaari mong alisin ang pahinang ito."
+    },
+    "errors": {
+        "Rendering": "May mga error habang nagre-render <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> ay hindi tumuturo sa anuman."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: naproseso ang singil para sa {{call 'user.displayName'}}",
+        "ThankForPayment": "Salamat sa iyong pagbabayad sa {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} nag-subscribe sa {{plan.title}}",
+        "YouSubscribedToPlan": "Naka-subscribe ka sa {{plan.title'}}",
+        "Enabled": "Ang mga notification ay pinagana."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Hayaang makilala ka ng mga kaibigan:"
+            }
+        }
+    }
+}

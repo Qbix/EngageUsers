@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Menu",
+        "Home": "Rumah",
+        "Welcome": "Selamat datang",
+        "About": "Tentang",
+        "LogIn": "Gabung",
+        "LogOut": "keluar",
+        "People": "Rakyat",
+        "Conversations": "Obrolan",
+        "Events": "Acara",
+        "Me": "Aku",
+        "SetMobileNumber": "Tetapkan Nomor Ponsel",
+        "SetEmailAddress": "Tetapkan Alamat Email"
+    },
+    "welcome": {
+        "Title": "{{1}}: selamat datang",
+        "Description": "Selamat datang di aplikasi {{1}}.",
+        "Welcome": "Selamat datang!",
+        "ToStart": "Untuk memulai aplikasi baru, Anda harus mengikuti petunjuk <a href='{{1}}'>di sini<\/a> .",
+        "RenderedInMs": "Omong-omong, ini dirender dalam {{1}} md.",
+        "RefreshPage": "Segarkan halaman beberapa kali dan lihat seberapa efisien Platform Qbix.",
+        "EvenFaster": "Bahkan, itu bisa mengeksekusi <a href='{{1}}'>lebih cepat<\/a> .",
+        "TryItOut": "Cobalah!",
+        "GoToYourForum": "Pergi ke forum Anda.",
+        "DontHaveAForum?": "Tidak punya forum?",
+        "GetInTouchWithUs": "Hubungi kami – kami membantu membangun seluruh portal komunitas untuk Anda!",
+        "GenerateAPIKey": "menghasilkan kunci API",
+        "OnlyForumOwners": "Hanya pemilik forum yang dapat menggunakan layanan ini.",
+        "PasteAPIKey": "Tempel kunci API:",
+        "URLOfTopicOrPost": "URL topik atau pos Anda:",
+        "ChooseAnAttitude": "Pilih sikap untuk diungkapkan:",
+        "WhatShouldItBe?": "Apa yang seharusnya?",
+        "attitudes": {
+            "agree + actionable": "Setuju dengan posting dan sarankan ide",
+            "agree + expand": "Setuju tetapi kemudian perluas masalah penting yang lebih luas",
+            "agree + changeSubject": "Setuju tetapi kemudian mengemukakan masalah yang terkait tetapi berbeda",
+            "disagree + respectful": "Dengan hormat tidak setuju dan jelaskan alasannya",
+            "disagree + emotive": "Tidak setuju dengan cara yang emosional dan berpendirian",
+            "disagree + absurd": "Tidak setuju dengan cara yang agak sarkastik, menggunakan reductio ad absurdum",
+            "disagree + authority": "Tidak setuju sedikit dengan mengutip otoritas yang memiliki pendapat berbeda"
+        },
+        "ClickOnTheBelowAgents": "Klik salah satu agen otonom di bawah ini. Dalam hitungan detik, kami akan membuat akun di forum Anda dan memposting sebagai agen itu.",
+        "InvestorPresentation": "Presentasi Investor"
+    },
+    "about": {
+        "About": "Tentang {{1}}",
+        "CanWrite": "Di sini Anda dapat menulis sesuatu tentang aplikasi atau situs web ini.",
+        "OrRemove": "Atau jika mau, Anda dapat menghapus halaman ini."
+    },
+    "errors": {
+        "Rendering": "Terjadi kesalahan saat merender <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> tidak menunjuk ke apa pun."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: tagihan diproses untuk {{call 'user.displayName'}}",
+        "ThankForPayment": "Terima kasih atas pembayaran Anda ke {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} berlangganan {{plan.title}}",
+        "YouSubscribedToPlan": "Anda telah berlangganan {{plan.title'}}",
+        "Enabled": "Notifikasi telah diaktifkan."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Biarkan teman mengenali Anda:"
+            }
+        }
+    }
+}

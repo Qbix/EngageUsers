@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "मेन्यू",
+        "Home": "घर",
+        "Welcome": "स्वागत",
+        "About": "के बारे में",
+        "LogIn": "लॉग इन करें",
+        "LogOut": "लॉग आउट",
+        "People": "लोग",
+        "Conversations": "चैट",
+        "Events": "आयोजन",
+        "Me": "मुझे",
+        "SetMobileNumber": "मोबाइल नंबर सेट करें",
+        "SetEmailAddress": "ईमेल पता सेट करें"
+    },
+    "welcome": {
+        "Title": "{{1}}: स्वागत है",
+        "Description": "{{1}} एप्लिकेशन में आपका स्वागत है।",
+        "Welcome": "स्वागत!",
+        "ToStart": "एक नया ऐप शुरू करने के लिए, आपको <a href='{{1}}'>यहां<\/a> दिए गए निर्देशों का पालन करना चाहिए।",
+        "RenderedInMs": "ओह, और वैसे, यह {{1}} मि.से. में रेंडर किया गया है।",
+        "RefreshPage": "पेज को कुछ बार रिफ्रेश करें और देखें कि क्यूबिक्स प्लेटफॉर्म कितना कुशल हो सकता है।",
+        "EvenFaster": "वास्तव में, यह <a href='{{1}}'>और भी तेजी से<\/a> निष्पादित कर सकता है।",
+        "TryItOut": "कोशिश करके देखो!",
+        "GoToYourForum": "अपने फोरम पर जाएं।",
+        "DontHaveAForum?": "कोई फ़ोरम नहीं है?",
+        "GetInTouchWithUs": "हमसे संपर्क करें - हम आपके लिए संपूर्ण सामुदायिक पोर्टल बनाने में मदद करते हैं!",
+        "GenerateAPIKey": "एक एपीआई कुंजी उत्पन्न करें",
+        "OnlyForumOwners": "केवल फोरम के मालिक ही इस सेवा का उपयोग कर सकते हैं।",
+        "PasteAPIKey": "पेस्ट एपीआई कुंजी:",
+        "URLOfTopicOrPost": "आपके विषय या पोस्ट का URL:",
+        "ChooseAnAttitude": "व्यक्त करने के लिए एक दृष्टिकोण चुनें:",
+        "WhatShouldItBe?": "यह क्या होना चाहिए?",
+        "attitudes": {
+            "agree + actionable": "पोस्ट से सहमत हैं और सुझाव दें",
+            "agree + expand": "सहमत हों लेकिन फिर व्यापक महत्वपूर्ण मुद्दे पर विस्तार करें",
+            "agree + changeSubject": "सहमत हैं लेकिन फिर एक संबंधित लेकिन अलग मुद्दे को सामने लाएं",
+            "disagree + respectful": "सम्मानपूर्वक असहमत हों और समझाएं कि क्यों",
+            "disagree + emotive": "भावनात्मक और विचारपूर्ण तरीके से असहमत",
+            "disagree + absurd": "रिडक्टियो एड एब्सर्डम का उपयोग करते हुए, हल्के व्यंग्यात्मक तरीके से असहमत",
+            "disagree + authority": "अलग राय रखने वाले अधिकारियों का हवाला देकर हल्के से असहमत हों"
+        },
+        "ClickOnTheBelowAgents": "नीचे दिए गए किसी भी स्वायत्त एजेंट पर क्लिक करें। सेकंड के भीतर, हम आपके फ़ोरम पर एक खाता बनाएंगे और उस एजेंट के रूप में पोस्ट करेंगे।",
+        "InvestorPresentation": "निवेशक प्रस्तुति"
+    },
+    "about": {
+        "About": "{{1}} के बारे में",
+        "CanWrite": "यहां आप इस ऐप या वेबसाइट के बारे में कुछ लिख सकते हैं।",
+        "OrRemove": "या आप चाहें तो इस पेज को हटा भी सकते हैं।"
+    },
+    "errors": {
+        "Rendering": "<span class='url'>{{1}}<\/span> रेंडर करते समय त्रुटियाँ थीं"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> कुछ भी इंगित नहीं करता है।"
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: {{call 'user.displayName'}} के लिए शुल्क संसाधित किया गया",
+        "ThankForPayment": "{{call 'publisher.displayName'}} को आपके भुगतान के लिए धन्यवाद",
+        "SubscribedToPlan": "{{call 'user.displayName'}} ने {{plan.title}} की सदस्यता ली",
+        "YouSubscribedToPlan": "आपको {{plan.title'}} की सदस्यता दी गई है",
+        "Enabled": "सूचनाएं सक्षम कर दी गई हैं।"
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "मित्रों को आपको पहचानने दें:"
+            }
+        }
+    }
+}

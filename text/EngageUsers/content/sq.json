@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Menu",
+        "Home": "Shtëpi",
+        "Welcome": "Mirë se vini",
+        "About": "Rreth",
+        "LogIn": "identifikohu",
+        "LogOut": "shkyç",
+        "People": "Njerëzit",
+        "Conversations": "Bisedat",
+        "Events": "Ngjarjet",
+        "Me": "Unë",
+        "SetMobileNumber": "Cakto numrin e celularit",
+        "SetEmailAddress": "Vendosni adresën e emailit"
+    },
+    "welcome": {
+        "Title": "{{1}}: mirë se erdhe",
+        "Description": "Mirë se vini në aplikacionin {{1}}.",
+        "Welcome": "Mirë se vini!",
+        "ToStart": "Për të nisur një aplikacion të ri, duhet të ndiqni udhëzimet <a href='{{1}}'>këtu<\/a> .",
+        "RenderedInMs": "Oh, dhe meqë ra fjala, kjo është dhënë në {{1}} ms.",
+        "RefreshPage": "Rifreskojeni faqen disa herë dhe shikoni se sa efikase mund të jetë Platforma Qbix.",
+        "EvenFaster": "Në fakt, mund të ekzekutohet <a href='{{1}}'>edhe më shpejt<\/a> .",
+        "TryItOut": "Provoje!",
+        "GoToYourForum": "Shkoni në forumin tuaj.",
+        "DontHaveAForum?": "Nuk keni një forum?",
+        "GetInTouchWithUs": "Kontaktoni me ne - ne ndihmojmë të ndërtojmë portale të tëra komuniteti për ju!",
+        "GenerateAPIKey": "gjeneroni një çelës API",
+        "OnlyForumOwners": "Vetëm pronarët e forumit mund ta përdorin këtë shërbim.",
+        "PasteAPIKey": "Ngjit çelësin API:",
+        "URLOfTopicOrPost": "URL-ja e temës ose postimit tuaj:",
+        "ChooseAnAttitude": "Zgjidhni një qëndrim për të shprehur:",
+        "WhatShouldItBe?": "Çfarë duhet të jetë?",
+        "attitudes": {
+            "agree + actionable": "Pajtohuni me postimin dhe sugjeroni ide",
+            "agree + expand": "Pajtohu, por më pas zgjero në çështjen më të rëndësishme",
+            "agree + changeSubject": "Pajtohu, por pastaj ngri një çështje të lidhur, por të ndryshme",
+            "disagree + respectful": "Me respekt mos pajtohuni dhe shpjegoni pse",
+            "disagree + emotive": "Mos pajtohuni në një mënyrë emocionuese dhe me mendime",
+            "disagree + absurd": "Nuk pajtohem në një mënyrë të butë sarkastike, duke përdorur reductio ad absurdum",
+            "disagree + authority": "Mos pajto pak duke cituar autoritetet që kanë një mendim të ndryshëm"
+        },
+        "ClickOnTheBelowAgents": "Klikoni në cilindo nga agjentët autonome më poshtë. Brenda pak sekondash, ne do të krijojmë një llogari në forumin tuaj dhe do të postojmë si atë agjent.",
+        "InvestorPresentation": "Prezantimi i Investitorëve"
+    },
+    "about": {
+        "About": "Rreth {{1}}",
+        "CanWrite": "Këtu mund të shkruani diçka për këtë aplikacion ose uebsajt.",
+        "OrRemove": "Ose nëse dëshironi, mund ta hiqni këtë faqe."
+    },
+    "errors": {
+        "Rendering": "Pati gabime gjatë paraqitjes së <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> nuk tregon asgjë."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: tarifa e përpunuar për {{call 'user.displayName'}}",
+        "ThankForPayment": "Faleminderit për pagesën në {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} abonuar në {{plan.title}}",
+        "YouSubscribedToPlan": "Ju jeni abonuar në {{plan.title'}}",
+        "Enabled": "Njoftimet janë aktivizuar."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Lërini miqtë t&#39;ju njohin:"
+            }
+        }
+    }
+}

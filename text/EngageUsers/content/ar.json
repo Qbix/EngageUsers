@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "قائمة طعام",
+        "Home": "بيت",
+        "Welcome": "مرحباً",
+        "About": "عن",
+        "LogIn": "تسجيل الدخول",
+        "LogOut": "تسجيل خروج",
+        "People": "الناس",
+        "Conversations": "الدردشات",
+        "Events": "الأحداث",
+        "Me": "أنا",
+        "SetMobileNumber": "تعيين رقم الجوال",
+        "SetEmailAddress": "قم بتعيين عنوان البريد الإلكتروني"
+    },
+    "welcome": {
+        "Title": "{{1}}: مرحبًا",
+        "Description": "مرحبًا بك في تطبيق {{1}}.",
+        "Welcome": "مرحباً!",
+        "ToStart": "لبدء تطبيق جديد ، يجب اتباع التعليمات <a href='{{1}}'>الموجودة هنا<\/a> .",
+        "RenderedInMs": "وبالمناسبة ، تم عرض هذا في {{1}} مللي ثانية.",
+        "RefreshPage": "قم بتحديث الصفحة عدة مرات وشاهد مدى كفاءة منصة Qbix.",
+        "EvenFaster": "في الواقع ، يمكن أن يتم تنفيذه <a href='{{1}}'>بشكل أسرع<\/a> .",
+        "TryItOut": "حاول!",
+        "GoToYourForum": "اذهب إلى منتداك.",
+        "DontHaveAForum?": "ليس لديك منتدى؟",
+        "GetInTouchWithUs": "تواصل معنا - نحن نساعد في بناء بوابات مجتمعية كاملة من أجلك!",
+        "GenerateAPIKey": "إنشاء مفتاح API",
+        "OnlyForumOwners": "يمكن فقط لأصحاب المنتدى استخدام هذه الخدمة.",
+        "PasteAPIKey": "لصق مفتاح API:",
+        "URLOfTopicOrPost": "عنوان URL لموضوعك أو مشاركتك:",
+        "ChooseAnAttitude": "اختر موقفًا للتعبير عنه:",
+        "WhatShouldItBe?": "ماذا يجب ان يكون؟",
+        "attitudes": {
+            "agree + actionable": "أتفق مع المنشور واقترح الأفكار",
+            "agree + expand": "توافق ولكن بعد ذلك توسع في القضية الأوسع أهمية",
+            "agree + changeSubject": "توافق ولكن بعد ذلك تحدث عن مسألة ذات صلة ولكنها مختلفة",
+            "disagree + respectful": "اختلف بكل احترام واشرح السبب",
+            "disagree + emotive": "نختلف بطريقة عاطفية وعاقدة العزم",
+            "disagree + absurd": "غير موافق بطريقة ساخرة بشكل معتدل ، باستخدام الاختزال إلى العبث",
+            "disagree + authority": "لا توافق بشكل معتدل من خلال الاستشهاد بالسلطات التي لها رأي مختلف"
+        },
+        "ClickOnTheBelowAgents": "انقر فوق أي من الوكلاء المستقلين أدناه. في غضون ثوانٍ ، سننشئ حسابًا على منتداك وننشره كوكيل.",
+        "InvestorPresentation": "عرض المستثمر"
+    },
+    "about": {
+        "About": "حول {{1}}",
+        "CanWrite": "هنا يمكنك كتابة شيء عن هذا التطبيق أو الموقع.",
+        "OrRemove": "أو إذا كنت تريد ، يمكنك إزالة هذه الصفحة."
+    },
+    "errors": {
+        "Rendering": "حدثت أخطاء أثناء عرض <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> لا يشير إلى أي شيء."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: تمت معالجة الرسوم بمبلغ {{call 'user.displayName'}}",
+        "ThankForPayment": "شكرًا لك على الدفع لـ {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "اشترك {{call 'user.displayName'}} في {{plan.title}}",
+        "YouSubscribedToPlan": "لقد تم اشتراكك في {{plan.title'}}",
+        "Enabled": "تم تمكين الإخطارات."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "دع الأصدقاء يتعرفون عليك:"
+            }
+        }
+    }
+}

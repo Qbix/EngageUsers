@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "مینو",
+        "Home": "گھر",
+        "Welcome": "خوش آمدید",
+        "About": "کے بارے میں",
+        "LogIn": "لاگ ان کریں",
+        "LogOut": "لاگ آوٹ",
+        "People": "لوگ",
+        "Conversations": "چیٹس",
+        "Events": "تقریبات",
+        "Me": "مجھے",
+        "SetMobileNumber": "موبائل نمبر سیٹ کریں۔",
+        "SetEmailAddress": "ای میل ایڈریس سیٹ کریں۔"
+    },
+    "welcome": {
+        "Title": "{{1}}: خوش آمدید",
+        "Description": "{{1}} ایپلیکیشن میں خوش آمدید۔",
+        "Welcome": "خوش آمدید!",
+        "ToStart": "ایک نئی ایپ شروع کرنے کے لیے، آپ کو <a href='{{1}}'>یہاں<\/a> دی گئی ہدایات پر عمل کرنا چاہیے۔",
+        "RenderedInMs": "اوہ، اور ویسے، یہ {{1}} ms میں پیش ہوا۔",
+        "RefreshPage": "صفحہ کو چند بار ریفریش کریں اور دیکھیں کہ Qbix پلیٹ فارم کتنا موثر ہو سکتا ہے۔",
+        "EvenFaster": "درحقیقت، یہ <a href='{{1}}'>اور بھی تیزی سے<\/a> کام کر سکتا ہے۔",
+        "TryItOut": "اسے آزمائیں!",
+        "GoToYourForum": "اپنے فورم پر جائیں۔",
+        "DontHaveAForum?": "ایک فورم نہیں ہے؟",
+        "GetInTouchWithUs": "ہم سے رابطہ کریں - ہم آپ کے لیے پورے کمیونٹی پورٹل بنانے میں مدد کرتے ہیں!",
+        "GenerateAPIKey": "ایک API کلید بنائیں",
+        "OnlyForumOwners": "صرف فورم کے مالکان اس سروس کو استعمال کر سکتے ہیں۔",
+        "PasteAPIKey": "API کلید چسپاں کریں:",
+        "URLOfTopicOrPost": "آپ کے موضوع یا پوسٹ کا URL:",
+        "ChooseAnAttitude": "اظہار کرنے کے لیے رویہ کا انتخاب کریں:",
+        "WhatShouldItBe?": "یہ کیا ہونا چاہیے؟",
+        "attitudes": {
+            "agree + actionable": "پوسٹ سے متفق ہوں اور خیالات تجویز کریں۔",
+            "agree + expand": "متفق ہوں لیکن پھر وسیع تر اہم مسئلے پر بات کریں۔",
+            "agree + changeSubject": "متفق ہوں لیکن پھر ایک متعلقہ لیکن مختلف مسئلہ پیش کریں۔",
+            "disagree + respectful": "احترام کے ساتھ اختلاف کریں اور اس کی وجہ بتائیں",
+            "disagree + emotive": "جذباتی اور نظریاتی انداز میں اختلاف کریں۔",
+            "disagree + absurd": "reductio ad absurdum کا استعمال کرتے ہوئے، ہلکے طنزیہ انداز میں اختلاف کریں۔",
+            "disagree + authority": "مختلف رائے رکھنے والے حکام کا حوالہ دے کر ہلکے سے اختلاف کریں۔"
+        },
+        "ClickOnTheBelowAgents": "ذیل میں خود مختار ایجنٹوں میں سے کسی پر کلک کریں۔ سیکنڈوں میں، ہم آپ کے فورم پر ایک اکاؤنٹ بنائیں گے اور اس ایجنٹ کے طور پر پوسٹ کریں گے۔",
+        "InvestorPresentation": "سرمایہ کار پریزنٹیشن"
+    },
+    "about": {
+        "About": "کے بارے میں {{1}}",
+        "CanWrite": "یہاں آپ اس ایپ یا ویب سائٹ کے بارے میں کچھ لکھ سکتے ہیں۔",
+        "OrRemove": "یا اگر آپ چاہیں تو اس صفحہ کو ہٹا سکتے ہیں۔"
+    },
+    "errors": {
+        "Rendering": "رینڈرنگ کے دوران غلطیاں تھیں <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> کسی چیز کی طرف اشارہ نہیں کرتا۔"
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: {{call 'user.displayName'}} کے لیے چارج کیا گیا",
+        "ThankForPayment": "{{call 'publisher.displayName'}} کو آپ کی ادائیگی کا شکریہ",
+        "SubscribedToPlan": "{{call 'user.displayName'}} نے {{plan.title}} کو سبسکرائب کیا",
+        "YouSubscribedToPlan": "آپ کو {{plan.title'}} میں سبسکرائب کیا گیا ہے",
+        "Enabled": "اطلاعات کو فعال کر دیا گیا ہے۔"
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "دوستوں کو آپ کو پہچاننے دیں:"
+            }
+        }
+    }
+}

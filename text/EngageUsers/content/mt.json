@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Menu",
+        "Home": "Dar",
+        "Welcome": "Merħba",
+        "About": "Dwar",
+        "LogIn": "Idħol",
+        "LogOut": "Oħroġ",
+        "People": "Nies",
+        "Conversations": "Chats",
+        "Events": "Avvenimenti",
+        "Me": "Jien",
+        "SetMobileNumber": "Issettja Numru tal-Mowbajl",
+        "SetEmailAddress": "Issettja l-Indirizz tal-Email"
+    },
+    "welcome": {
+        "Title": "{{1}}: merħba",
+        "Description": "Merħba fl-applikazzjoni {{1}}.",
+        "Welcome": "Merħba!",
+        "ToStart": "Biex tibda app ġdida, għandek issegwi l-istruzzjonijiet <a href='{{1}}'>hawn<\/a> .",
+        "RenderedInMs": "Oh, u mill-mod, dan ipprovdut fi {{1}} ms.",
+        "RefreshPage": "Aġġorna l-paġna għal ftit drabi u ara kemm tista&#39; tkun effiċjenti l-Pjattaforma Qbix.",
+        "EvenFaster": "Fil-fatt, tista &#39;tesegwixxi <a href='{{1}}'>saħansitra aktar malajr<\/a> .",
+        "TryItOut": "Ipprovaha!",
+        "GoToYourForum": "Mur fil-forum tiegħek.",
+        "DontHaveAForum?": "M&#39;għandekx forum?",
+        "GetInTouchWithUs": "Ikkuntattja magħna - aħna ngħinu nibnu portali tal-komunità sħaħ għalik!",
+        "GenerateAPIKey": "jiġġenera ċavetta API",
+        "OnlyForumOwners": "Is-sidien tal-forum biss jistgħu jużaw dan is-servizz.",
+        "PasteAPIKey": "Paste API key:",
+        "URLOfTopicOrPost": "URL tas-suġġett jew tal-post tiegħek:",
+        "ChooseAnAttitude": "Agħżel attitudni li tesprimi:",
+        "WhatShouldItBe?": "X&#39;għandu jkun?",
+        "attitudes": {
+            "agree + actionable": "Taqbel mal-post u tissuġġerixxi ideat",
+            "agree + expand": "Naqbel iżda mbagħad tespandi fuq il-kwistjoni importanti usa&#39;",
+            "agree + changeSubject": "Naqbel imma mbagħad iqajjem kwistjoni relatata iżda differenti",
+            "disagree + respectful": "B&#39;rispett ma taqbilx u spjega għaliex",
+            "disagree + emotive": "Ma naqbilx b&#39;mod emottiv u ta&#39; opinjoni",
+            "disagree + absurd": "Ma naqbilx b&#39;mod kemmxejn sarkastiku, billi tuża reductio ad absurdum",
+            "disagree + authority": "Ma taqbilx ħafif billi tikkwota awtoritajiet li għandhom opinjoni differenti"
+        },
+        "ClickOnTheBelowAgents": "Ikklikkja fuq xi wieħed mill-aġenti awtonomi hawn taħt. Fi ftit sekondi, aħna noħolqu kont fuq il-forum tiegħek u npoġġu bħala dak l-aġent.",
+        "InvestorPresentation": "Preżentazzjoni għall-Investitur"
+    },
+    "about": {
+        "About": "Dwar {{1}}",
+        "CanWrite": "Hawnhekk tista &#39;tikteb xi ħaġa dwar din l-app jew websajt.",
+        "OrRemove": "Jew jekk trid, tista&#39; tneħħi din il-paġna."
+    },
+    "errors": {
+        "Rendering": "Kien hemm żbalji waqt l-għoti ta <span class='url'>&#39; {{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> ma jindika xejn."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: ħlas ipproċessat għal {{call 'user.displayName'}}",
+        "ThankForPayment": "Grazzi tal-ħlas tiegħek lil {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} abbonat għal {{plan.title}}",
+        "YouSubscribedToPlan": "Inti ġejt abbonat għal {{plan.title'}}",
+        "Enabled": "In-notifiki ġew attivati."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Ħalli lill-ħbieb jagħrfuk:"
+            }
+        }
+    }
+}

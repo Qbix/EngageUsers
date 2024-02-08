@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "Witamy w {{1}}.",
+        "ClickHere": "Kliknij tutaj, aby aktywować swoje konto: {{1}}"
+    },
+    "resend": {
+        "DidYouWant": "Czy chcesz zresetować swoje hasło w {{1}}?",
+        "ClickHere": "Następnie kliknij tutaj: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Kliknij tutaj, aby zweryfikować swój numer telefonu komórkowego: {{1}}"
+    },
+    "SeeHistory": "Zobacz historię płatności za {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} został obciążony kwotą {{2}} za {{3}} przez {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hej {{1}}, to tylko szybkie potwierdzenie, że pomyślnie zapłaciłeś {{2}} firmie {{3}} za {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Subskrybujesz {{2}} z {{3}} w {{4}} przez {{5}} miesięcy.",
+        "HasStarted": "{{1}} zasubskrybował {{2}} z {{3}} w {{4}} przez {{5}} miesięcy."
+    }
+}

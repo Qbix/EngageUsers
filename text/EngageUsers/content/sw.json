@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Menyu",
+        "Home": "Nyumbani",
+        "Welcome": "Karibu",
+        "About": "Kuhusu",
+        "LogIn": "Ingia",
+        "LogOut": "ingia nje",
+        "People": "Watu",
+        "Conversations": "Soga",
+        "Events": "Matukio",
+        "Me": "Mimi",
+        "SetMobileNumber": "Weka Nambari ya Simu",
+        "SetEmailAddress": "Weka Anwani ya Barua Pepe"
+    },
+    "welcome": {
+        "Title": "{{1}}: karibu",
+        "Description": "Karibu kwa {{1}} maombi.",
+        "Welcome": "Karibu!",
+        "ToStart": "Ili kuanza programu mpya, unapaswa kufuata maagizo <a href='{{1}}'>hapa<\/a> .",
+        "RenderedInMs": "Lo, na hata hivyo, hii imetekelezwa katika {{1}} ms.",
+        "RefreshPage": "Onyesha upya ukurasa mara chache na uone jinsi Jukwaa la Qbix linavyoweza kuwa na ufanisi.",
+        "EvenFaster": "Kwa kweli, inaweza kutekeleza <a href='{{1}}'>hata haraka zaidi<\/a> .",
+        "TryItOut": "Ijaribu!",
+        "GoToYourForum": "Nenda kwenye jukwaa lako.",
+        "DontHaveAForum?": "Je, huna jukwaa?",
+        "GetInTouchWithUs": "Wasiliana nasi - tunasaidia kukutengenezea tovuti zote za jumuiya!",
+        "GenerateAPIKey": "toa kitufe cha API",
+        "OnlyForumOwners": "Wamiliki wa mijadala pekee ndio wanaoweza kutumia huduma hii.",
+        "PasteAPIKey": "Bandika ufunguo wa API:",
+        "URLOfTopicOrPost": "URL ya mada au chapisho lako:",
+        "ChooseAnAttitude": "Chagua mtazamo wa kueleza:",
+        "WhatShouldItBe?": "Inapaswa kuwa nini?",
+        "attitudes": {
+            "agree + actionable": "Kubali chapisho na upendekeze mawazo",
+            "agree + expand": "Kubali lakini upanue juu ya suala muhimu zaidi",
+            "agree + changeSubject": "Kubali lakini toa suala linalohusiana lakini tofauti",
+            "disagree + respectful": "Usikubaliane kwa heshima na ueleze kwa nini",
+            "disagree + emotive": "Usikubaliane kwa njia ya hisia na maoni",
+            "disagree + absurd": "Usikubali kwa njia ya kejeli kidogo, kwa kutumia reductio ad absurdum",
+            "disagree + authority": "Usikubaliane kwa upole kwa kutaja mamlaka ambazo zina maoni tofauti"
+        },
+        "ClickOnTheBelowAgents": "Bofya kwa mawakala wowote wanaojitegemea hapa chini. Ndani ya sekunde chache, tutafungua akaunti kwenye jukwaa lako na kuchapisha kama wakala huyo.",
+        "InvestorPresentation": "Wasilisho la Wawekezaji"
+    },
+    "about": {
+        "About": "Kuhusu {{1}}",
+        "CanWrite": "Hapa unaweza kuandika kitu kuhusu programu hii au tovuti.",
+        "OrRemove": "Au ikiwa unataka, unaweza kuondoa ukurasa huu."
+    },
+    "errors": {
+        "Rendering": "Kulikuwa na hitilafu wakati wa kutoa <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> haielezi chochote."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: malipo yamechakatwa kwa {{call 'user.displayName'}}",
+        "ThankForPayment": "Asante kwa malipo yako kwa {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} alijisajili kwa {{plan.title}}",
+        "YouSubscribedToPlan": "Umejisajili kwa {{plan.title'}}",
+        "Enabled": "Arifa zimewashwa."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Waruhusu marafiki wakutambue:"
+            }
+        }
+    }
+}

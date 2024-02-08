@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Subject": "Maligayang pagdating! Mangyaring i-verify ang iyong email address.",
+        "Thanks": "Maligayang pagdating sa {{1}}",
+        "ReallyYourEmail": "Ito ba talaga ang iyong email address, {{1}}? Kung gayon, mag-click <a href='{{2}}'>dito<\/a> upang itakda ang iyong passphrase at i-activate ang iyong account.",
+        "SeeYou": "Magkita-kita tayo sa <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "identifier": {
+        "Subject": "Maligayang pagdating! I-verify ang iyong email address."
+    },
+    "resend": {
+        "Subject": "Uy, nakalimutan mo ba ang iyong passphrase?",
+        "Thanks": "Salamat sa pagbisita {{1}}",
+        "YouAreReceiving": "Natanggap mo ang email na ito dahil may nagpasok ng iyong email address at nag-click sa &quot;nakalimutan ang passphrase&quot;. Kung hindi ikaw, huwag pansinin ang mensaheng ito.",
+        "Reset": "Upang i-reset ang iyong passphrase, i-click ang {{1}}",
+        "SetUpPassphrase": "I-set up ang passphrase",
+        "DomainCode": "Kung nakabukas na ang webpage sa iyong browser, maaari mong ilagay ang code <strong>{{code}}<\/strong>"
+    },
+    "SeeYou": "Magkita-kita tayo sa {{1}}!",
+    "LinkToUnsubscribe": "Narito ang isang link upang <a href='{{1}}'>mag-unsubscribe<\/a> kung ayaw mong makakuha ng higit pang mga email.",
+    "Greetings": "Pagbati mula kay {{1}}.",
+    "SeeHistory": "Tingnan ang kasaysayan ng pagbabayad para sa {{1}}",
+    "charge": {
+        "HasBeenCharged": "Uy, ito ay para lang ipaalam sa iyo na si {{1}} ay siningil {{2}} para sa {{3}} ni {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hey {{1}}, isa lang itong mabilis na kumpirmasyon na matagumpay mong nabayaran {{2}} sa {{3}} para sa {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Uy {{1}}, sinimulan mo ang iyong subscription sa {{2}} sa {{3}} noong {{4}} sa loob ng {{5}} buwan.",
+        "HasStarted": "Ito ay para lang ipaalam sa iyo na {{1}}, ay sinimulan ang kanilang subscription sa {{2}} sa {{3}} noong {{4}} para sa {{5}} buwan."
+    }
+}

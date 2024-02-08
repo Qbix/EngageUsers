@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "메뉴",
+        "Home": "집",
+        "Welcome": "환영",
+        "About": "에 대한",
+        "LogIn": "로그인",
+        "LogOut": "로그 아웃",
+        "People": "사람들",
+        "Conversations": "채팅",
+        "Events": "이벤트",
+        "Me": "나",
+        "SetMobileNumber": "휴대폰 번호 설정",
+        "SetEmailAddress": "이메일 주소 설정"
+    },
+    "welcome": {
+        "Title": "{{1}}: 환영합니다",
+        "Description": "{{1}} 신청에 오신 것을 환영합니다.",
+        "Welcome": "환영!",
+        "ToStart": "새 앱을 시작하려면 <a href='{{1}}'>여기의<\/a> 지침을 따라야 합니다.",
+        "RenderedInMs": "아, 그건 그렇고, 이것은 {{1}}ms에서 렌더링됩니다.",
+        "RefreshPage": "페이지를 몇 번 새로 고치고 Qbix 플랫폼이 얼마나 효율적인지 확인하십시오.",
+        "EvenFaster": "실제로 <a href='{{1}}'>더 빠르게<\/a> 실행할 수 있습니다.",
+        "TryItOut": "사용해 보세요!",
+        "GoToYourForum": "귀하의 포럼으로 이동하십시오.",
+        "DontHaveAForum?": "포럼이 없습니까?",
+        "GetInTouchWithUs": "우리에게 연락하십시오 – 우리는 당신을 위한 전체 커뮤니티 포털 구축을 돕습니다!",
+        "GenerateAPIKey": "API 키 생성",
+        "OnlyForumOwners": "포럼 소유자만 이 서비스를 사용할 수 있습니다.",
+        "PasteAPIKey": "API 키 붙여넣기:",
+        "URLOfTopicOrPost": "주제 또는 게시물의 URL:",
+        "ChooseAnAttitude": "표현할 태도를 선택하십시오.",
+        "WhatShouldItBe?": "무엇이어야합니까?",
+        "attitudes": {
+            "agree + actionable": "게시물 동의 및 아이디어 제안",
+            "agree + expand": "동의하지만 더 넓은 중요한 문제로 확장하십시오.",
+            "agree + changeSubject": "동의하지만 관련이 있지만 다른 문제를 제기합니다.",
+            "disagree + respectful": "정중하게 동의하지 않고 이유를 설명하십시오.",
+            "disagree + emotive": "감정적이고 독단적인 방식으로 동의하지 않음",
+            "disagree + absurd": "reductio ad absurdum을 사용하여 약간 비꼬는 방식으로 동의하지 않습니다.",
+            "disagree + authority": "다른 의견을 가진 당국을 인용하여 약간 동의하지 않음"
+        },
+        "ClickOnTheBelowAgents": "아래의 자율 에이전트 중 하나를 클릭하십시오. 몇 초 안에 귀하의 포럼에 계정을 만들고 해당 에이전트로 게시할 것입니다.",
+        "InvestorPresentation": "투자자 프레젠테이션"
+    },
+    "about": {
+        "About": "약 {{1}}",
+        "CanWrite": "여기에서 이 앱이나 웹사이트에 대해 쓸 수 있습니다.",
+        "OrRemove": "또는 원하는 경우 이 페이지를 제거할 수 있습니다."
+    },
+    "errors": {
+        "Rendering": "<span class='url'>{{1}}<\/span> 렌더링 중 오류가 발생했습니다."
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}는<\/span> 아무 것도 가리키지 않습니다."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: {{call 'user.displayName'}}에 대해 처리된 청구",
+        "ThankForPayment": "{{call 'publisher.displayName'}}에 결제해 주셔서 감사합니다.",
+        "SubscribedToPlan": "{{call 'user.displayName'}}님이 {{plan.title}}을(를) 구독했습니다.",
+        "YouSubscribedToPlan": "{{plan.title'}}에 가입하셨습니다.",
+        "Enabled": "알림이 활성화되었습니다."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "친구들이 당신을 알아보도록 하세요:"
+            }
+        }
+    }
+}

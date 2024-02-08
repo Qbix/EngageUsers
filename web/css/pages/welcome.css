@@ -1,0 +1,52 @@
+input, select {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    width: 50%;
+}
+
+.EngageUsers_welcome .EngageUsers_bots_list .Users_avatar_tool {
+    display: inline-block;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.EngageUsers_welcome .EngageUsers_bots_list .Users_avatar_tool:hover {
+    background: #eeeeee;
+}
+
+.EngageUsers_welcome .EngageUsers_bots_list .Users_avatar_tool:active {
+    background: #aaaaaa;
+}
+
+.EngageUsers_welcome li {
+    padding: 10px;
+}
+
+.EngageUsers_presentation_link {
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    background: #555555;
+    border: solid 1px #333333;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.EngageUsers_presentation_link a,
+.EngageUsers_presentation_link a:visited {
+    color: yellow;
+    font-weight: bold;
+}
+
+a { 
+    font-weight: bold;
+}
+
+td:first-child {
+    text-align: right;
+}

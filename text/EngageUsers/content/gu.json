@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "મેનુ",
+        "Home": "ઘર",
+        "Welcome": "સ્વાગત છે",
+        "About": "વિશે",
+        "LogIn": "પ્રવેશ કરો",
+        "LogOut": "લૉગ આઉટ",
+        "People": "લોકો",
+        "Conversations": "ચેટ્સ",
+        "Events": "ઘટનાઓ",
+        "Me": "મને",
+        "SetMobileNumber": "મોબાઈલ નંબર સેટ કરો",
+        "SetEmailAddress": "ઇમેઇલ સરનામું સેટ કરો"
+    },
+    "welcome": {
+        "Title": "{{1}}: સ્વાગત છે",
+        "Description": "{{1}} એપ્લિકેશનમાં આપનું સ્વાગત છે.",
+        "Welcome": "સ્વાગત છે!",
+        "ToStart": "નવી એપ્લિકેશન શરૂ કરવા માટે, તમારે <a href='{{1}}'>અહીં<\/a> આપેલી સૂચનાઓનું પાલન કરવું જોઈએ.",
+        "RenderedInMs": "ઓહ, અને માર્ગ દ્વારા, આ {{1}} ms માં રેન્ડર થયું.",
+        "RefreshPage": "પૃષ્ઠને થોડીવાર તાજું કરો અને જુઓ કે Qbix પ્લેટફોર્મ કેટલું કાર્યક્ષમ બની શકે છે.",
+        "EvenFaster": "હકીકતમાં, તે <a href='{{1}}'>વધુ ઝડપથી<\/a> એક્ઝિક્યુટ કરી શકે છે.",
+        "TryItOut": "તેને અજમાવી!",
+        "GoToYourForum": "તમારા ફોરમ પર જાઓ.",
+        "DontHaveAForum?": "ફોરમ નથી?",
+        "GetInTouchWithUs": "અમારો સંપર્ક કરો - અમે તમારા માટે સમગ્ર સમુદાય પોર્ટલ બનાવવામાં મદદ કરીએ છીએ!",
+        "GenerateAPIKey": "API કી જનરેટ કરો",
+        "OnlyForumOwners": "ફક્ત ફોરમ માલિકો જ આ સેવાનો ઉપયોગ કરી શકે છે.",
+        "PasteAPIKey": "API કી પેસ્ટ કરો:",
+        "URLOfTopicOrPost": "તમારા વિષય અથવા પોસ્ટનું URL:",
+        "ChooseAnAttitude": "વ્યક્ત કરવા માટે એક વલણ પસંદ કરો:",
+        "WhatShouldItBe?": "તે શું હોવું જોઈએ?",
+        "attitudes": {
+            "agree + actionable": "પોસ્ટ સાથે સંમત થાઓ અને વિચારો સૂચવો",
+            "agree + expand": "સંમત થાઓ પરંતુ પછી વ્યાપક મહત્વના મુદ્દા પર વિસ્તૃત થાઓ",
+            "agree + changeSubject": "સંમત થાઓ પરંતુ પછી સંબંધિત પરંતુ અલગ મુદ્દો લાવો",
+            "disagree + respectful": "આદરપૂર્વક અસંમત અને શા માટે સમજાવો",
+            "disagree + emotive": "ભાવનાત્મક અને અભિપ્રાયપૂર્ણ રીતે અસંમત થાઓ",
+            "disagree + absurd": "રિડક્ટીયો એડ એબ્સર્ડમનો ઉપયોગ કરીને હળવી કટાક્ષપૂર્ણ રીતે અસંમત",
+            "disagree + authority": "અલગ અભિપ્રાય ધરાવતા અધિકારીઓને ટાંકીને હળવાશથી અસંમત થાઓ"
+        },
+        "ClickOnTheBelowAgents": "નીચેના કોઈપણ સ્વાયત્ત એજન્ટો પર ક્લિક કરો. થોડી જ સેકંડમાં, અમે તમારા ફોરમ પર એક એકાઉન્ટ બનાવીશું અને તે એજન્ટ તરીકે પોસ્ટ કરીશું.",
+        "InvestorPresentation": "રોકાણકારની રજૂઆત"
+    },
+    "about": {
+        "About": "લગભગ {{1}}",
+        "CanWrite": "અહીં તમે આ એપ્લિકેશન અથવા વેબસાઇટ વિશે કંઈક લખી શકો છો.",
+        "OrRemove": "અથવા જો તમે ઇચ્છો, તો તમે આ પૃષ્ઠને દૂર કરી શકો છો."
+    },
+    "errors": {
+        "Rendering": "<span class='url'>{{1}}<\/span> રેન્ડર કરતી વખતે ભૂલો આવી હતી"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> કંઈપણ તરફ નિર્દેશ કરતું નથી."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: {{call 'user.displayName'}} માટે ચાર્જ પ્રક્રિયા",
+        "ThankForPayment": "{{call 'publisher.displayName'}}ને તમારી ચૂકવણી બદલ આભાર",
+        "SubscribedToPlan": "{{call 'user.displayName'}} એ {{plan.title}} પર સબ્સ્ક્રાઇબ કર્યું",
+        "YouSubscribedToPlan": "તમે {{plan.title'}} પર સબ્સ્ક્રાઇબ થયા છો",
+        "Enabled": "સૂચનાઓ સક્ષમ કરવામાં આવી છે."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "મિત્રોને તમને ઓળખવા દો:"
+            }
+        }
+    }
+}

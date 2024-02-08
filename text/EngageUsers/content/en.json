@@ -1,0 +1,76 @@
+{
+    "dashboard": {
+        "Menu": "Menu",
+        "Home": "Home",
+        "Welcome": "Welcome",
+		"Posts": "Posts",
+        "About": "About",
+        "LogIn": "log in",
+        "LogOut": "log out",
+        "People": "People",
+        "Conversations": "Chats",
+        "Events": "Events",
+        "Me": "Me",
+        "SetMobileNumber": "Set Mobile Number",
+        "SetEmailAddress": "Set Email Address"
+    },
+    "welcome": {
+        "Title": "{{1}}: welcome",
+        "Description": "Welcome to {{1}} application.",
+        "Welcome": "Welcome!",
+        "ToStart": "To start a new app, you should follow the instructions <a href='{{1}}'>here<\/a>.",
+        "RenderedInMs": "Oh, and by the way, this rendered in {{1}} ms.",
+        "RefreshPage": "Refresh the page a few times and see how efficient the Qbix Platform can be.",
+        "EvenFaster": "In fact, it can execute <a href='{{1}}'>even faster<\/a>.",
+        "InvestorPresentation": "Investor Presentation",
+        "TryItOut": "Try it out!",
+        "GoToYourForum": "Go to your forum.",
+        "DontHaveAForum?": "Don't have a forum?",
+        "GetInTouchWithUs": "Get in touch with us – we help build entire community portals for you!",
+        "GenerateAPIKey": "generate an API key",
+        "OnlyForumOwners": "Only forum owners can use this service.",
+        "PasteAPIKey": "Paste API key:",
+        "URLOfTopicOrPost": "URL of your topic or post:",
+        "ChooseAnAttitude": "Choose an attitude to express:",
+        "WhatShouldItBe?": "What should it be?",
+        "attitudes": {
+            "agree + actionable": "Agree with post and suggest ideas",
+            "agree + expand": "Agree but then expand on the wider important issue",
+            "agree + changeSubject": "Agree but then bring up a related but different issue",
+            "disagree + respectful": "Respectfully disagree and explain why",
+            "disagree + emotive": "Disagree in an emotive and opinionated way",
+            "disagree + absurd": "Disagree in a mildly sarcastic way, using reductio ad absurdum",
+            "disagree + authority": "Disagree mildly by citing authorities who have a different opinion"
+        },
+        "ClickOnTheBelowAgents": "Click on any of the autonomous agents below. Within seconds, we will create an account on your forum and post as that agent."
+    },
+	"posts": {
+		"Posts": "Posts",
+		"PostsAreBelow": "Click on any of the posts below to see what our agents have posted on discussion forums thus far"
+	},
+    "about": {
+        "About": "About {{1}}",
+        "CanWrite": "Here you can write something about this app or website.",
+        "OrRemove": "Or if you want, you can remove this page."
+    },
+    "errors": {
+        "Rendering": "There were errors while rendering <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> doesn't point to anything."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: charge processed for {{call 'user.displayName'}}",
+        "ThankForPayment": "Thank you for your payment to {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} subscribed to {{plan.title}}",
+        "YouSubscribedToPlan": "You have been subscribed to {{plan.title'}}",
+        "Enabled": "Notifications have been enabled."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Let friends recognize you:"
+            }
+        }
+    }
+}

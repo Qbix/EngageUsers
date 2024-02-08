@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Subject": "Mirë se vini! Ju lutemi verifikoni adresën tuaj të emailit.",
+        "Thanks": "Mirë se vini në {{1}}",
+        "ReallyYourEmail": "A është vërtet kjo adresa juaj e emailit, {{1}}? Nëse po, klikoni <a href='{{2}}'>këtu<\/a> për të vendosur frazën tuaj të kalimit dhe për të aktivizuar llogarinë tuaj.",
+        "SeeYou": "Shihemi në <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "identifier": {
+        "Subject": "Mirë se vini! Verifikoni adresën tuaj të emailit."
+    },
+    "resend": {
+        "Subject": "Hej, e ke harruar frazën e kalimit?",
+        "Thanks": "Faleminderit që vizituat {{1}}",
+        "YouAreReceiving": "Ju po e merrni këtë email sepse dikush futi adresën tuaj të emailit dhe kliko &quot;ka harruar frazën e kalimit&quot;. Nëse nuk ishit ju, thjesht injoroni këtë mesazh.",
+        "Reset": "Për të rivendosur frazën e kalimit, kliko {{1}}",
+        "SetUpPassphrase": "Vendos frazën e kalimit",
+        "DomainCode": "Nëse faqja e internetit është tashmë e hapur në shfletuesin tuaj, mund të futni kodin <strong>{{code}}<\/strong>"
+    },
+    "SeeYou": "Shihemi në {{1}}!",
+    "LinkToUnsubscribe": "Këtu është një lidhje për <a href='{{1}}'>t&#39;u çregjistruar<\/a> nëse nuk dëshironi të merrni më emaile.",
+    "Greetings": "Përshëndetje nga {{1}}.",
+    "SeeHistory": "Shiko historikun e pagesave për {{1}}",
+    "charge": {
+        "HasBeenCharged": "Hej, kjo është vetëm për t&#39;ju bërë të ditur se {{1}} është tarifuar {{2}} për {{3}} nga {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hej {{1}}, ky është vetëm një konfirmim i shpejtë që i keni paguar me sukses {{2}} {{3}} për {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hej {{1}}, e ke filluar abonimin tënd në {{2}} me {{3}} në {{4}} për {{5}} muaj.",
+        "HasStarted": "Kjo është vetëm për t&#39;ju bërë të ditur {{1}}, ka filluar abonimin e tij në {{2}} me {{3}} në {{4}} për {{5}} muaj."
+    }
+}

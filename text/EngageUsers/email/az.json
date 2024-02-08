@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Subject": "Xoş gəldiniz! Zəhmət olmasa e-poçt ünvanınızı yoxlayın.",
+        "Thanks": "{{1}}-a xoş gəlmisiniz",
+        "ReallyYourEmail": "Bu həqiqətən sizin e-poçt ünvanınızdır, {{1}}? Əgər belədirsə, parolunuzu təyin etmək və hesabınızı aktivləşdirmək üçün <a href='{{2}}'>bura<\/a> klikləyin.",
+        "SeeYou": "<a href='{{1}}'>{{2}}<\/a> ilə görüşənədək!"
+    },
+    "identifier": {
+        "Subject": "Xoş gəldiniz! E-poçt ünvanınızı doğrulayın."
+    },
+    "resend": {
+        "Subject": "Hey, parol sözünü unutmusan?",
+        "Thanks": "Ziyarət etdiyiniz üçün təşəkkür edirik {{1}}",
+        "YouAreReceiving": "Kimsə e-poçt ünvanınızı daxil edib &quot;parol sözünü unutdum&quot; kliklədiyi üçün bu e-məktubu alırsınız. Əgər siz deyildinizsə, sadəcə olaraq bu mesaja məhəl qoymayın.",
+        "Reset": "Parol ifadənizi sıfırlamaq üçün {{1}} üzərinə klikləyin",
+        "SetUpPassphrase": "Parol sözünü quraşdırın",
+        "DomainCode": "Veb səhifə brauzerinizdə artıq açıqdırsa, kodu daxil edə bilərsiniz <strong>{{code}}<\/strong>"
+    },
+    "SeeYou": "{{1}}-da görüşənədək!",
+    "LinkToUnsubscribe": "Budur, daha çox e-poçt almaq istəmirsinizsə, abunəni <a href='{{1}}'>ləğv etmək<\/a> üçün bir keçid.",
+    "Greetings": "{{1}}-dan salamlar.",
+    "SeeHistory": "{{1}} üçün ödəniş tarixçəsinə baxın",
+    "charge": {
+        "HasBeenCharged": "Hey, bu sizə bildirmək üçündür ki, {{1}} {{2}} üçün {{3}} tərəfindən {{4}} tərəfindən tutuldu"
+    },
+    "charged": {
+        "HavePaid": "Salam {{1}}, bu, {{2}} üçün {{3}} üçün {{4}} üçün müvəffəqiyyətlə ödəniş etdiyinizin qısa təsdiqidir."
+    },
+    "subscription": {
+        "YouHaveStarted": "Salam {{1}}, siz {{2}} {{3}} ilə {{4}} {{5}} aylıq abunəliyinizə başladınız.",
+        "HasStarted": "Bu, sadəcə sizə bildirmək üçündür ki, {{1}}, {{2}} üçün {{3}} ilə {{4}} {{5}} ay ərzində abunə olmağa başlayıb."
+    }
+}

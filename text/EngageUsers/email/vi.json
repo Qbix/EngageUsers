@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Subject": "Chào mừng! Vui lòng xác nhận địa chỉ email.",
+        "Thanks": "Chào mừng bạn đến với {{1}}",
+        "ReallyYourEmail": "Đây thực sự là địa chỉ email của bạn, {{1}}? Nếu vậy, hãy nhấp vào <a href='{{2}}'>đây<\/a> để đặt cụm mật khẩu và kích hoạt tài khoản của bạn.",
+        "SeeYou": "Hẹn gặp bạn trên <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "identifier": {
+        "Subject": "Chào mừng! Xác minh địa chỉ email của bạn."
+    },
+    "resend": {
+        "Subject": "Này, bạn đã quên cụm mật khẩu của mình?",
+        "Thanks": "Cảm ơn bạn đã ghé thăm {{1}}",
+        "YouAreReceiving": "Bạn nhận được email này vì ai đó đã nhập địa chỉ email của bạn và nhấp vào &quot;quên cụm mật khẩu&quot;. Nếu đó không phải là bạn, chỉ cần bỏ qua thông báo này.",
+        "Reset": "Để đặt lại cụm mật khẩu của bạn, hãy nhấp vào {{1}}",
+        "SetUpPassphrase": "Thiết lập cụm mật khẩu",
+        "DomainCode": "Nếu trang web đã mở trong trình duyệt của bạn, bạn có thể nhập mã <strong>{{code}}<\/strong>"
+    },
+    "SeeYou": "Hẹn gặp lại bạn trên {{1}}!",
+    "LinkToUnsubscribe": "Đây là một liên kết để <a href='{{1}}'>hủy đăng ký<\/a> nếu bạn không muốn nhận thêm bất kỳ email nào.",
+    "Greetings": "Lời chào từ {{1}}.",
+    "SeeHistory": "Xem lịch sử thanh toán cho {{1}}",
+    "charge": {
+        "HasBeenCharged": "Xin chào, đây chỉ là để cho bạn biết {{1}} đã bị tính phí {{2}} cho {{3}} bởi {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Xin chào {{1}}, đây chỉ là xác nhận nhanh rằng bạn đã thanh toán thành công {{2}} cho {{3}} cho {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Xin chào {{1}}, bạn đã bắt đầu đăng ký {{2}} với {{3}} với giá {{4}} trong {{5}} tháng.",
+        "HasStarted": "Đây chỉ là để cho bạn biết {{1}}, họ đã bắt đầu đăng ký {{2}} với {{3}} với giá {{4}} trong {{5}} tháng."
+    }
+}

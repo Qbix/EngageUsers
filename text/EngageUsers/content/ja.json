@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "メニュー",
+        "Home": "家",
+        "Welcome": "いらっしゃいませ",
+        "About": "だいたい",
+        "LogIn": "ログイン",
+        "LogOut": "ログアウト",
+        "People": "人々",
+        "Conversations": "チャット",
+        "Events": "イベント",
+        "Me": "自分",
+        "SetMobileNumber": "携帯電話番号を設定",
+        "SetEmailAddress": "メールアドレスを設定"
+    },
+    "welcome": {
+        "Title": "{{1}}: ようこそ",
+        "Description": "{{1}} アプリケーションへようこそ。",
+        "Welcome": "いらっしゃいませ！",
+        "ToStart": "新しいアプリを開始するには、<a href='{{1}}'>こちらの<\/a>手順に従ってください。",
+        "RenderedInMs": "ところで、これは {{1}} ミリ秒でレンダリングされました。",
+        "RefreshPage": "ページを数回更新して、Qbix プラットフォームの効率性を確認してください。",
+        "EvenFaster": "実際、<a href='{{1}}'>さらに高速に<\/a>実行できます。",
+        "TryItOut": "やってみて！",
+        "GoToYourForum": "フォーラムに移動します。",
+        "DontHaveAForum?": "フォーラムはありませんか？",
+        "GetInTouchWithUs": "お問い合わせください。コミュニティ ポータル全体の構築をお手伝いします。",
+        "GenerateAPIKey": "API キーを生成する",
+        "OnlyForumOwners": "このサービスを使用できるのは、フォーラムの所有者のみです。",
+        "PasteAPIKey": "API キーを貼り付けます:",
+        "URLOfTopicOrPost": "トピックまたは投稿の URL:",
+        "ChooseAnAttitude": "表現する態度を選択してください:",
+        "WhatShouldItBe?": "それは何ですか？",
+        "attitudes": {
+            "agree + actionable": "投稿に同意してアイデアを提案する",
+            "agree + expand": "同意しますが、重要な問題をさらに広げます",
+            "agree + changeSubject": "同意するが、関連しているが異なる問題を持ち出す",
+            "disagree + respectful": "丁重に反対し、理由を説明する",
+            "disagree + emotive": "感情的で独断的な方法で同意しない",
+            "disagree + absurd": "reductio ad absurdum を使用して、やや皮肉な方法で同意しない",
+            "disagree + authority": "異なる意見を持つ当局を引用して、穏やかに反対する"
+        },
+        "ClickOnTheBelowAgents": "以下の自律エージェントのいずれかをクリックします。数秒以内に、フォーラムにアカウントを作成し、そのエージェントとして投稿します。",
+        "InvestorPresentation": "投資家向けプレゼンテーション"
+    },
+    "about": {
+        "About": "{{1}}について",
+        "CanWrite": "ここでは、このアプリまたはウェブサイトについて何かを書くことができます。",
+        "OrRemove": "または、必要に応じて、このページを削除できます。"
+    },
+    "errors": {
+        "Rendering": "レンダリング中にエラーが発生しました<span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}} は<\/span>何も指していません。"
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: {{call 'user.displayName'}} の請求処理",
+        "ThankForPayment": "{{call 'publisher.displayName'}}へのお支払いありがとうございます",
+        "SubscribedToPlan": "{{call 'user.displayName'}} が {{plan.title}} に登録しました",
+        "YouSubscribedToPlan": "{{plan.title'}}に登録しました",
+        "Enabled": "通知が有効になりました。"
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "友達にあなたを認識してもらいましょう:"
+            }
+        }
+    }
+}

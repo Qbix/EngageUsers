@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "菜单",
+        "Home": "家",
+        "Welcome": "欢迎",
+        "About": "关于",
+        "LogIn": "登录",
+        "LogOut": "登出",
+        "People": "人们",
+        "Conversations": "聊天记录",
+        "Events": "事件",
+        "Me": "我",
+        "SetMobileNumber": "设置手机号码",
+        "SetEmailAddress": "设置电子邮件地址"
+    },
+    "welcome": {
+        "Title": "{{1}}：欢迎",
+        "Description": "欢迎使用 {{1}} 申请。",
+        "Welcome": "欢迎！",
+        "ToStart": "要启动一个新的应用程序，您应该按照<a href='{{1}}'>此处的<\/a>说明进行操作。",
+        "RenderedInMs": "哦，顺便说一句，这在 {{1}} 毫秒内呈现。",
+        "RefreshPage": "刷新页面几次，看看 Qbix 平台的效率如何。",
+        "EvenFaster": "事实上，它可以执行<a href='{{1}}'>得更快<\/a>。",
+        "TryItOut": "试试看！",
+        "GoToYourForum": "去你的论坛。",
+        "DontHaveAForum?": "没有论坛？",
+        "GetInTouchWithUs": "与我们联系——我们帮助您构建整个社区门户！",
+        "GenerateAPIKey": "生成 API 密钥",
+        "OnlyForumOwners": "只有论坛所有者可以使用此服务。",
+        "PasteAPIKey": "粘贴 API 密钥：",
+        "URLOfTopicOrPost": "您的主题或帖子的 URL：",
+        "ChooseAnAttitude": "选择一种态度来表达：",
+        "WhatShouldItBe?": "应该是什么？",
+        "attitudes": {
+            "agree + actionable": "同意帖子并提出想法",
+            "agree + expand": "同意，但随后扩展到更广泛的重要问题",
+            "agree + changeSubject": "同意，但随后提出一个相关但不同的问题",
+            "disagree + respectful": "恭敬地不同意并解释原因",
+            "disagree + emotive": "以情绪化和固执己见的方式表示不同意见",
+            "disagree + absurd": "以温和讽刺的方式表示不同意，使用归谬法",
+            "disagree + authority": "通过引用有不同意见的权威人士来温和地反对"
+        },
+        "ClickOnTheBelowAgents": "单击下面的任何自治代理。在几秒钟内，我们将在您的论坛上创建一个帐户并作为该代理发帖。",
+        "InvestorPresentation": "投资者介绍"
+    },
+    "about": {
+        "About": "关于{{1}}",
+        "CanWrite": "您可以在这里写一些关于此应用程序或网站的内容。",
+        "OrRemove": "或者，如果您愿意，可以删除此页面。"
+    },
+    "errors": {
+        "Rendering": "渲染<span class='url'>{{1}}<\/span>时出错"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span>没有指向任何东西。"
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}：为 {{call 'user.displayName'}} 处理的费用",
+        "ThankForPayment": "感谢您支付给{{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} 订阅了 {{plan.title}}",
+        "YouSubscribedToPlan": "您已订阅 {{plan.title'}}",
+        "Enabled": "通知已启用。"
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "让朋友认出你："
+            }
+        }
+    }
+}

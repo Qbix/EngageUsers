@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Thực đơn",
+        "Home": "Trang chủ",
+        "Welcome": "Chào mừng",
+        "About": "Về",
+        "LogIn": "đăng nhập",
+        "LogOut": "đăng xuất",
+        "People": "Mọi người",
+        "Conversations": "Trò chuyện",
+        "Events": "Sự kiện",
+        "Me": "Tôi",
+        "SetMobileNumber": "Đặt số di động",
+        "SetEmailAddress": "Đặt địa chỉ email"
+    },
+    "welcome": {
+        "Title": "{{1}}: chào mừng",
+        "Description": "Chào mừng bạn đến với ứng dụng {{1}}.",
+        "Welcome": "Chào mừng!",
+        "ToStart": "Để bắt đầu một ứng dụng mới, bạn nên làm theo hướng dẫn <a href='{{1}}'>tại đây<\/a> .",
+        "RenderedInMs": "Ồ, nhân tiện, cái này được hiển thị sau {{1}} mili giây.",
+        "RefreshPage": "Hãy làm mới trang một vài lần và xem Nền tảng Qbix có thể hoạt động hiệu quả như thế nào.",
+        "EvenFaster": "Trên thực tế, nó có thể thực thi <a href='{{1}}'>nhanh hơn nữa<\/a> .",
+        "TryItOut": "Hãy thử nó ra!",
+        "GoToYourForum": "Đi đến diễn đàn của bạn.",
+        "DontHaveAForum?": "Không có một diễn đàn?",
+        "GetInTouchWithUs": "Hãy liên lạc với chúng tôi - chúng tôi giúp xây dựng toàn bộ cổng thông tin cộng đồng cho bạn!",
+        "GenerateAPIKey": "tạo khóa API",
+        "OnlyForumOwners": "Chỉ chủ sở hữu diễn đàn có thể sử dụng dịch vụ này.",
+        "PasteAPIKey": "Dán khóa API:",
+        "URLOfTopicOrPost": "URL của chủ đề hoặc bài đăng của bạn:",
+        "ChooseAnAttitude": "Chọn thái độ để bày tỏ:",
+        "WhatShouldItBe?": "Nó nên là gì?",
+        "attitudes": {
+            "agree + actionable": "Đồng ý với bài đăng và đề xuất ý tưởng",
+            "agree + expand": "Đồng ý nhưng sau đó mở rộng về vấn đề quan trọng hơn",
+            "agree + changeSubject": "Đồng ý nhưng sau đó đưa ra một vấn đề liên quan nhưng khác",
+            "disagree + respectful": "Trân trọng không đồng ý và giải thích tại sao",
+            "disagree + emotive": "Không đồng ý theo cách cảm xúc và cố chấp",
+            "disagree + absurd": "Không đồng ý theo cách châm biếm nhẹ nhàng, sử dụng reductio ad ngớ ngẩn",
+            "disagree + authority": "Không đồng ý nhẹ bằng cách trích dẫn các cơ quan chức năng có quan điểm khác"
+        },
+        "ClickOnTheBelowAgents": "Nhấp vào bất kỳ tác nhân tự trị nào bên dưới. Trong vài giây, chúng tôi sẽ tạo một tài khoản trên diễn đàn của bạn và đăng với tư cách là đại lý đó.",
+        "InvestorPresentation": "Giới thiệu nhà đầu tư"
+    },
+    "about": {
+        "About": "Giới thiệu về {{1}}",
+        "CanWrite": "Tại đây bạn có thể viết điều gì đó về ứng dụng hoặc trang web này.",
+        "OrRemove": "Hoặc nếu muốn, bạn có thể gỡ bỏ trang này."
+    },
+    "errors": {
+        "Rendering": "Đã xảy ra lỗi khi kết xuất <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> không trỏ đến bất cứ thứ gì."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: khoản phí được xử lý cho {{call 'user.displayName'}}",
+        "ThankForPayment": "Cảm ơn bạn đã thanh toán cho {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} đã đăng ký {{plan.title}}",
+        "YouSubscribedToPlan": "Bạn đã đăng ký {{plan.title'}}",
+        "Enabled": "Thông báo đã được kích hoạt."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Hãy để bạn bè nhận ra bạn:"
+            }
+        }
+    }
+}

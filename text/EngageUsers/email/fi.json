@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Subject": "Tervetuloa! Vahvista sähköpostiosoitteesi.",
+        "Thanks": "Tervetuloa {{1}}",
+        "ReallyYourEmail": "Onko tämä todella sähköpostiosoitteesi, {{1}}? Jos näin on, napsauta <a href='{{2}}'>tätä<\/a> asettaaksesi tunnuslauseesi ja aktivoidaksesi tilisi.",
+        "SeeYou": "Nähdään <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "identifier": {
+        "Subject": "Tervetuloa! Vahvista sähköpostiosoitteesi."
+    },
+    "resend": {
+        "Subject": "Hei, unohditko salasanasi?",
+        "Thanks": "Kiitos vierailustasi {{1}}",
+        "YouAreReceiving": "Sait tämän sähköpostin, koska joku syötti sähköpostiosoitteesi ja napsautti &quot;unohdin tunnuslauseen&quot;. Jos et ollut sinä, jätä tämä viesti huomioimatta.",
+        "Reset": "Voit nollata salasanasi napsauttamalla {{1}}",
+        "SetUpPassphrase": "Määritä tunnuslause",
+        "DomainCode": "Jos verkkosivu on jo auki selaimessasi, voit syöttää koodin <strong>{{code}}<\/strong>"
+    },
+    "SeeYou": "Nähdään {{1}}!",
+    "LinkToUnsubscribe": "Tässä on linkki <a href='{{1}}'>tilauksen peruuttamiseen<\/a> , jos et halua saada enää sähköpostiviestejä.",
+    "Greetings": "Terveisiä käyttäjältä {{1}}.",
+    "SeeHistory": "Katso maksuhistoria: {{1}}",
+    "charge": {
+        "HasBeenCharged": "Hei, tämä on vain ilmoitus, että {{1}} on veloitettu {{2}} summasta {{3}}, {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hei {{1}}, tämä on vain nopea vahvistus siitä, että olet onnistuneesti maksanut {{2}} henkilölle {{3}} summasta {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hei {{1}}, olet aloittanut kanavan {{2}} tilauksesi {{3}} klo {{4}} {{5}} kuukauden ajaksi.",
+        "HasStarted": "Tämä on vain tiedoksi, että {{1}} on aloittanut kanavan {{2}} tilauksen {{3}} klo {{4}} {{5}} kuukauden ajaksi."
+    }
+}

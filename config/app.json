@@ -1,0 +1,579 @@
+{
+	"Q": {
+		"app": "EngageUsers",
+		"appInfo" : {
+			"version" : "0.1.1",
+			"compatible": "0.1",
+			"requires": {
+				"Q": "1.0",
+				"Users": "1.0",
+				"Streams": "1.0",
+				"Assets": "1.0",
+				"Places": "1.0",
+				"Travel": "0.3",
+				"Websites": "1.0",
+				"Communities": "0.9",
+				"Calendars": "0.1",
+				"Media": "0.1",
+				"AI": "0.1"
+			},
+			"recognizes": {
+				"Q": "1.0",
+				"Users": "1.0",
+				"Streams": "1.0",
+				"Assets": "1.0",
+				"Places": "1.0",
+				"Travel": "0.3",
+				"Websites": "1.0",
+				"Communities": "0.9",
+				"Calendars": "0.1",
+				"Media": "0.1",
+				"AI": "0.1"
+			},
+			"connections": ["Users", "Streams"]
+		},
+		"plugins": [
+			"Users", "Streams", "Places", "Travel", "Websites", "Assets","Calendars", "Communities", "Media", "AI"
+		],
+		"handlersBeforeEvent": {
+			"Q/responseExtras": ["EngageUsers/before/Q_responseExtras"]
+		},
+		"handlersAfterEvent": {
+			"Q/configure": ["EngageUsers/after/Q_configure"]
+		},
+		"routes": {
+			"show/:clipId": {"module": "EngageUsers", "action": "show"},
+			"show/:publisherId/:clipId": {"module":  "EngageUsers", "action":  "show"},
+			"facebook/:action": {"module": "EngageUsers", "facebook": 1},
+			":action": {"module": "EngageUsers", "": "EngageUsers/moduleCanHandle"},
+			"intercoin": {"module": "EngageUsers", "action": "welcome"},
+			"": {"module": "EngageUsers", "action": "welcome"}
+		},
+		"response": {
+			"slotNames": ["dashboard", "content", "dialogs", "title", "notices"],
+			"ajax": [],
+			"layout": {
+				"desktop": "EngageUsers/layout/desktop.php",
+				"tablet": "EngageUsers/layout/tablet.php",
+				"mobile": "EngageUsers/layout/mobile.php",
+				"sidebar": false
+			},
+			"cacheBaseUrl": "https://EngageUsers.demoproject.co.ua"
+		},
+		"exception": {
+			"showTrace": true,
+			"showFileAndLine": true
+		},
+		"node": {
+			"headers": {
+				"Access-Control-Allow-Origin": "*"
+			}
+		},
+		"web": {
+			"languages": {
+				"en": 1,
+				"af": 1,
+				"sq": 1,
+				"am": 1,
+				"ar": 1,
+				"hy": 1,
+				"az": 1,
+				"eu": 1,
+				"be": 1,
+				"bn": 1,
+				"bs": 1,
+				"bg": 1,
+				"ca": 1,
+				"ceb": 1,
+				"zh": 1,
+				"co": 1,
+				"hr": 1,
+				"cs": 1,
+				"da": 1,
+				"nl": 1,
+				"eo": 1,
+				"et": 1,
+				"fi": 1,
+				"fr": 1,
+				"fy": 1,
+				"gl": 1,
+				"ka": 1,
+				"de": 1,
+				"el": 1,
+				"gu": 1,
+				"ht": 1,
+				"ha": 1,
+				"haw": 1,
+				"iw": 1,
+				"hi": 1,
+				"hmn": 1,
+				"hu": 1,
+				"is": 1,
+				"ig": 1,
+				"id": 1,
+				"ga": 1,
+				"it": 1,
+				"ja": 1,
+				"jw": 1,
+				"kn": 1,
+				"kk": 1,
+				"km": 1,
+				"ko": 1,
+				"ku": 1,
+				"ky": 1,
+				"lo": 1,
+				"la": 1,
+				"lv": 1,
+				"lt": 1,
+				"lb": 1,
+				"mk": 1,
+				"mg": 1,
+				"ms": 1,
+				"ml": 1,
+				"mt": 1,
+				"mi": 1,
+				"mr": 1,
+				"mn": 1,
+				"my": 1,
+				"ne": 1,
+				"no": 1,
+				"ny": 1,
+				"ps": 1,
+				"fa": 1,
+				"pl": 1,
+				"pt": 1,
+				"pa": 1,
+				"ro": 1,
+				"ru": 1,
+				"sm": 1,
+				"gd": 1,
+				"sr": 1,
+				"st": 1,
+				"sn": 1,
+				"sd": 1,
+				"si": 1,
+				"sk": 1,
+				"sl": 1,
+				"so": 1,
+				"es": 1,
+				"su": 1,
+				"sw": 1,
+				"sv": 1,
+				"tl": 1,
+				"tg": 1,
+				"ta": 1,
+				"te": 1,
+				"th": 1,
+				"tr": 1,
+				"uk": 1,
+				"ur": 1,
+				"uz": 1,
+				"vi": 1,
+				"cy": 1,
+				"xh": 1,
+				"yi": 1,
+				"yo": 1,
+				"zu": 1
+			}
+		},
+		"bundle": {
+			"exclude": {
+				"EngageUsers": [
+					"action.php", "batch.php", "index.php", "fast.php", "Q.inc.php",
+					".htaccess", "Q/uploads"
+				]
+			}
+		},
+		"javascript": {
+			"uris": ["EngageUsers/home"]
+		},
+		"environments": {
+			"live": {
+				"files": {
+					"{{Q}}/css/Q.css": "css/all.css",
+					"{{Users}}/css/Users.css": "css/all.css",
+					"{{Streams}}/css/Streams.css": "css/all.css",
+					"css/EngageUsers.css": "css/all.css",
+					"{{Q}}/js/jquery-3.2.1.min.js": "js/all.js",
+					"{{Q}}/js/handlebars-v4.0.10.min.js": "js/all.js",
+					"{{Q}}/js/Q.js": "js/all.js",
+					"{{Users}}/js/Users.js": "js/all.js",
+					"{{Streams}}/js/Streams.js": "js/all.js",
+					"js/EngageUsers.js": "js/all.js"
+				},
+				"urls": {
+					"caching": true,
+					"integrity": false
+				}
+			},
+			"test": {
+				"urls": {
+					"caching": true
+				}
+			}
+		},
+		"text": {
+			"useLocale": false, /* run translate.php script first */
+			"EngageUsers": {
+				"dashboard.php": ["EngageUsers/content"],
+				"content": {
+					"*": ["EngageUsers/content"]
+				},
+				"email": {
+					"*": ["EngageUsers/email"]
+				},
+				"sms": {
+					"*": ["EngageUsers/sms"]
+				},
+				"dialogs": {
+					"*": ["EngageUsers/dialogs"]
+				},
+				"invitations": {
+					"*": ["EngageUsers/invitations"]
+				}
+			}
+		},
+		"images": {
+			"Youtube/imported": {
+				"sizes": {
+					"40x30": "40.png",
+					"50x37": "50.png",
+					"80x60": "80.png",
+					"200x150": "200.png",
+					"400x301": "400.png",
+					"500x376": "500.png"
+				},
+				"maxStretch": 2,
+				"defaultSize": "400",
+				"defaultCacheBust": 1000
+			}
+		}
+	},
+	"Users": {
+		"transactional": {
+			"activation": {
+				"subject": ["Communities/email", ["activation", "Subject"]],
+				"body": "Communities/email/activation.php",
+				"sms": "Communities/sms/activation.php"
+			},
+			"identifier": {
+				"subject": ["Communities/email", ["identifier", "Subject"]],
+				"body": "Communities/email/addEmail.php",
+				"sms": "Communities/sms/addMobile.php"
+			},
+			"resend": {
+				"subject": ["Communities/email", ["resend", "Subject"]],
+				"body": "Communities/email/resend.php",
+				"sms": "Communities/sms/resend.php"
+			},
+			"authenticated": {
+				"subject": false,
+				"body": false
+			}
+		},
+		"uris": {
+			"EngageUsers/afterActivate": "EngageUsers/home",
+			"EngageUsers/successUrl": "EngageUsers/home"
+		},
+		"login": {
+			"identifierType": "email",
+			"using": "native,web3",
+			"alsoSendUnhashedPassphrase": true /* for Discourse */
+		},
+		"onInsert": {
+			"labels": {
+				"Users/friends": ["Friends", "labels/Users/friends"],
+				"Users/family": ["Family", "labels/Users/family"],
+				"Users/business": ["Business", "labels/Users/business"],
+				"Users/dating": ["Dating", "labels/Users/dating"]
+			},
+			"roles": {
+				"Users/owners": ["Owners", "labels/Users/owners"],
+				"Users/admins": ["Admins", "labels/Users/admins"],
+				"Users/members": ["Members", "labels/Users/members"],
+				"Users/guests": ["Guests", "labels/Users/guests"]
+			}
+		},
+		"register": {
+			"icon": {
+				"leaveDefault": false
+			}
+		},
+		"communities": {
+			"roles": {
+				"Users/owners": {
+					"canGrant": ["EngageUsers/alumni", "EngageUsers/ambassadors", "EngageUsers/cco", "EngageUsers/ceo", "EngageUsers/cmo", "EngageUsers/coo", "EngageUsers/cto", "EngageUsers/customers", "EngageUsers/downloaders", "EngageUsers/evangelists", "EngageUsers/explorers", "EngageUsers/innercircle", "EngageUsers/intercloudproviders", "EngageUsers/investors", "EngageUsers/members", "EngageUsers/owners", "EngageUsers/participants", "EngageUsers/partners", "EngageUsers/relayers", "EngageUsers/stakers", "EngageUsers/supporters", "EngageUsers/visitors"],
+					"canRevoke": ["EngageUsers/alumni", "EngageUsers/ambassadors", "EngageUsers/cco", "EngageUsers/ceo", "EngageUsers/cmo", "EngageUsers/coo", "EngageUsers/cto", "EngageUsers/customers", "EngageUsers/downloaders", "EngageUsers/evangelists", "EngageUsers/explorers", "EngageUsers/innercircle", "EngageUsers/intercloudproviders", "EngageUsers/investors", "EngageUsers/members", "EngageUsers/owners", "EngageUsers/participants", "EngageUsers/partners", "EngageUsers/relayers", "EngageUsers/stakers", "EngageUsers/supporters", "EngageUsers/visitors"],
+					"canSee": ["EngageUsers/alumni", "EngageUsers/ambassadors", "EngageUsers/cco", "EngageUsers/ceo", "EngageUsers/cmo", "EngageUsers/coo", "EngageUsers/cto", "EngageUsers/customers", "EngageUsers/downloaders", "EngageUsers/evangelists", "EngageUsers/explorers", "EngageUsers/innercircle", "EngageUsers/intercloudproviders", "EngageUsers/investors", "EngageUsers/members", "EngageUsers/owners", "EngageUsers/participants", "EngageUsers/partners", "EngageUsers/relayers", "EngageUsers/stakers", "EngageUsers/supporters", "EngageUsers/visitors"]
+				},
+				"Users/admins": {
+					"canGrant": ["EngageUsers/alumni", "EngageUsers/ambassadors", "EngageUsers/cco", "EngageUsers/ceo", "EngageUsers/cmo", "EngageUsers/coo", "EngageUsers/cto", "EngageUsers/customers", "EngageUsers/downloaders", "EngageUsers/evangelists", "EngageUsers/explorers", "EngageUsers/innercircle", "EngageUsers/intercloudproviders", "EngageUsers/investors", "EngageUsers/members", "EngageUsers/owners", "EngageUsers/participants", "EngageUsers/partners", "EngageUsers/relayers", "EngageUsers/stakers", "EngageUsers/supporters", "EngageUsers/visitors"],
+					"canRevoke": ["EngageUsers/alumni", "EngageUsers/ambassadors", "EngageUsers/cco", "EngageUsers/ceo", "EngageUsers/cmo", "EngageUsers/coo", "EngageUsers/cto", "EngageUsers/customers", "EngageUsers/downloaders", "EngageUsers/evangelists", "EngageUsers/explorers", "EngageUsers/innercircle", "EngageUsers/intercloudproviders", "EngageUsers/investors", "EngageUsers/members", "EngageUsers/owners", "EngageUsers/participants", "EngageUsers/partners", "EngageUsers/relayers", "EngageUsers/stakers", "EngageUsers/supporters", "EngageUsers/visitors"],
+					"canSee": ["EngageUsers/alumni", "EngageUsers/ambassadors", "EngageUsers/cco", "EngageUsers/ceo", "EngageUsers/cmo", "EngageUsers/coo", "EngageUsers/cto", "EngageUsers/customers", "EngageUsers/downloaders", "EngageUsers/evangelists", "EngageUsers/explorers", "EngageUsers/innercircle", "EngageUsers/intercloudproviders", "EngageUsers/investors", "EngageUsers/members", "EngageUsers/owners", "EngageUsers/participants", "EngageUsers/partners", "EngageUsers/relayers", "EngageUsers/stakers", "EngageUsers/supporters", "EngageUsers/visitors"]
+				},
+				"EngageUsers/alumni": {
+					"title": "Alumni",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/alumni",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/ambassadors": {
+					"title": "Ambassadors",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/ambassadors",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/cco": {
+					"title": "CCO",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/cco",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/ceo": {
+					"title": "CEO",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/ceo",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/cmo": {
+					"title": "CMO",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/cmo",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/coo": {
+					"title": "COO",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/coo",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/cto": {
+					"title": "CTO",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/cto",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/customers": {
+					"title": "Customers",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/customers",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/downloaders": {
+					"title": "Downloaders",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/downloaders",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/evangelists": {
+					"title": "Evangelists",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/evangelists",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/explorers": {
+					"title": "Explorers",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/explorers",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/innercircle": {
+					"title": "Inner Circle",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/innercircle",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/intercloudproviders": {
+					"title": "Intercloud Providers",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/intercloudproviders",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/investors": {
+					"title": "Investors",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/investors",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/members": {
+					"title": "Members",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/members",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/owners": {
+					"title": "Owners",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/owners",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/participants": {
+					"title": "Participants",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/participants",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/partners": {
+					"title": "Partners",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/partners",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/relayers": {
+					"title": "Relayers",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/relayers",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/stakers": {
+					"title": "Stakers",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/stakers",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/supporters": {
+					"title": "Supporters",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/supporters",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				},
+				"EngageUsers/visitors": {
+					"title": "Visitors",
+					"icon": "{{baseUrl}}/img/icons/labels/EngageUsers/visitors",
+					"canGrant": [],
+					"canRevoke": [],
+					"canSee": []
+				}
+			},
+			"admins": ["Users/owners", "Users/admins"]
+		}
+	},
+	"Streams": {
+		"possibleUserStreams": {
+			"Streams/user/birthday": true,
+			"Streams/user/gender": true,
+			"Streams/user/height": true
+		},
+		"notifications": {
+			"onlyIfAllClientsOffline": true
+		}
+	},
+	"Assets": {
+		"transactional": {
+			"charge": {
+				"subject": {"replace": ["EngageUsers/content", ["notifications", "ChargeProcessedFor"]]},
+				"body": "EngageUsers/email/charge.php",
+				"sms": "EngageUsers/sms/charge.php"
+			},
+			"charged": {
+				"subject": {"replace": ["EngageUsers/content", ["notifications", "ThankForPayment"]]},
+				"body": "EngageUsers/email/charged.php",
+				"sms": "EngageUsers/sms/charged.php"
+			},
+			"startSubscription": {
+				"subject": {"replace": ["EngageUsers/content", ["notifications", "SubscribedToPlan"]]},
+				"body": "EngageUsers/email/startSubscription.php",
+				"sms": "EngageUsers/sms/startSubscription.php"
+			},
+			"startedSubscription": {
+				"subject": {"replace": ["EngageUsers/content", ["notifications", "YouSubscribedToPlan"]]},
+				"body": "EngageUsers/email/startedSubscription.php",
+				"sms": "EngageUsers/sms/startedSubscription.php"
+			}
+		}
+	},
+	"Websites": {
+		"seoReload": true,
+		"permalinks": {
+			"routes": {},
+			"actions": {
+				"EngageUsers": [ /* actions that may get permalinks */ ]
+			}
+		},
+		"youtube": {
+			"channelId": "UCyKZPoV5SGx6LCyGS9GvOpg"
+		}
+	},
+	"Communities": {
+		"onboarding": {
+			"steps": {"replace": ["name", "icon", "interests"]}
+		},
+		"people": {
+			"import": false,
+			"userIds": {
+				"customIconsFirst": true,
+				"customIconsOnly": true,
+				"includeFutureUsers": false
+			}
+		},
+		"events": {
+			"anyoneNewEvent": false,
+			"trips": true
+		},
+		"pageSizes": {
+			"events": 20
+		},
+		"me": {
+			"tabs": {
+				"inbox": true,
+				"profile": {
+					"default": true
+				},
+				"schedule": true,
+				"interests": true,
+				"location": false,
+				"myqr": true
+			}
+		},
+		"profile": {
+			"sections": {
+				"personal": false,
+				"greeting": true,
+				"social": true,
+				"links": true,
+				"jobs": false,
+				"education": false
+			}
+		},
+		"community": {
+			"hideUntilParticipants": 0
+		},
+		"layout": {
+			"dashboard": {
+				"mobile": "icons",
+				"withTitles": true,
+				"position": "bottom"
+			},
+			"columns": {
+				"style": "facebook"
+			}
+		}
+	},
+	"Calendars": {
+		"newEvent": {
+			"location": true,
+			"liveStream": true
+		}
+	}
+}

@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Speisekarte",
+        "Home": "Heim",
+        "Welcome": "Willkommen",
+        "About": "Um",
+        "LogIn": "Anmeldung",
+        "LogOut": "Ausloggen",
+        "People": "Menschen",
+        "Conversations": "Chats",
+        "Events": "Veranstaltungen",
+        "Me": "Mich",
+        "SetMobileNumber": "Handynummer festlegen",
+        "SetEmailAddress": "E-Mail-Adresse festlegen"
+    },
+    "welcome": {
+        "Title": "{{1}}: willkommen",
+        "Description": "Willkommen bei der Anwendung {{1}}.",
+        "Welcome": "Willkommen!",
+        "ToStart": "Um eine neue App zu starten, sollten Sie den Anweisungen <a href='{{1}}'>hier<\/a> folgen.",
+        "RenderedInMs": "Oh, und übrigens, das wurde in {{1}} ms gerendert.",
+        "RefreshPage": "Aktualisieren Sie die Seite ein paar Mal und sehen Sie, wie effizient die Qbix-Plattform sein kann.",
+        "EvenFaster": "Tatsächlich kann es <a href='{{1}}'>sogar noch schneller<\/a> ausgeführt werden.",
+        "TryItOut": "Versuch es!",
+        "GoToYourForum": "Gehen Sie zu Ihrem Forum.",
+        "DontHaveAForum?": "Sie haben kein Forum?",
+        "GetInTouchWithUs": "Nehmen Sie Kontakt mit uns auf – wir bauen für Sie ganze Community-Portale auf!",
+        "GenerateAPIKey": "Generieren Sie einen API-Schlüssel",
+        "OnlyForumOwners": "Nur Forenbesitzer können diesen Dienst nutzen.",
+        "PasteAPIKey": "API-Schlüssel einfügen:",
+        "URLOfTopicOrPost": "URL Ihres Themas oder Beitrags:",
+        "ChooseAnAttitude": "Wählen Sie eine Haltung aus, die Sie ausdrücken möchten:",
+        "WhatShouldItBe?": "Was soll es sein?",
+        "attitudes": {
+            "agree + actionable": "Stimmen Sie dem Beitrag zu und schlagen Sie Ideen vor",
+            "agree + expand": "Stimmen Sie zu, aber erweitern Sie dann das breitere wichtige Thema",
+            "agree + changeSubject": "Stimmen Sie zu, aber bringen Sie dann ein verwandtes, aber anderes Problem zur Sprache",
+            "disagree + respectful": "Widersprechen Sie respektvoll und erklären Sie warum",
+            "disagree + emotive": "Widersprechen Sie emotional und eigensinnig",
+            "disagree + absurd": "Widersprechen Sie auf leicht sarkastische Weise, indem Sie reductio ad absurdum verwenden",
+            "disagree + authority": "Widersprechen Sie leicht, indem Sie Autoritäten zitieren, die eine andere Meinung haben"
+        },
+        "ClickOnTheBelowAgents": "Klicken Sie unten auf einen der autonomen Agenten. Innerhalb von Sekunden erstellen wir ein Konto in Ihrem Forum und posten als dieser Agent.",
+        "InvestorPresentation": "Investorenpräsentation"
+    },
+    "about": {
+        "About": "Über {{1}}",
+        "CanWrite": "Hier können Sie etwas über diese App oder Website schreiben.",
+        "OrRemove": "Wenn Sie möchten, können Sie diese Seite auch entfernen."
+    },
+    "errors": {
+        "Rendering": "Beim Rendern von <span class='url'>{{1}}<\/span> sind Fehler aufgetreten"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> zeigt auf nichts."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: Belastung verarbeitet für {{call 'user.displayName'}}",
+        "ThankForPayment": "Vielen Dank für Ihre Zahlung an {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} hat {{plan.title}} abonniert",
+        "YouSubscribedToPlan": "Du hast {{plan.title'}} abonniert",
+        "Enabled": "Benachrichtigungen wurden aktiviert."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Lassen Sie sich von Freunden erkennen:"
+            }
+        }
+    }
+}

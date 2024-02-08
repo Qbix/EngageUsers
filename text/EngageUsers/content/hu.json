@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Menü",
+        "Home": "itthon",
+        "Welcome": "Üdvözöljük",
+        "About": "Ról ről",
+        "LogIn": "Belépés",
+        "LogOut": "Kijelentkezés",
+        "People": "Emberek",
+        "Conversations": "Csevegés",
+        "Events": "Események",
+        "Me": "Nekem",
+        "SetMobileNumber": "Mobilszám beállítása",
+        "SetEmailAddress": "E-mail cím beállítása"
+    },
+    "welcome": {
+        "Title": "{{1}}: üdvözlöm",
+        "Description": "Üdvözöljük a {{1}} alkalmazásban.",
+        "Welcome": "Üdvözöljük!",
+        "ToStart": "Új alkalmazás indításához kövesse az <a href='{{1}}'>itt található<\/a> utasításokat.",
+        "RenderedInMs": "Ja, és mellesleg ez {{1}} ms alatt készült el.",
+        "RefreshPage": "Frissítse néhányszor az oldalt, és nézze meg, milyen hatékony lehet a Qbix Platform.",
+        "EvenFaster": "Valójában <a href='{{1}}'>még gyorsabban is<\/a> végrehajtható.",
+        "TryItOut": "Próbáld ki!",
+        "GoToYourForum": "Menj a fórumodra.",
+        "DontHaveAForum?": "Nincs fórumod?",
+        "GetInTouchWithUs": "Vegye fel velünk a kapcsolatot – segítünk teljes közösségi portálokat felépíteni Önnek!",
+        "GenerateAPIKey": "létrehoz egy API-kulcsot",
+        "OnlyForumOwners": "Csak a fórum tulajdonosai használhatják ezt a szolgáltatást.",
+        "PasteAPIKey": "API kulcs beillesztése:",
+        "URLOfTopicOrPost": "Témája vagy bejegyzése URL-je:",
+        "ChooseAnAttitude": "Válasszon egy hozzáállást kifejezni:",
+        "WhatShouldItBe?": "Mi legyen?",
+        "attitudes": {
+            "agree + actionable": "Egyetért a bejegyzéssel, és javasoljon ötleteket",
+            "agree + expand": "Egyetért, de aztán terjessze ki a tágabb, fontos kérdést",
+            "agree + changeSubject": "Egyetért, de akkor hozzon fel egy kapcsolódó, de más problémát",
+            "disagree + respectful": "Tisztelettel nem ért egyet, és indokolja meg, miért",
+            "disagree + emotive": "Érzelmi és véleménynyilvánító módon nem ért egyet",
+            "disagree + absurd": "Enyhén szarkasztikus módon, a reductio ad absurdum használatával nem ért egyet",
+            "disagree + authority": "Enyhén nem ért egyet azzal, hogy olyan hatóságokra hivatkozik, akiknek más a véleménye"
+        },
+        "ClickOnTheBelowAgents": "Kattintson az alábbi autonóm ügynökök bármelyikére. Másodperceken belül létrehozunk egy fiókot a fórumon, és ügynökként posztolunk.",
+        "InvestorPresentation": "Befektetői bemutató"
+    },
+    "about": {
+        "About": "Körülbelül {{1}}",
+        "CanWrite": "Itt írhat valamit erről az alkalmazásról vagy webhelyről.",
+        "OrRemove": "Vagy ha szeretné, eltávolíthatja ezt az oldalt."
+    },
+    "errors": {
+        "Rendering": "Hibák történtek a(z <span class='url'>) {{1}}<\/span> megjelenítése során"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>A {{1}}<\/span> nem mutat semmire."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: terhelés feldolgozva: {{call 'user.displayName'}}",
+        "ThankForPayment": "Köszönjük, hogy befizette a következőnek: {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} feliratkozott a következőre: {{plan.title}}",
+        "YouSubscribedToPlan": "Feliratkozott a következőre: {{plan.title'}}",
+        "Enabled": "Az értesítések engedélyezve vannak."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Hagyd, hogy barátaid felismerjenek:"
+            }
+        }
+    }
+}

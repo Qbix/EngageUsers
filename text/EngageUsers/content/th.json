@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "เมนู",
+        "Home": "บ้าน",
+        "Welcome": "ยินดีต้อนรับ",
+        "About": "เกี่ยวกับ",
+        "LogIn": "เข้าสู่ระบบ",
+        "LogOut": "ออกจากระบบ",
+        "People": "ประชากร",
+        "Conversations": "แชท",
+        "Events": "เหตุการณ์",
+        "Me": "ฉัน",
+        "SetMobileNumber": "ตั้งหมายเลขโทรศัพท์มือถือ",
+        "SetEmailAddress": "ตั้งค่าที่อยู่อีเมล"
+    },
+    "welcome": {
+        "Title": "{{1}}: ยินดีต้อนรับ",
+        "Description": "ยินดีต้อนรับสู่แอปพลิเคชัน {{1}}",
+        "Welcome": "ยินดีต้อนรับ!",
+        "ToStart": "หากต้องการเริ่มแอปใหม่ คุณควรทำตามคำแนะนำ <a href='{{1}}'>ที่นี่<\/a>",
+        "RenderedInMs": "อ้อ ยังไงก็ตาม สิ่งนี้แสดงผลใน {{1}} มิลลิวินาที",
+        "RefreshPage": "รีเฟรชหน้าสองสามครั้งและดูว่า Qbix Platform มีประสิทธิภาพเพียงใด",
+        "EvenFaster": "ในความเป็นจริง มันสามารถดำเนินการได้ <a href='{{1}}'>เร็วยิ่งขึ้น<\/a>",
+        "TryItOut": "ลองดูสิ!",
+        "GoToYourForum": "ไปที่ฟอรัมของคุณ",
+        "DontHaveAForum?": "ไม่มีฟอรั่ม?",
+        "GetInTouchWithUs": "ติดต่อเรา – เราช่วยสร้างพอร์ทัลชุมชนทั้งหมดให้คุณ!",
+        "GenerateAPIKey": "สร้างคีย์ API",
+        "OnlyForumOwners": "เฉพาะเจ้าของฟอรัมเท่านั้นที่สามารถใช้บริการนี้ได้",
+        "PasteAPIKey": "วางรหัส API:",
+        "URLOfTopicOrPost": "URL ของหัวข้อหรือโพสต์ของคุณ:",
+        "ChooseAnAttitude": "เลือกทัศนคติที่จะแสดง:",
+        "WhatShouldItBe?": "มันควรจะเป็นอะไร?",
+        "attitudes": {
+            "agree + actionable": "เห็นด้วยกับโพสต์และเสนอแนวคิด",
+            "agree + expand": "เห็นด้วย แต่ขยายประเด็นสำคัญให้กว้างขึ้น",
+            "agree + changeSubject": "เห็นด้วย แต่จากนั้นนำประเด็นที่เกี่ยวข้องแต่แตกต่างกันขึ้นมา",
+            "disagree + respectful": "ไม่เห็นด้วยอย่างเคารพและอธิบายว่าทำไม",
+            "disagree + emotive": "ไม่เห็นด้วยในทางอารมณ์และความคิดเห็น",
+            "disagree + absurd": "ไม่เห็นด้วยในลักษณะประชดประชันเล็กน้อยโดยใช้ reductio ad absurdum",
+            "disagree + authority": "ไม่เห็นด้วยเล็กน้อยโดยอ้างถึงหน่วยงานที่มีความเห็นแตกต่าง"
+        },
+        "ClickOnTheBelowAgents": "คลิกที่ตัวแทนอิสระด้านล่าง ภายในไม่กี่วินาที เราจะสร้างบัญชีบนฟอรัมของคุณและโพสต์ในฐานะตัวแทนนั้น",
+        "InvestorPresentation": "การนำเสนอนักลงทุน"
+    },
+    "about": {
+        "About": "เกี่ยวกับ {{1}}",
+        "CanWrite": "คุณสามารถเขียนบางอย่างเกี่ยวกับแอพหรือเว็บไซต์นี้ได้ที่นี่",
+        "OrRemove": "หรือหากต้องการ คุณสามารถลบหน้านี้"
+    },
+    "errors": {
+        "Rendering": "เกิดข้อผิดพลาดขณะแสดงผล <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> ไม่ได้ชี้ไปที่สิ่งใดเลย"
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: เรียกเก็บเงินสำหรับ {{call 'user.displayName'}}",
+        "ThankForPayment": "ขอขอบคุณที่ชำระเงินให้กับ {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} สมัครรับ {{plan.title}}",
+        "YouSubscribedToPlan": "คุณได้สมัครรับข้อมูล {{plan.title'}}",
+        "Enabled": "เปิดใช้งานการแจ้งเตือนแล้ว"
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "ให้เพื่อนรู้จักคุณ:"
+            }
+        }
+    }
+}

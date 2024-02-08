@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Subject": "Üdvözöljük! Kérem ellenőrizze az email címét.",
+        "Thanks": "Üdvözöljük itt: {{1}}",
+        "ReallyYourEmail": "Ez valóban az Ön e-mail címe, {{1}}? Ha igen, kattintson <a href='{{2}}'>ide<\/a> a jelszó beállításához és fiókja aktiválásához.",
+        "SeeYou": "Találkozunk itt <a href='{{1}}'>: {{2}}<\/a> !"
+    },
+    "identifier": {
+        "Subject": "Üdvözöljük! Erősítsd meg az e-mail címed."
+    },
+    "resend": {
+        "Subject": "Hé, elfelejtette a jelszavát?",
+        "Thanks": "Köszönjük látogatását {{1}}",
+        "YouAreReceiving": "Azért kapta ezt az e-mailt, mert valaki beírta az e-mail címét, és az &quot;elfelejtett jelszó&quot; gombra kattintott. Ha nem te voltál, egyszerűen hagyd figyelmen kívül ezt az üzenetet.",
+        "Reset": "Az összetett jelszó visszaállításához kattintson a {{1}}",
+        "SetUpPassphrase": "Jelszó beállítása",
+        "DomainCode": "Ha a weboldal már meg van nyitva a böngészőben, akkor beírhatja a kódot <strong>{{code}}<\/strong>"
+    },
+    "SeeYou": "Találkozunk a {{1}}-on!",
+    "LinkToUnsubscribe": "Itt található egy link, amellyel <a href='{{1}}'>leiratkozhat<\/a> , ha nem szeretne több e-mailt kapni.",
+    "Greetings": "Üdvözlettel: {{1}}.",
+    "SeeHistory": "A(z) {{1}} fizetési előzményeinek megtekintése",
+    "charge": {
+        "HasBeenCharged": "Szia, ez csak azért van, hogy tudd, {{1}}-t {{2}} összeggel terhelte meg {{3}} összeggel {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Szia, {{1}}! Ez csak egy gyors megerősítés, hogy sikeresen kifizette a(z) {{2}} összeget {{3}} részére a következő összegért: {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Szia, {{1}}! Ön megkezdte a(z) {{2}} előfizetését a következővel: {{3}}, {{4}}, {{5}} hónap.",
+        "HasStarted": "Ezúton tájékoztatjuk Önt, hogy {{1}} megkezdte a(z) {{2}} előfizetését a következővel: {{3}}, {{4}} {{5}} hónapig."
+    }
+}

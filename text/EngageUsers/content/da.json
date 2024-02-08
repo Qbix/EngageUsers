@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Menu",
+        "Home": "Hjem",
+        "Welcome": "Velkommen",
+        "About": "Om",
+        "LogIn": "Log på",
+        "LogOut": "Log ud",
+        "People": "Mennesker",
+        "Conversations": "Chats",
+        "Events": "Begivenheder",
+        "Me": "Mig",
+        "SetMobileNumber": "Indstil mobilnummer",
+        "SetEmailAddress": "Indstil e-mail-adresse"
+    },
+    "welcome": {
+        "Title": "{{1}}: velkommen",
+        "Description": "Velkommen til applikationen {{1}}.",
+        "Welcome": "Velkommen!",
+        "ToStart": "For at starte en ny app skal du følge instruktionerne <a href='{{1}}'>her<\/a> .",
+        "RenderedInMs": "Åh, og forresten, dette blev gengivet på {{1}} ms.",
+        "RefreshPage": "Opdater siden et par gange og se, hvor effektiv Qbix-platformen kan være.",
+        "EvenFaster": "Faktisk kan den køre <a href='{{1}}'>endnu hurtigere<\/a> .",
+        "TryItOut": "Prøve det!",
+        "GoToYourForum": "Gå til dit forum.",
+        "DontHaveAForum?": "Har du ikke et forum?",
+        "GetInTouchWithUs": "Kontakt os – vi hjælper med at bygge hele fællesskabsportaler til dig!",
+        "GenerateAPIKey": "generere en API-nøgle",
+        "OnlyForumOwners": "Kun forumejere kan bruge denne tjeneste.",
+        "PasteAPIKey": "Indsæt API-nøgle:",
+        "URLOfTopicOrPost": "URL til dit emne eller indlæg:",
+        "ChooseAnAttitude": "Vælg en holdning at udtrykke:",
+        "WhatShouldItBe?": "Hvad skal det være?",
+        "attitudes": {
+            "agree + actionable": "Enig med indlægget og foreslå ideer",
+            "agree + expand": "Enig, men uddyb så det bredere vigtige spørgsmål",
+            "agree + changeSubject": "Enig, men bring så et relateret, men anderledes spørgsmål op",
+            "disagree + respectful": "Vær respektfuldt uenig og forklar hvorfor",
+            "disagree + emotive": "Uenig på en følelsesladet og meningsfuld måde",
+            "disagree + absurd": "Vær uenig på en mildt sagt sarkastisk måde ved at bruge reductio ad absurdum",
+            "disagree + authority": "Vær mildt sagt uenig ved at citere myndigheder, der har en anden mening"
+        },
+        "ClickOnTheBelowAgents": "Klik på en af de autonome agenter nedenfor. Inden for få sekunder vil vi oprette en konto på dit forum og skrive som denne agent.",
+        "InvestorPresentation": "Investor præsentation"
+    },
+    "about": {
+        "About": "Om {{1}}",
+        "CanWrite": "Her kan du skrive noget om denne app eller hjemmeside.",
+        "OrRemove": "Eller hvis du vil, kan du fjerne denne side."
+    },
+    "errors": {
+        "Rendering": "Der opstod fejl under gengivelsen af <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> peger ikke på noget."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: debitering behandlet for {{call 'user.displayName'}}",
+        "ThankForPayment": "Tak for din betaling til {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} abonnerede på {{plan.title}}",
+        "YouSubscribedToPlan": "Du er blevet abonneret på {{plan.title'}}",
+        "Enabled": "Notifikationer er blevet aktiveret."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Lad venner genkende dig:"
+            }
+        }
+    }
+}

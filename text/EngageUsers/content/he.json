@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "תַפרִיט",
+        "Home": "בית",
+        "Welcome": "ברוך הבא",
+        "About": "על אודות",
+        "LogIn": "התחברות",
+        "LogOut": "להתנתק",
+        "People": "אֲנָשִׁים",
+        "Conversations": "צ&#39;אטים",
+        "Events": "אירועים",
+        "Me": "לִי",
+        "SetMobileNumber": "הגדר מספר נייד",
+        "SetEmailAddress": "הגדר כתובת אימייל"
+    },
+    "welcome": {
+        "Title": "{{1}}: ברוך הבא",
+        "Description": "ברוכים הבאים לאפליקציה {{1}}.",
+        "Welcome": "ברוך הבא!",
+        "ToStart": "כדי להתחיל אפליקציה חדשה, עליך לבצע את ההוראות <a href='{{1}}'>כאן<\/a> .",
+        "RenderedInMs": "אה, ודרך אגב, זה מעובד ב-{{1}} MS.",
+        "RefreshPage": "רענן את הדף כמה פעמים וראה כמה יעילה יכולה להיות פלטפורמת Qbix.",
+        "EvenFaster": "למעשה, זה יכול לפעול <a href='{{1}}'>אפילו מהר יותר<\/a> .",
+        "TryItOut": "נסה את זה!",
+        "GoToYourForum": "לך לפורום שלך.",
+        "DontHaveAForum?": "אין לך פורום?",
+        "GetInTouchWithUs": "צור איתנו קשר - אנו עוזרים לבנות עבורך פורטלי קהילה שלמים!",
+        "GenerateAPIKey": "ליצור מפתח API",
+        "OnlyForumOwners": "רק בעלי פורומים יכולים להשתמש בשירות זה.",
+        "PasteAPIKey": "הדבק מפתח API:",
+        "URLOfTopicOrPost": "כתובת האתר של הנושא או הפוסט שלך:",
+        "ChooseAnAttitude": "בחר גישה לבטא:",
+        "WhatShouldItBe?": "מה זה צריך להיות?",
+        "attitudes": {
+            "agree + actionable": "מסכים עם הפוסט והצע רעיונות",
+            "agree + expand": "מסכים אבל אז הרחב בנושא החשוב הרחב יותר",
+            "agree + changeSubject": "מסכים אבל אז תעלה נושא קשור אבל שונה",
+            "disagree + respectful": "בכבוד לא להסכים ולהסביר למה",
+            "disagree + emotive": "לא להסכים בצורה רגשית ודעתנית",
+            "disagree + absurd": "לא להסכים בצורה סרקסטית קלה, באמצעות reductio ad absurdum",
+            "disagree + authority": "לא להסכים בעדינות על ידי ציטוט של רשויות שיש להן דעה שונה"
+        },
+        "ClickOnTheBelowAgents": "לחץ על כל אחד מהסוכנים האוטונומיים למטה. תוך שניות, ניצור חשבון בפורום שלך ונפרסם כסוכן זה.",
+        "InvestorPresentation": "מצגת למשקיעים"
+    },
+    "about": {
+        "About": "על {{1}}",
+        "CanWrite": "כאן אתה יכול לכתוב משהו על האפליקציה או האתר הזה.",
+        "OrRemove": "או אם תרצה, תוכל להסיר את הדף הזה."
+    },
+    "errors": {
+        "Rendering": "היו שגיאות במהלך העיבוד של <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> לא מצביע על שום דבר."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: החיוב עובד עבור {{call 'user.displayName'}}",
+        "ThankForPayment": "תודה על התשלום שלך אל {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} נרשם ל-{{plan.title}}",
+        "YouSubscribedToPlan": "נרשמת ל-{{plan.title'}}",
+        "Enabled": "התראות הופעלו."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "תן לחברים לזהות אותך:"
+            }
+        }
+    }
+}

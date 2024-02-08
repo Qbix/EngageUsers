@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Subject": "Karibu! Tafadhali thibitisha anwani yako ya barua pepe.",
+        "Thanks": "Karibu kwenye {{1}}",
+        "ReallyYourEmail": "Je, hii kweli ni anwani yako ya barua pepe, {{1}}? Ikiwa ndivyo, bofya <a href='{{2}}'>hapa<\/a> ili kuweka kaulisiri yako na kuamilisha akaunti yako.",
+        "SeeYou": "Tuonane kwenye <a href='{{1}}'>{{100}}<\/a> !"
+    },
+    "identifier": {
+        "Subject": "Karibu! Thibitisha anwani yako ya barua pepe."
+    },
+    "resend": {
+        "Subject": "Hujambo, umesahau neno lako la siri?",
+        "Thanks": "Asante kwa kutembelea {{1}}",
+        "YouAreReceiving": "Unapokea barua pepe hii kwa sababu mtu fulani aliingia barua pepe yako na kubofya &quot;umesahau neno la siri&quot;. Ikiwa si wewe, puuza tu ujumbe huu.",
+        "Reset": "Ili kuweka upya kauli yako ya siri, bofya {{1}}",
+        "SetUpPassphrase": "Sanidi kaulisiri",
+        "DomainCode": "Ikiwa ukurasa wa wavuti tayari umefunguliwa katika kivinjari chako, unaweza kuweka msimbo <strong>{{code}}<\/strong>"
+    },
+    "SeeYou": "Tuonane kwenye {{1}}!",
+    "LinkToUnsubscribe": "Hapa kuna kiungo cha <a href='{{1}}'>kujiondoa<\/a> ikiwa hutaki kupata barua pepe nyingine.",
+    "Greetings": "Salamu kutoka kwa {{1}}.",
+    "SeeHistory": "Angalia historia ya malipo ya {{1}}",
+    "charge": {
+        "HasBeenCharged": "Ala, hii ni kukujulisha tu {{1}} imetozwa {{2}} kwa {{3}} na {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hujambo {{1}}, huu ni uthibitisho wa haraka tu kwamba umefaulu kulipa {{2}} kwa {{3}} kwa {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hujambo {{1}}, umeanza ufuatiliaji wako wa {{2}} ukitumia {{3}} saa {{4}} kwa {{5}} miezi.",
+        "HasStarted": "Hii ni kukujulisha tu {{1}}, ameanza usajili wake kwa {{2}} kwa {{3}} saa {{4}} kwa {{5}} miezi."
+    }
+}

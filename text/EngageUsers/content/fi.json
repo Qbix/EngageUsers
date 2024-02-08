@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Valikko",
+        "Home": "Koti",
+        "Welcome": "Tervetuloa",
+        "About": "Noin",
+        "LogIn": "Kirjaudu sisään",
+        "LogOut": "kirjautua ulos",
+        "People": "Ihmiset",
+        "Conversations": "Chatit",
+        "Events": "Tapahtumat",
+        "Me": "Minä",
+        "SetMobileNumber": "Aseta matkapuhelinnumero",
+        "SetEmailAddress": "Aseta sähköpostiosoite"
+    },
+    "welcome": {
+        "Title": "{{1}}: tervetuloa",
+        "Description": "Tervetuloa {{1}}-sovellukseen.",
+        "Welcome": "Tervetuloa!",
+        "ToStart": "Aloita uusi sovellus noudattamalla <a href='{{1}}'>täällä olevia<\/a> ohjeita.",
+        "RenderedInMs": "Ja muuten, tämä hahmonnettiin {{1}} ms:ssa.",
+        "RefreshPage": "Päivitä sivu muutaman kerran ja katso kuinka tehokas Qbix-alusta voi olla.",
+        "EvenFaster": "Itse asiassa se voi suorittaa <a href='{{1}}'>jopa nopeammin<\/a> .",
+        "TryItOut": "Kokeile sitä!",
+        "GoToYourForum": "Mene foorumillesi.",
+        "DontHaveAForum?": "Eikö sinulla ole foorumia?",
+        "GetInTouchWithUs": "Ota meihin yhteyttä – autamme rakentamaan kokonaisia yhteisöportaaleja puolestasi!",
+        "GenerateAPIKey": "luo API-avain",
+        "OnlyForumOwners": "Vain keskustelupalstan omistajat voivat käyttää tätä palvelua.",
+        "PasteAPIKey": "Liitä API-avain:",
+        "URLOfTopicOrPost": "Aiheesi tai viestisi URL-osoite:",
+        "ChooseAnAttitude": "Valitse ilmaistava asenne:",
+        "WhatShouldItBe?": "Mikä sen pitäisi olla?",
+        "attitudes": {
+            "agree + actionable": "Yhdyn viestiin ja ehdota ideoita",
+            "agree + expand": "Ole samaa mieltä, mutta laajenna sitten laajempaa tärkeää asiaa",
+            "agree + changeSubject": "Ole samaa mieltä, mutta ota sitten esille asiaan liittyvä mutta erilainen ongelma",
+            "disagree + respectful": "Ole kunnioittavasti eri mieltä ja perustele miksi",
+            "disagree + emotive": "Eri mieltä tunteellisella ja mielipiteisellä tavalla",
+            "disagree + absurd": "Eri mieltä lievästi sarkastisella tavalla käyttäen reductio ad absurdum",
+            "disagree + authority": "Ole lievästi eri mieltä viittaamalla viranomaisiin, jotka ovat eri mieltä"
+        },
+        "ClickOnTheBelowAgents": "Napsauta mitä tahansa alla olevista itsenäisistä agenteista. Luomme muutamassa sekunnissa tilin foorumillesi ja lähetämme viestin agenttina.",
+        "InvestorPresentation": "Sijoittajan esitys"
+    },
+    "about": {
+        "About": "Tietoja {{1}}",
+        "CanWrite": "Täällä voit kirjoittaa jotain tästä sovelluksesta tai verkkosivustosta.",
+        "OrRemove": "Tai jos haluat, voit poistaa tämän sivun."
+    },
+    "errors": {
+        "Rendering": "Renderöitäessä tapahtui virheitä <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> ei viittaa mihinkään."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: veloitus käsitelty: {{call 'user.displayName'}}",
+        "ThankForPayment": "Kiitos maksustasi vastaanottajalle {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} tilasi {{plan.title}}",
+        "YouSubscribedToPlan": "Olet tilannut {{plan.title'}}",
+        "Enabled": "Ilmoitukset on otettu käyttöön."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Anna ystävien tunnistaa sinut:"
+            }
+        }
+    }
+}

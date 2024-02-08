@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Menü",
+        "Home": "Ev",
+        "Welcome": "Hoş geldin",
+        "About": "Hakkında",
+        "LogIn": "giriş yapmak",
+        "LogOut": "çıkış Yap",
+        "People": "İnsanlar",
+        "Conversations": "Sohbetler",
+        "Events": "Olaylar",
+        "Me": "Ben",
+        "SetMobileNumber": "Cep Numarasını Ayarla",
+        "SetEmailAddress": "E-posta Adresini Ayarla"
+    },
+    "welcome": {
+        "Title": "{{1}}: hoş geldiniz",
+        "Description": "{{1}} uygulamasına hoş geldiniz.",
+        "Welcome": "Hoş geldin!",
+        "ToStart": "Yeni bir uygulama başlatmak için <a href='{{1}}'>buradaki<\/a> talimatları izlemelisiniz.",
+        "RenderedInMs": "Bu arada, bu {{1}} ms&#39;de oluşturuldu.",
+        "RefreshPage": "Sayfayı birkaç kez yenileyin ve Qbix Platformunun ne kadar verimli olabileceğini görün.",
+        "EvenFaster": "Aslında, <a href='{{1}}'>daha da hızlı<\/a> çalışabilir.",
+        "TryItOut": "Denemek!",
+        "GoToYourForum": "Forumunuza gidin.",
+        "DontHaveAForum?": "Forumunuz yok mu?",
+        "GetInTouchWithUs": "Bizimle iletişime geçin - sizin için tüm topluluk portallarını oluşturmanıza yardımcı oluyoruz!",
+        "GenerateAPIKey": "bir API anahtarı oluştur",
+        "OnlyForumOwners": "Bu hizmeti sadece forum sahipleri kullanabilir.",
+        "PasteAPIKey": "API anahtarını yapıştırın:",
+        "URLOfTopicOrPost": "Konunuzun veya yayınınızın URL&#39;si:",
+        "ChooseAnAttitude": "İfade etmek için bir tutum seçin:",
+        "WhatShouldItBe?": "Ne olmalı?",
+        "attitudes": {
+            "agree + actionable": "Gönderiye katılıyorum ve fikir öneriyorum",
+            "agree + expand": "Kabul edin, ancak daha sonra daha geniş ve önemli konuyu genişletin",
+            "agree + changeSubject": "Kabul edin, ancak daha sonra ilgili ancak farklı bir konuyu gündeme getirin",
+            "disagree + respectful": "Saygılarımla katılmıyorum ve nedenini açıklayın",
+            "disagree + emotive": "Duygusal ve düşünceli bir şekilde katılmamak",
+            "disagree + absurd": "Reductio ad absurdum kullanarak hafif alaycı bir şekilde karşı çıkın",
+            "disagree + authority": "Farklı görüşe sahip yetkililere atıfta bulunarak hafif bir şekilde katılmıyorum"
+        },
+        "ClickOnTheBelowAgents": "Aşağıdaki otonom aracılardan herhangi birine tıklayın. Saniyeler içinde forumunuzda bir hesap oluşturacağız ve bu aracı olarak yayınlayacağız.",
+        "InvestorPresentation": "Yatırımcı Sunumu"
+    },
+    "about": {
+        "About": "{{1}} hakkında",
+        "CanWrite": "Buraya bu uygulama veya web sitesi hakkında bir şeyler yazabilirsiniz.",
+        "OrRemove": "Veya isterseniz bu sayfayı kaldırabilirsiniz."
+    },
+    "errors": {
+        "Rendering": "<span class='url'>{{1}}<\/span> oluşturulurken hatalar oluştu"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> hiçbir şeye işaret etmiyor."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: {{call 'user.displayName'}} için ödeme alındı",
+        "ThankForPayment": "{{call 'publisher.displayName'}} ödemeniz için teşekkür ederiz",
+        "SubscribedToPlan": "{{call 'user.displayName'}}, {{plan.title}}&#39;e abone oldu",
+        "YouSubscribedToPlan": "{{plan.title'}} abone oldunuz",
+        "Enabled": "Bildirimler etkinleştirildi."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Arkadaşlarınızın sizi tanımasına izin verin:"
+            }
+        }
+    }
+}

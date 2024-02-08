@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Ponuka",
+        "Home": "Domov",
+        "Welcome": "Vitajte",
+        "About": "O",
+        "LogIn": "Prihlásiť sa",
+        "LogOut": "odhlásiť sa",
+        "People": "Ľudia",
+        "Conversations": "Chaty",
+        "Events": "Diania",
+        "Me": "ja",
+        "SetMobileNumber": "Nastaviť mobilné číslo",
+        "SetEmailAddress": "Nastaviť e-mailovú adresu"
+    },
+    "welcome": {
+        "Title": "{{1}}: vitajte",
+        "Description": "Vitajte v aplikácii {{1}}.",
+        "Welcome": "Vitajte!",
+        "ToStart": "Ak chcete spustiť novú aplikáciu, postupujte podľa pokynov <a href='{{1}}'>tu<\/a> .",
+        "RenderedInMs": "Oh, a mimochodom, toto sa vykreslilo za {{1}} ms.",
+        "RefreshPage": "Obnovte stránku niekoľkokrát a uvidíte, aká efektívna môže byť platforma Qbix.",
+        "EvenFaster": "V skutočnosti to môže fungovať <a href='{{1}}'>ešte rýchlejšie<\/a> .",
+        "TryItOut": "Vyskúšaj to!",
+        "GoToYourForum": "Prejdite na svoje fórum.",
+        "DontHaveAForum?": "Nemáte fórum?",
+        "GetInTouchWithUs": "Spojte sa s nami – pomáhame vám budovať celé komunitné portály!",
+        "GenerateAPIKey": "vygenerovať API kľúč",
+        "OnlyForumOwners": "Túto službu môžu využívať iba vlastníci fóra.",
+        "PasteAPIKey": "Prilepiť kľúč API:",
+        "URLOfTopicOrPost": "URL vašej témy alebo príspevku:",
+        "ChooseAnAttitude": "Vyberte si postoj, ktorý chcete vyjadriť:",
+        "WhatShouldItBe?": "čo by to malo byť?",
+        "attitudes": {
+            "agree + actionable": "Súhlaste s príspevkom a navrhnite nápady",
+            "agree + expand": "Súhlaste, ale potom rozviňte širšiu dôležitú otázku",
+            "agree + changeSubject": "Súhlaste, ale potom uveďte súvisiaci, ale iný problém",
+            "disagree + respectful": "S úctou nesúhlaste a vysvetlite prečo",
+            "disagree + emotive": "Nesúhlaste emotívnym a názorovým spôsobom",
+            "disagree + absurd": "Nesúhlaste mierne sarkastickým spôsobom pomocou reductio ad absurdum",
+            "disagree + authority": "Mierne nesúhlaste s odvolaním sa na orgány, ktoré majú iný názor"
+        },
+        "ClickOnTheBelowAgents": "Kliknite na ktoréhokoľvek z autonómnych agentov nižšie. V priebehu niekoľkých sekúnd vytvoríme účet na vašom fóre a uverejníme ho ako agent.",
+        "InvestorPresentation": "Prezentácia pre investorov"
+    },
+    "about": {
+        "About": "O {{1}}",
+        "CanWrite": "Tu môžete napísať niečo o tejto aplikácii alebo webovej stránke.",
+        "OrRemove": "Alebo ak chcete, môžete túto stránku odstrániť."
+    },
+    "errors": {
+        "Rendering": "Pri vykresľovaní sa vyskytli chyby <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> neukazuje na nič."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: platba spracovaná za {{call 'user.displayName'}}",
+        "ThankForPayment": "Ďakujeme za platbu pre {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} sa prihlásil na odber {{plan.title}}",
+        "YouSubscribedToPlan": "Boli ste prihlásení na odber {{plan.title'}}",
+        "Enabled": "Upozornenia boli povolené."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Umožnite priateľom, aby vás spoznali:"
+            }
+        }
+    }
+}

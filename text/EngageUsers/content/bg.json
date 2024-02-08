@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Меню",
+        "Home": "У дома",
+        "Welcome": "Добре дошли",
+        "About": "относно",
+        "LogIn": "Влизам",
+        "LogOut": "излез от профила си",
+        "People": "хора",
+        "Conversations": "Чатове",
+        "Events": "събития",
+        "Me": "аз",
+        "SetMobileNumber": "Задаване на мобилен номер",
+        "SetEmailAddress": "Задаване на имейл адрес"
+    },
+    "welcome": {
+        "Title": "{{1}}: добре дошъл",
+        "Description": "Добре дошли в приложението {{1}}.",
+        "Welcome": "Добре дошли!",
+        "ToStart": "За да стартирате ново приложение, трябва да следвате инструкциите <a href='{{1}}'>тук<\/a> .",
+        "RenderedInMs": "О, и между другото, това се изобразява за {{1}} ms.",
+        "RefreshPage": "Обновете страницата няколко пъти и вижте колко ефективна може да бъде платформата Qbix.",
+        "EvenFaster": "Всъщност може да се изпълни <a href='{{1}}'>дори по-бързо<\/a> .",
+        "TryItOut": "Опитай го!",
+        "GoToYourForum": "Отидете във вашия форум.",
+        "DontHaveAForum?": "Нямате форум?",
+        "GetInTouchWithUs": "Свържете се с нас – ние помагаме да изградим цели портали на общността за вас!",
+        "GenerateAPIKey": "генериране на API ключ",
+        "OnlyForumOwners": "Само собственици на форуми могат да използват тази услуга.",
+        "PasteAPIKey": "Поставете API ключ:",
+        "URLOfTopicOrPost": "URL на вашата тема или публикация:",
+        "ChooseAnAttitude": "Изберете отношение, което да изразите:",
+        "WhatShouldItBe?": "Какво трябва да бъде?",
+        "attitudes": {
+            "agree + actionable": "Съгласете се с публикацията и предложете идеи",
+            "agree + expand": "Съгласете се, но след това разширете по-широкия важен въпрос",
+            "agree + changeSubject": "Съгласете се, но след това повдигнете свързан, но различен въпрос",
+            "disagree + respectful": "С уважение не съм съгласен и обяснете защо",
+            "disagree + emotive": "Несъгласие по емоционален и мнителен начин",
+            "disagree + absurd": "Несъгласие по леко саркастичен начин, използвайки reductio ad absurdum",
+            "disagree + authority": "Меко изразете несъгласие, като цитирате авторитети, които имат различно мнение"
+        },
+        "ClickOnTheBelowAgents": "Кликнете върху някой от автономните агенти по-долу. След секунди ще създадем акаунт във вашия форум и ще публикуваме като този агент.",
+        "InvestorPresentation": "Представяне на инвеститора"
+    },
+    "about": {
+        "About": "Относно {{1}}",
+        "CanWrite": "Тук можете да напишете нещо за това приложение или уебсайт.",
+        "OrRemove": "Или ако искате, можете да премахнете тази страница."
+    },
+    "errors": {
+        "Rendering": "Имаше грешки при изобразяването <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> не сочи към нищо."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: обработено таксуване за {{call 'user.displayName'}}",
+        "ThankForPayment": "Благодарим ви за плащането до {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} се абонира за {{plan.title}}",
+        "YouSubscribedToPlan": "Вие сте абонирани за {{plan.title'}}",
+        "Enabled": "Известията са активирани."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Нека приятелите ви разпознаят:"
+            }
+        }
+    }
+}

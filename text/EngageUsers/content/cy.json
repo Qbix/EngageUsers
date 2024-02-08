@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Bwydlen",
+        "Home": "Cartref",
+        "Welcome": "Croeso",
+        "About": "Ynghylch",
+        "LogIn": "Mewngofnodi",
+        "LogOut": "allgofnodi",
+        "People": "Pobl",
+        "Conversations": "Sgyrsiau",
+        "Events": "Digwyddiadau",
+        "Me": "Fi",
+        "SetMobileNumber": "Gosod Rhif Symudol",
+        "SetEmailAddress": "Gosod Cyfeiriad E-bost"
+    },
+    "welcome": {
+        "Title": "{{1}}: croeso",
+        "Description": "Croeso i raglen {{1}}.",
+        "Welcome": "Croeso!",
+        "ToStart": "I gychwyn ap newydd, dylech ddilyn y cyfarwyddiadau <a href='{{1}}'>yma<\/a> .",
+        "RenderedInMs": "O, a gyda llaw, mae hyn wedi&#39;i rendro yn {{1}} ms.",
+        "RefreshPage": "Adnewyddwch y dudalen ychydig o weithiau a gweld pa mor effeithlon y gall y Llwyfan Qbix fod.",
+        "EvenFaster": "Mewn gwirionedd, gall weithredu <a href='{{1}}'>hyd yn oed yn gyflymach<\/a> .",
+        "TryItOut": "Rhowch gynnig arni!",
+        "GoToYourForum": "Ewch i&#39;ch fforwm.",
+        "DontHaveAForum?": "Dim fforwm?",
+        "GetInTouchWithUs": "Cysylltwch â ni - rydyn ni&#39;n helpu i adeiladu pyrth cymunedol cyfan i chi!",
+        "GenerateAPIKey": "cynhyrchu allwedd API",
+        "OnlyForumOwners": "Dim ond perchnogion fforymau all ddefnyddio&#39;r gwasanaeth hwn.",
+        "PasteAPIKey": "Gludo allwedd API:",
+        "URLOfTopicOrPost": "URL eich pwnc neu bost:",
+        "ChooseAnAttitude": "Dewiswch agwedd i fynegi:",
+        "WhatShouldItBe?": "Beth ddylai fod?",
+        "attitudes": {
+            "agree + actionable": "Cytuno gyda&#39;r post ac awgrymu syniadau",
+            "agree + expand": "Cytuno ond yna ymhelaethu ar y mater pwysig ehangach",
+            "agree + changeSubject": "Cytuno ond yna codwch fater cysylltiedig ond gwahanol",
+            "disagree + respectful": "Anghytuno&#39;n barchus ac esbonio pam",
+            "disagree + emotive": "Anghytuno mewn ffordd emosiynol a barn",
+            "disagree + absurd": "Anghytuno mewn ffordd ychydig yn goeglyd, gan ddefnyddio reductio ad absurdum",
+            "disagree + authority": "Anghytuno&#39;n ysgafn trwy ddyfynnu awdurdodau sydd â barn wahanol"
+        },
+        "ClickOnTheBelowAgents": "Cliciwch ar unrhyw un o&#39;r asiantau ymreolaethol isod. O fewn eiliadau, byddwn yn creu cyfrif ar eich fforwm ac yn postio fel yr asiant hwnnw.",
+        "InvestorPresentation": "Cyflwyniad Buddsoddwr"
+    },
+    "about": {
+        "About": "Tua {{1}}",
+        "CanWrite": "Yma gallwch chi ysgrifennu rhywbeth am yr app neu&#39;r wefan hon.",
+        "OrRemove": "Neu os dymunwch, gallwch gael gwared ar y dudalen hon."
+    },
+    "errors": {
+        "Rendering": "Bu gwallau wrth rendro <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "Nid yw <span class='url'>{{1}}<\/span> yn pwyntio at unrhyw beth."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: tâl wedi&#39;i brosesu ar gyfer {{call 'user.displayName'}}",
+        "ThankForPayment": "Diolch am eich taliad i {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "Mae {{call 'user.displayName'}} wedi tanysgrifio i {{plan.title}}",
+        "YouSubscribedToPlan": "Rydych wedi cael eich tanysgrifio i {{plan.title'}}",
+        "Enabled": "Mae hysbysiadau wedi&#39;u galluogi."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Gadewch i ffrindiau eich adnabod:"
+            }
+        }
+    }
+}

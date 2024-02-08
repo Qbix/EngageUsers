@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Izvēlne",
+        "Home": "Mājas",
+        "Welcome": "Laipni lūdzam",
+        "About": "Par",
+        "LogIn": "Pieslēgties",
+        "LogOut": "izlogoties",
+        "People": "Cilvēki",
+        "Conversations": "Tērzēšana",
+        "Events": "Pasākumi",
+        "Me": "Es",
+        "SetMobileNumber": "Iestatiet mobilā tālruņa numuru",
+        "SetEmailAddress": "Iestatiet e-pasta adresi"
+    },
+    "welcome": {
+        "Title": "{{1}}: laipni lūdzam!",
+        "Description": "Laipni lūdzam {{1}} lietojumprogrammā.",
+        "Welcome": "Laipni lūdzam!",
+        "ToStart": "Lai palaistu jaunu lietotni, izpildiet <a href='{{1}}'>šeit<\/a> sniegtos norādījumus.",
+        "RenderedInMs": "Ak, un, starp citu, tas tika atveidots {{1}} ms laikā.",
+        "RefreshPage": "Dažas reizes atsvaidziniet lapu un pārbaudiet, cik efektīva var būt Qbix platforma.",
+        "EvenFaster": "Faktiski to var izpildīt <a href='{{1}}'>vēl ātrāk<\/a> .",
+        "TryItOut": "Izmēģini!",
+        "GoToYourForum": "Dodieties uz savu forumu.",
+        "DontHaveAForum?": "Vai jums nav foruma?",
+        "GetInTouchWithUs": "Sazinieties ar mums — mēs palīdzam jums izveidot veselus kopienas portālus!",
+        "GenerateAPIKey": "ģenerēt API atslēgu",
+        "OnlyForumOwners": "Šo pakalpojumu var izmantot tikai foruma īpašnieki.",
+        "PasteAPIKey": "Ielīmēt API atslēgu:",
+        "URLOfTopicOrPost": "Jūsu tēmas vai ziņas URL:",
+        "ChooseAnAttitude": "Izvēlieties attieksmi, ko izteikt:",
+        "WhatShouldItBe?": "Kādam tam jābūt?",
+        "attitudes": {
+            "agree + actionable": "Piekrītiet ziņai un ierosiniet idejas",
+            "agree + expand": "Piekrītiet, bet pēc tam izvērsiet plašāku svarīgo jautājumu",
+            "agree + changeSubject": "Piekrītiet, bet pēc tam parādiet saistītu, bet atšķirīgu problēmu",
+            "disagree + respectful": "Ar cieņu nepiekrītiet un paskaidrojiet, kāpēc",
+            "disagree + emotive": "Nepiekrītiet emocionālā un domājošā veidā",
+            "disagree + absurd": "Nepiekrītiet maigi sarkastiskā veidā, izmantojot reductio ad absurdum",
+            "disagree + authority": "Viegli nepiekrītiet, atsaucoties uz iestādēm, kurām ir atšķirīgs viedoklis"
+        },
+        "ClickOnTheBelowAgents": "Noklikšķiniet uz jebkura no tālāk norādītajiem autonomajiem aģentiem. Dažu sekunžu laikā mēs izveidosim kontu jūsu forumā un publicēsim kā aģents.",
+        "InvestorPresentation": "Investora prezentācija"
+    },
+    "about": {
+        "About": "Par {{1}}",
+        "CanWrite": "Šeit varat uzrakstīt kaut ko par šo lietotni vai vietni.",
+        "OrRemove": "Vai arī, ja vēlaties, varat noņemt šo lapu."
+    },
+    "errors": {
+        "Rendering": "Renderējot <span class='url'>{{1}}<\/span> , radās kļūdas"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> ne uz ko nenorāda."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: maksa apstrādāta par {{call 'user.displayName'}}",
+        "ThankForPayment": "Paldies par maksājumu adresātam {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} abonēja {{plan.title}}",
+        "YouSubscribedToPlan": "Jūs esat abonējis {{plan.title'}}",
+        "Enabled": "Paziņojumi ir iespējoti."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Ļaujiet draugiem jūs atpazīt:"
+            }
+        }
+    }
+}

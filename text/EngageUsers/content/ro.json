@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Meniul",
+        "Home": "Acasă",
+        "Welcome": "Bine ati venit",
+        "About": "Despre",
+        "LogIn": "log in",
+        "LogOut": "deconectați-vă",
+        "People": "oameni",
+        "Conversations": "Chaturi",
+        "Events": "Evenimente",
+        "Me": "Pe mine",
+        "SetMobileNumber": "Setați numărul de mobil",
+        "SetEmailAddress": "Setați adresa de e-mail"
+    },
+    "welcome": {
+        "Title": "{{1}}: bine ai venit",
+        "Description": "Bun venit la aplicația {{1}}.",
+        "Welcome": "Bine ati venit!",
+        "ToStart": "Pentru a porni o nouă aplicație, ar trebui să urmați instrucțiunile <a href='{{1}}'>de aici<\/a> .",
+        "RenderedInMs": "A, și apropo, aceasta s-a redat în {{1}} ms.",
+        "RefreshPage": "Reîmprospătați pagina de câteva ori și vedeți cât de eficientă poate fi Platforma Qbix.",
+        "EvenFaster": "De fapt, se poate executa <a href='{{1}}'>și mai rapid<\/a> .",
+        "TryItOut": "Încearcă!",
+        "GoToYourForum": "Accesați forumul dvs.",
+        "DontHaveAForum?": "Nu ai un forum?",
+        "GetInTouchWithUs": "Luați legătura cu noi – vă ajutăm să construim portaluri întregi pentru comunitate!",
+        "GenerateAPIKey": "generați o cheie API",
+        "OnlyForumOwners": "Numai proprietarii de forum pot folosi acest serviciu.",
+        "PasteAPIKey": "Lipiți cheia API:",
+        "URLOfTopicOrPost": "Adresa URL a subiectului sau postării dvs.:",
+        "ChooseAnAttitude": "Alegeți o atitudine de exprimat:",
+        "WhatShouldItBe?": "Ce ar trebui să fie?",
+        "attitudes": {
+            "agree + actionable": "De acord cu postarea și sugerează idei",
+            "agree + expand": "Sunteți de acord, dar apoi extindeți-vă asupra chestiunii importante mai ample",
+            "agree + changeSubject": "De acord, dar apoi aduceți în discuție o problemă legată, dar diferită",
+            "disagree + respectful": "Cu respect, nu sunt de acord și explică de ce",
+            "disagree + emotive": "Nu sunt de acord într-un mod emoțional și cu opinii",
+            "disagree + absurd": "Dezacord într-un mod ușor sarcastic, folosind reductio ad absurdum",
+            "disagree + authority": "Dezacord ușor, citând autorități care au o opinie diferită"
+        },
+        "ClickOnTheBelowAgents": "Faceți clic pe oricare dintre agenții autonomi de mai jos. În câteva secunde, vom crea un cont pe forum și vom posta ca agent.",
+        "InvestorPresentation": "Prezentare investitor"
+    },
+    "about": {
+        "About": "Despre {{1}}",
+        "CanWrite": "Aici puteți scrie ceva despre această aplicație sau site.",
+        "OrRemove": "Sau, dacă doriți, puteți elimina această pagină."
+    },
+    "errors": {
+        "Rendering": "Au apărut erori la redarea <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> nu indică nimic."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: taxa procesată pentru {{call 'user.displayName'}}",
+        "ThankForPayment": "Vă mulțumim pentru plata către {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} s-a abonat la {{plan.title}}",
+        "YouSubscribedToPlan": "Ați fost abonat la {{plan.title'}}",
+        "Enabled": "Notificările au fost activate."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Lasă prietenii să te recunoască:"
+            }
+        }
+    }
+}

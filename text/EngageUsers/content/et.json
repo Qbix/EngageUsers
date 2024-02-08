@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Menüü",
+        "Home": "Kodu",
+        "Welcome": "Tere tulemast",
+        "About": "Umbes",
+        "LogIn": "Logi sisse",
+        "LogOut": "Logi välja",
+        "People": "Inimesed",
+        "Conversations": "Vestlused",
+        "Events": "Sündmused",
+        "Me": "Mina",
+        "SetMobileNumber": "Määra mobiilinumber",
+        "SetEmailAddress": "Määra e-posti aadress"
+    },
+    "welcome": {
+        "Title": "{{1}}: tere tulemast",
+        "Description": "Tere tulemast rakendusse {{1}}.",
+        "Welcome": "Tere tulemast!",
+        "ToStart": "Uue rakenduse käivitamiseks peaksite järgima juhiseid <a href='{{1}}'>siin<\/a> .",
+        "RenderedInMs": "Oh, ja muide, see renderdus {{1}} ms.",
+        "RefreshPage": "Värskendage lehte paar korda ja vaadake, kui tõhus võib Qbixi platvorm olla.",
+        "EvenFaster": "Tegelikult saab seda <a href='{{1}}'>veelgi kiiremini<\/a> käivitada.",
+        "TryItOut": "Proovi!",
+        "GoToYourForum": "Minge oma foorumisse.",
+        "DontHaveAForum?": "Kas teil pole foorumit?",
+        "GetInTouchWithUs": "Võtke meiega ühendust – aitame luua teie jaoks terveid kogukonnaportaale!",
+        "GenerateAPIKey": "luua API-võti",
+        "OnlyForumOwners": "Seda teenust saavad kasutada ainult foorumi omanikud.",
+        "PasteAPIKey": "Kleebi API võti:",
+        "URLOfTopicOrPost": "Teie teema või postituse URL:",
+        "ChooseAnAttitude": "Valige väljendamiseks suhtumine:",
+        "WhatShouldItBe?": "Mis see peaks olema?",
+        "attitudes": {
+            "agree + actionable": "Nõustu postitusega ja paku ideid",
+            "agree + expand": "Nõustuge, kuid seejärel laiendage laiemat olulist küsimust",
+            "agree + changeSubject": "Nõus, kuid tooge siis välja seotud, kuid teistsugune probleem",
+            "disagree + respectful": "Lugupidamisega ei nõustu ja selgita, miks",
+            "disagree + emotive": "Olge eriarvamusel emotsionaalsel ja arvamusel",
+            "disagree + absurd": "Mitte nõustuda kergelt sarkastilisel viisil, kasutades reductio ad absurdum",
+            "disagree + authority": "Leebelt ei nõustu, viidates autoriteetidele, kellel on erinev arvamus"
+        },
+        "ClickOnTheBelowAgents": "Klõpsake alloleval mis tahes autonoomsel agentil. Mõne sekundi jooksul loome teie foorumisse konto ja postitame selle agentina.",
+        "InvestorPresentation": "Investori esitlus"
+    },
+    "about": {
+        "About": "Teave {{1}} kohta",
+        "CanWrite": "Siin saate selle rakenduse või veebisaidi kohta midagi kirjutada.",
+        "OrRemove": "Või kui soovite, võite selle lehe eemaldada."
+    },
+    "errors": {
+        "Rendering": "Renderdamisel ilmnes vigu <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> ei viita millelegi."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: tasu töödeldud summas {{call 'user.displayName'}}",
+        "ThankForPayment": "Täname teid makse eest: {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} tellis {{plan.title}}",
+        "YouSubscribedToPlan": "Olete tellinud {{plan.title'}}",
+        "Enabled": "Märguanded on lubatud."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Laske sõpradel teid ära tunda:"
+            }
+        }
+    }
+}

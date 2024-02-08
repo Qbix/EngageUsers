@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Roghchlár",
+        "Home": "Baile",
+        "Welcome": "Fáilte",
+        "About": "Faoi",
+        "LogIn": "Logáil isteach",
+        "LogOut": "Logáil Amach",
+        "People": "Daoine",
+        "Conversations": "Comhráite",
+        "Events": "Imeachtaí",
+        "Me": "Mise",
+        "SetMobileNumber": "Socraigh Uimhir Soghluaiste",
+        "SetEmailAddress": "Socraigh Seoladh Ríomhphoist"
+    },
+    "welcome": {
+        "Title": "{{1}}: fáilte roimh chách",
+        "Description": "Fáilte chuig an bhfeidhmchlár {{1}}.",
+        "Welcome": "Fáilte romhat!",
+        "ToStart": "Chun aip nua a thosú, ba cheart duit na treoracha a leanúint <a href='{{1}}'>anseo<\/a> .",
+        "RenderedInMs": "Ó, agus dála an scéil, rinneadh é seo in {{1}} ms.",
+        "RefreshPage": "Athnuaigh an leathanach cúpla uair agus féach cé chomh héifeachtach agus is féidir leis an Ardán Qbix a bheith.",
+        "EvenFaster": "Go deimhin , is féidir é a fhorghníomhú <a href='{{1}}'>níos tapúla<\/a> .",
+        "TryItOut": "Iarrai E amach!",
+        "GoToYourForum": "Téigh go dtí do fóram.",
+        "DontHaveAForum?": "Nach bhfuil fóram agat?",
+        "GetInTouchWithUs": "Téigh i dteagmháil linn - cabhraímid le tairseacha pobail iomlána a thógáil duitse!",
+        "GenerateAPIKey": "eochair API a ghiniúint",
+        "OnlyForumOwners": "Ní féidir ach le húinéirí fóraim an tseirbhís seo a úsáid.",
+        "PasteAPIKey": "Greamaigh eochair API:",
+        "URLOfTopicOrPost": "URL do thopaic nó do phostáil:",
+        "ChooseAnAttitude": "Roghnaigh dearcadh le cur in iúl:",
+        "WhatShouldItBe?": "Cad ba cheart a bheith ann?",
+        "attitudes": {
+            "agree + actionable": "Aontaigh leis an bpost agus mol smaointe",
+            "agree + expand": "Aontaigh ach ansin leathnaigh ar an gceist thábhachtach níos leithne",
+            "agree + changeSubject": "Aontaigh ach ansin tabhair suas ceist ghaolmhar ach difriúil",
+            "disagree + respectful": "Easaontaím le meas agus mínigh cén fáth",
+            "disagree + emotive": "Easaontaím ar bhealach mothúchánach agus tuairimí",
+            "disagree + absurd": "Easaontaím ar bhealach beagán searbhasach, ag baint úsáide as reductio ad absurdum",
+            "disagree + authority": "Easaontú ar bheagán trí údaráis a bhfuil tuairim eile acu a lua"
+        },
+        "ClickOnTheBelowAgents": "Cliceáil ar aon cheann de na gníomhairí uathrialacha thíos. Laistigh de soicind, cruthóimid cuntas ar d’fhóram agus postálaimid mar ghníomhaire sin.",
+        "InvestorPresentation": "Cur i láthair ar Infheisteoirí"
+    },
+    "about": {
+        "About": "Timpeall {{1}}",
+        "CanWrite": "Anseo is féidir leat rud éigin a scríobh faoin aip nó faoin suíomh Gréasáin seo.",
+        "OrRemove": "Nó más mian leat, is féidir leat an leathanach seo a bhaint."
+    },
+    "errors": {
+        "Rendering": "Tharla earráidí agus <span class='url'>{{1}}<\/span> á rindreáil"
+    },
+    "notFound": {
+        "Explanation": "Ní thaispeánann <span class='url'>{{1}}<\/span> tada."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: muirear próiseáilte le haghaidh {{call 'user.displayName'}}",
+        "ThankForPayment": "Go raibh maith agat as d&#39;íocaíocht chuig {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} suibscríofa le {{plan.title}}",
+        "YouSubscribedToPlan": "Tá tú sínithe le {{plan.title'}}",
+        "Enabled": "Cumasaíodh fógraí."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Lig do chairde tú a aithint:"
+            }
+        }
+    }
+}

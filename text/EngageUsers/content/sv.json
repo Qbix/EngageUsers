@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Meny",
+        "Home": "Hem",
+        "Welcome": "Välkommen",
+        "About": "Handla om",
+        "LogIn": "logga in",
+        "LogOut": "logga ut",
+        "People": "människor",
+        "Conversations": "Chattar",
+        "Events": "evenemang",
+        "Me": "Mig",
+        "SetMobileNumber": "Ställ in mobilnummer",
+        "SetEmailAddress": "Ställ in e-postadress"
+    },
+    "welcome": {
+        "Title": "{{1}}: välkommen",
+        "Description": "Välkommen till applikationen {{1}}.",
+        "Welcome": "Välkommen!",
+        "ToStart": "För att starta en ny app bör du följa instruktionerna <a href='{{1}}'>här<\/a> .",
+        "RenderedInMs": "Åh, och förresten, detta återgavs på {{1}} ms.",
+        "RefreshPage": "Uppdatera sidan några gånger och se hur effektiv Qbix-plattformen kan vara.",
+        "EvenFaster": "Faktum är att det kan köras <a href='{{1}}'>ännu snabbare<\/a> .",
+        "TryItOut": "Testa!",
+        "GoToYourForum": "Gå till ditt forum.",
+        "DontHaveAForum?": "Har du inget forum?",
+        "GetInTouchWithUs": "Kontakta oss – vi hjälper till att bygga hela communityportaler åt dig!",
+        "GenerateAPIKey": "generera en API-nyckel",
+        "OnlyForumOwners": "Endast forumägare kan använda denna tjänst.",
+        "PasteAPIKey": "Klistra in API-nyckel:",
+        "URLOfTopicOrPost": "URL till ditt ämne eller inlägg:",
+        "ChooseAnAttitude": "Välj en attityd att uttrycka:",
+        "WhatShouldItBe?": "Vad ska det vara?",
+        "attitudes": {
+            "agree + actionable": "Håller med om inlägget och föreslå idéer",
+            "agree + expand": "Håller med men utvecklar sedan den vidare viktiga frågan",
+            "agree + changeSubject": "Håller med men ta sedan upp en relaterad men annan fråga",
+            "disagree + respectful": "Håller med respekt och förklara varför",
+            "disagree + emotive": "Håller inte med på ett känslosamt och åsiktsfullt sätt",
+            "disagree + absurd": "Håller inte med på ett milt sarkastiskt sätt, med hjälp av reductio ad absurdum",
+            "disagree + authority": "Håller milt inte med genom att citera myndigheter som har en annan åsikt"
+        },
+        "ClickOnTheBelowAgents": "Klicka på någon av de autonoma agenterna nedan. Inom några sekunder kommer vi att skapa ett konto på ditt forum och posta som den agenten.",
+        "InvestorPresentation": "Presentation av investerare"
+    },
+    "about": {
+        "About": "Om {{1}}",
+        "CanWrite": "Här kan du skriva något om denna app eller hemsida.",
+        "OrRemove": "Eller om du vill kan du ta bort den här sidan."
+    },
+    "errors": {
+        "Rendering": "Det uppstod fel vid renderingen av <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> pekar inte på någonting."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: debitering behandlas för {{call 'user.displayName'}}",
+        "ThankForPayment": "Tack för din betalning till {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} prenumererade på {{plan.title}}",
+        "YouSubscribedToPlan": "Du har prenumererat på {{plan.title'}}",
+        "Enabled": "Aviseringar har aktiverats."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Låt vänner känna igen dig:"
+            }
+        }
+    }
+}

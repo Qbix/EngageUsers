@@ -1,0 +1,13 @@
+h1, h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+#Streams_related_tool {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px dashed #555555;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.5);
+}

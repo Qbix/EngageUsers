@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Jesteś zaproszony",
+        "Member": "Członek w {{1}}",
+        "Explanation": "{{1}} ma przyjemność ogłosić uruchomienie naszej nowej strony internetowej. Zawiera rosnącą listę funkcji, takich jak:",
+        "Public": "Informacje publiczne o {{1}}",
+        "Private": "Prywatne konto użytkownika dla każdego członka",
+        "Notifications": "Wpisując swój adres e-mail lub numer telefonu komórkowego, będziesz mógł otrzymywać ważne powiadomienia e-mailem lub SMS-em.",
+        "GetStarted": "Aby rozpocząć, w przeglądarce internetowej proszę <em>ostrożnie<\/em> wpisać:<br>",
+        "IssuedToYou": "Ten kod jest wydawany specjalnie dla Ciebie."
+    }
+}

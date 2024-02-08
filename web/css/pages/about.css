@@ -1,0 +1,7 @@
+#Q_pdf_tool {
+    height: 2500vh;
+}
+
+#Q_pdf_tool>* {
+    zoom: 0.5;
+}

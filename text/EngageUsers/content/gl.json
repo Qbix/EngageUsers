@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Menú",
+        "Home": "Casa",
+        "Welcome": "Benvido",
+        "About": "Sobre",
+        "LogIn": "Iniciar sesión",
+        "LogOut": "pechar sesión",
+        "People": "Persoas",
+        "Conversations": "Chats",
+        "Events": "Eventos",
+        "Me": "Eu",
+        "SetMobileNumber": "Establecer o número de móbil",
+        "SetEmailAddress": "Establecer o enderezo de correo electrónico"
+    },
+    "welcome": {
+        "Title": "{{1}}: benvido",
+        "Description": "Benvido á aplicación {{1}}.",
+        "Welcome": "Benvido!",
+        "ToStart": "Para iniciar unha nova aplicación, debes seguir as instrucións <a href='{{1}}'>aquí<\/a> .",
+        "RenderedInMs": "Ah, e por certo, isto mostrouse en {{1}} ms.",
+        "RefreshPage": "Actualiza a páxina unhas cantas veces e mira o eficiente que pode ser a plataforma Qbix.",
+        "EvenFaster": "De feito, pode executarse <a href='{{1}}'>aínda máis rápido<\/a> .",
+        "TryItOut": "Próbao!",
+        "GoToYourForum": "Vai ao teu foro.",
+        "DontHaveAForum?": "Non tes un foro?",
+        "GetInTouchWithUs": "Póñase en contacto connosco: axudamos a crear portais da comunidade enteira para ti!",
+        "GenerateAPIKey": "xerar unha clave API",
+        "OnlyForumOwners": "Só os propietarios do foro poden usar este servizo.",
+        "PasteAPIKey": "Pegar clave API:",
+        "URLOfTopicOrPost": "URL do teu tema ou publicación:",
+        "ChooseAnAttitude": "Escolle unha actitude para expresar:",
+        "WhatShouldItBe?": "Que debería ser?",
+        "attitudes": {
+            "agree + actionable": "Concorda coa publicación e suxire ideas",
+            "agree + expand": "Concorda pero despois amplía a cuestión máis ampla e importante",
+            "agree + changeSubject": "De acordo, pero despois saca un tema relacionado pero diferente",
+            "disagree + respectful": "Desacordo respectuosamente e explica por que",
+            "disagree + emotive": "Discrepar dun xeito emotivo e opinado",
+            "disagree + absurd": "Desacordo dun xeito lixeiramente sarcástico, usando reductio ad absurdum",
+            "disagree + authority": "Desacordo levemente citando autoridades que teñen unha opinión diferente"
+        },
+        "ClickOnTheBelowAgents": "Fai clic en calquera dos axentes autonómicos a continuación. Nuns segundos, crearemos unha conta no teu foro e publicaremos como ese axente.",
+        "InvestorPresentation": "Presentación do inversor"
+    },
+    "about": {
+        "About": "Acerca de {{1}}",
+        "CanWrite": "Aquí podes escribir algo sobre esta aplicación ou sitio web.",
+        "OrRemove": "Ou se queres, podes eliminar esta páxina."
+    },
+    "errors": {
+        "Rendering": "Houbo erros ao renderizar <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> non apunta a nada."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: cargo procesado por {{call 'user.displayName'}}",
+        "ThankForPayment": "Grazas polo pago a {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} subscribiuse a {{plan.title}}",
+        "YouSubscribedToPlan": "Subscribícheste a {{plan.title'}}",
+        "Enabled": "Activáronse as notificacións."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Deixa que os amigos te recoñezan:"
+            }
+        }
+    }
+}

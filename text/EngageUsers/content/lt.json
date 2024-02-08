@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Meniu",
+        "Home": "Namai",
+        "Welcome": "Sveiki",
+        "About": "Apie",
+        "LogIn": "Prisijungti",
+        "LogOut": "Atsijungti",
+        "People": "Žmonės",
+        "Conversations": "Pokalbiai",
+        "Events": "Renginiai",
+        "Me": "Aš",
+        "SetMobileNumber": "Nustatykite mobiliojo telefono numerį",
+        "SetEmailAddress": "Nustatyti el. pašto adresą"
+    },
+    "welcome": {
+        "Title": "{{1}}: Sveiki atvykę",
+        "Description": "Sveiki atvykę į {{1}} programą.",
+        "Welcome": "Sveiki!",
+        "ToStart": "Norėdami paleisti naują programą, vadovaukitės <a href='{{1}}'>čia<\/a> pateiktomis instrukcijomis.",
+        "RenderedInMs": "O, beje, tai buvo pateikta per {{1}} ms.",
+        "RefreshPage": "Atnaujinkite puslapį kelis kartus ir pažiūrėkite, kokia efektyvi gali būti Qbix platforma.",
+        "EvenFaster": "Tiesą sakant, jis gali veikti <a href='{{1}}'>dar greičiau<\/a> .",
+        "TryItOut": "Išbandyk!",
+        "GoToYourForum": "Eikite į savo forumą.",
+        "DontHaveAForum?": "Neturite forumo?",
+        "GetInTouchWithUs": "Susisiekite su mumis – mes padedame jums sukurti ištisus bendruomenės portalus!",
+        "GenerateAPIKey": "generuoti API raktą",
+        "OnlyForumOwners": "Šia paslauga gali naudotis tik forumo savininkai.",
+        "PasteAPIKey": "Įklijuoti API raktą:",
+        "URLOfTopicOrPost": "Jūsų temos arba įrašo URL:",
+        "ChooseAnAttitude": "Pasirinkite požiūrį, kurį norite išreikšti:",
+        "WhatShouldItBe?": "Kas tai turėtų būti?",
+        "attitudes": {
+            "agree + actionable": "Sutikite su įrašu ir pasiūlykite idėjų",
+            "agree + expand": "Sutikite, bet tada praplėskite platesnį svarbų klausimą",
+            "agree + changeSubject": "Sutikite, bet tada iškelkite susijusią, bet kitokią problemą",
+            "disagree + respectful": "Pagarbiai nesutikite ir paaiškinkite kodėl",
+            "disagree + emotive": "Nesutikti emocingai ir išreikšti savo nuomonę",
+            "disagree + absurd": "Nesutikite švelniai sarkastiškai, naudodami reductio ad absurdum",
+            "disagree + authority": "Švelniai nesutikkite, nurodydami kitokią nuomonę turinčius autoritetus"
+        },
+        "ClickOnTheBelowAgents": "Spustelėkite bet kurį iš toliau pateiktų autonominių agentų. Per kelias sekundes sukursime paskyrą jūsų forume ir paskelbsime kaip tas agentas.",
+        "InvestorPresentation": "Investuotojo pristatymas"
+    },
+    "about": {
+        "About": "Apie {{1}}",
+        "CanWrite": "Čia galite parašyti ką nors apie šią programą ar svetainę.",
+        "OrRemove": "Arba, jei norite, galite pašalinti šį puslapį."
+    },
+    "errors": {
+        "Rendering": "Pateikiant <span class='url'>{{1}}<\/span> įvyko klaidų"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> nieko nenurodo."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: apmokestintas {{call 'user.displayName'}}",
+        "ThankForPayment": "Dėkojame, kad mokėjote {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} užsiprenumeravo {{plan.title}}",
+        "YouSubscribedToPlan": "Jūs užsiprenumeravote {{plan.title'}}",
+        "Enabled": "Pranešimai įjungti."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Leisk draugams tave atpažinti:"
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Меню",
+        "Home": "додому",
+        "Welcome": "Ласкаво просимо",
+        "About": "про",
+        "LogIn": "увійти",
+        "LogOut": "вийти",
+        "People": "Люди",
+        "Conversations": "Чати",
+        "Events": "Події",
+        "Me": "я",
+        "SetMobileNumber": "Встановити номер мобільного телефону",
+        "SetEmailAddress": "Встановити адресу електронної пошти"
+    },
+    "welcome": {
+        "Title": "{{1}}: ласкаво просимо",
+        "Description": "Ласкаво просимо до програми {{1}}.",
+        "Welcome": "Ласкаво просимо!",
+        "ToStart": "Щоб створити нову програму, дотримуйтесь інструкцій, наведених <a href='{{1}}'>тут<\/a> .",
+        "RenderedInMs": "О, і, до речі, це відображається за {{1}} мс.",
+        "RefreshPage": "Оновіть сторінку кілька разів і подивіться, наскільки ефективною може бути платформа Qbix.",
+        "EvenFaster": "Фактично, він може виконуватися <a href='{{1}}'>навіть швидше<\/a> .",
+        "TryItOut": "Спробуй!",
+        "GoToYourForum": "Перейдіть на свій форум.",
+        "DontHaveAForum?": "У вас немає форуму?",
+        "GetInTouchWithUs": "Зв’яжіться з нами – ми допоможемо створити для вас цілі портали спільноти!",
+        "GenerateAPIKey": "створити ключ API",
+        "OnlyForumOwners": "Користуватися цією послугою можуть лише власники форумів.",
+        "PasteAPIKey": "Вставте ключ API:",
+        "URLOfTopicOrPost": "URL вашої теми або публікації:",
+        "ChooseAnAttitude": "Виберіть ставлення, яке потрібно висловити:",
+        "WhatShouldItBe?": "Що це має бути?",
+        "attitudes": {
+            "agree + actionable": "Погодьтеся з публікацією та пропонуйте ідеї",
+            "agree + expand": "Погодьтеся, але потім розгорніть ширше важливе питання",
+            "agree + changeSubject": "Погодьтеся, але потім підніміть пов’язану, але іншу проблему",
+            "disagree + respectful": "З повагою не згоден і поясніть чому",
+            "disagree + emotive": "Не погоджуйтеся емоційно та впевнено",
+            "disagree + absurd": "Не погоджуйтесь у м’яко саркастичній формі, використовуючи reductio ad absurdum",
+            "disagree + authority": "М’яко кажучи, не згоден, посилаючись на авторитетів, які мають іншу думку"
+        },
+        "ClickOnTheBelowAgents": "Натисніть будь-якого з автономних агентів нижче. За кілька секунд ми створимо обліковий запис на вашому форумі та опублікуємо повідомлення від імені цього агента.",
+        "InvestorPresentation": "Презентація інвестора"
+    },
+    "about": {
+        "About": "Про {{1}}",
+        "CanWrite": "Тут ви можете написати щось про цю програму чи веб-сайт.",
+        "OrRemove": "Або, якщо хочете, ви можете видалити цю сторінку."
+    },
+    "errors": {
+        "Rendering": "Під час візуалізації виникли помилки <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> ні на що не вказує."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: оброблено плату за {{call 'user.displayName'}}",
+        "ThankForPayment": "Дякуємо за ваш платіж {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} підписався на {{plan.title}}",
+        "YouSubscribedToPlan": "Ви підписані на {{plan.title'}}",
+        "Enabled": "Сповіщення ввімкнено."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Нехай друзі впізнають вас:"
+            }
+        }
+    }
+}

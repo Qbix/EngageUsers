@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "{{1}}&#39;e hoş geldiniz.",
+        "ClickHere": "Hesabınızı etkinleştirmek için burayı tıklayın: {{1}}"
+    },
+    "resend": {
+        "DidYouWant": "{{1}} içindeki parolanızı sıfırlamak mı istediniz?",
+        "ClickHere": "O zaman burayı tıklayın: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Cep telefonu numaranızı doğrulamak için burayı tıklayın: {{1}}"
+    },
+    "SeeHistory": "{{1}} için ödeme geçmişini görün",
+    "charge": {
+        "HasBeenCharged": "{{1}}, {{4}} tarafından {{3}} için {{2}} olarak ücretlendirildi"
+    },
+    "charged": {
+        "HavePaid": "Hey {{1}}, bu, {{2}} tutarındaki parayı {{4}} için {{3}}&#39;e başarıyla ödediğinin kısa bir onayıdır."
+    },
+    "subscription": {
+        "YouHaveStarted": "{{2}} için {{3}} ile {{4}}&#39;de {{5}} ay boyunca abone oldunuz.",
+        "HasStarted": "{{1}}, {{3}} ile {{4}}&#39;de {{5}} aylığına abone oldu."
+    }
+}

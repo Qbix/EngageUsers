@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Subject": "Velkommen! Bekræft venligst din e-mailadresse.",
+        "Thanks": "Velkommen til {{1}}",
+        "ReallyYourEmail": "Er dette virkelig din e-mailadresse, {{1}}? Hvis ja, klik <a href='{{2}}'>her<\/a> for at indstille din adgangssætning og aktivere din konto.",
+        "SeeYou": "Vi ses på <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "identifier": {
+        "Subject": "Velkommen! Bekræft din e-mail-adresse."
+    },
+    "resend": {
+        "Subject": "Hej, har du glemt din adgangssætning?",
+        "Thanks": "Tak fordi du besøgte {{1}}",
+        "YouAreReceiving": "Du modtager denne e-mail, fordi nogen har indtastet din e-mailadresse og klikket på &quot;glemt adgangskode&quot;. Hvis det ikke var dig, skal du blot ignorere denne besked.",
+        "Reset": "Klik på {{1}} for at nulstille din adgangssætning",
+        "SetUpPassphrase": "Indstil adgangssætning",
+        "DomainCode": "Hvis websiden allerede er åben i din browser, kan du indtaste koden <strong>{{code}}<\/strong>"
+    },
+    "SeeYou": "Vi ses på {{1}}!",
+    "LinkToUnsubscribe": "Her er et link til <a href='{{1}}'>at afmelde<\/a> , hvis du ikke ønsker at få flere e-mails.",
+    "Greetings": "Hilsen fra {{1}}.",
+    "SeeHistory": "Se betalingshistorik for {{1}}",
+    "charge": {
+        "HasBeenCharged": "Hej, dette er bare for at fortælle dig, at {{1}} er blevet debiteret {{2}} for {{3}} af {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hej {{1}}, dette er blot en hurtig bekræftelse på, at du har betalt {{2}} til {{3}} for {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Hej {{1}}, du har startet dit abonnement på {{2}} med {{3}} på {{4}} i {{5}} måneder.",
+        "HasStarted": "Dette er bare for at fortælle dig, at {{1}} har startet deres abonnement på {{2}} med {{3}} på {{4}} i {{5}} måneder."
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "منو",
+        "Home": "صفحه اصلی",
+        "Welcome": "خوش آمدی",
+        "About": "در باره",
+        "LogIn": "وارد شدن",
+        "LogOut": "خروج",
+        "People": "مردم",
+        "Conversations": "چت ها",
+        "Events": "مناسبت ها",
+        "Me": "من",
+        "SetMobileNumber": "تنظیم شماره موبایل",
+        "SetEmailAddress": "آدرس ایمیل را تنظیم کنید"
+    },
+    "welcome": {
+        "Title": "{{1}}: خوش آمدید",
+        "Description": "به برنامه {{1}} خوش آمدید.",
+        "Welcome": "خوش آمدی!",
+        "ToStart": "برای راه اندازی یک برنامه جدید، باید دستورالعمل های <a href='{{1}}'>اینجا را<\/a> دنبال کنید.",
+        "RenderedInMs": "اوه، و به هر حال، این در {{1}} ms ارائه شده است.",
+        "RefreshPage": "صفحه را چند بار رفرش کنید و ببینید که پلتفرم Qbix چقدر می تواند کارآمد باشد.",
+        "EvenFaster": "در واقع، می تواند <a href='{{1}}'>حتی سریعتر<\/a> اجرا شود.",
+        "TryItOut": "آن را امتحان کنید!",
+        "GoToYourForum": "به انجمن خود بروید",
+        "DontHaveAForum?": "انجمن ندارید؟",
+        "GetInTouchWithUs": "با ما در تماس باشید - ما به ساخت کل پورتال های انجمن برای شما کمک می کنیم!",
+        "GenerateAPIKey": "یک کلید API ایجاد کنید",
+        "OnlyForumOwners": "فقط صاحبان انجمن می توانند از این سرویس استفاده کنند.",
+        "PasteAPIKey": "چسباندن کلید API:",
+        "URLOfTopicOrPost": "URL موضوع یا پست شما:",
+        "ChooseAnAttitude": "نگرش را برای بیان انتخاب کنید:",
+        "WhatShouldItBe?": "چه باید باشد؟",
+        "attitudes": {
+            "agree + actionable": "با پست موافقت کنید و ایده هایی را پیشنهاد دهید",
+            "agree + expand": "موافق باشید، اما سپس موضوع مهمتر را گسترش دهید",
+            "agree + changeSubject": "موافق باشید اما بعد یک موضوع مرتبط اما متفاوت را مطرح کنید",
+            "disagree + respectful": "با احترام مخالفت کنید و دلیل آن را توضیح دهید",
+            "disagree + emotive": "به شیوه ای احساسی و عقیده ای مخالفت کنید",
+            "disagree + absurd": "با استفاده از reductio ad absurdum به شیوه ای ملایم کنایه آمیز مخالفت کنید",
+            "disagree + authority": "با استناد به مراجعی که نظر متفاوتی دارند با ملایمت مخالفت کنید"
+        },
+        "ClickOnTheBelowAgents": "روی هر یک از عوامل مستقل زیر کلیک کنید. در عرض چند ثانیه، ما یک حساب کاربری در انجمن شما ایجاد می کنیم و به عنوان آن نماینده پست می کنیم.",
+        "InvestorPresentation": "ارائه سرمایه گذار"
+    },
+    "about": {
+        "About": "درباره {{1}}",
+        "CanWrite": "در اینجا می توانید چیزی در مورد این برنامه یا وب سایت بنویسید.",
+        "OrRemove": "یا در صورت تمایل می توانید این صفحه را حذف کنید."
+    },
+    "errors": {
+        "Rendering": "هنگام رندر کردن <span class='url'>{{1}}<\/span> خطاهایی وجود داشت"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> به چیزی اشاره نمی کند."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: هزینه پردازش شده برای {{call 'user.displayName'}}",
+        "ThankForPayment": "از پرداخت شما به {{call 'publisher.displayName'}} سپاسگزاریم",
+        "SubscribedToPlan": "{{call 'user.displayName'}} مشترک {{plan.title}}",
+        "YouSubscribedToPlan": "شما مشترک {{plan.title'}} شده اید",
+        "Enabled": "اعلان ها فعال شده است."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "اجازه دهید دوستان شما را بشناسند:"
+            }
+        }
+    }
+}

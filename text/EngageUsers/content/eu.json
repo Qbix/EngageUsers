@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Menua",
+        "Home": "Hasiera",
+        "Welcome": "Ongi etorri",
+        "About": "Buruz",
+        "LogIn": "saioa hasi",
+        "LogOut": "Saioa amaitu",
+        "People": "Jendea",
+        "Conversations": "Txatak",
+        "Events": "Gertaerak",
+        "Me": "Ni",
+        "SetMobileNumber": "Ezarri mugikorraren zenbakia",
+        "SetEmailAddress": "Ezarri helbide elektronikoa"
+    },
+    "welcome": {
+        "Title": "{{1}}: ongi etorria",
+        "Description": "Ongi etorri {{1}} aplikaziora.",
+        "Welcome": "Ongi etorri!",
+        "ToStart": "Aplikazio berri bat abiarazteko, <a href='{{1}}'>hemengo<\/a> argibideak jarraitu behar dituzu.",
+        "RenderedInMs": "A, eta bide batez, {{1}} ms-tan errendatu da hau.",
+        "RefreshPage": "Freskatu orria zenbait aldiz eta ikusi zein eraginkorra izan daitekeen Qbix Plataforma.",
+        "EvenFaster": "Izan ere, <a href='{{1}}'>are azkarrago<\/a> exekutatu daiteke.",
+        "TryItOut": "Probatu!",
+        "GoToYourForum": "Joan zure forora.",
+        "DontHaveAForum?": "Ez al duzu fororik?",
+        "GetInTouchWithUs": "Jarri gurekin harremanetan - komunitate osoko atariak eraikitzen laguntzen dizugu!",
+        "GenerateAPIKey": "sortu API gako bat",
+        "OnlyForumOwners": "Foroaren jabeek soilik erabil dezakete zerbitzu hau.",
+        "PasteAPIKey": "Itsatsi API gakoa:",
+        "URLOfTopicOrPost": "Zure gaiaren edo mezuaren URLa:",
+        "ChooseAnAttitude": "Aukeratu jarrera bat adierazteko:",
+        "WhatShouldItBe?": "Zer izan behar du?",
+        "attitudes": {
+            "agree + actionable": "Ados mezuarekin eta ideiak proposatu",
+            "agree + expand": "Ados egon baina gero zabaldu gai garrantzitsu zabalagoan",
+            "agree + changeSubject": "Ados egon baina gero gai erlazionatutako baina ezberdina atera",
+            "disagree + respectful": "Errespetuz ados ez eta azaldu zergatik",
+            "disagree + emotive": "Modu hunkigarri eta iritziz ados ez egotea",
+            "disagree + absurd": "Desadostasuna modu sarkastiko samar batean, reductio ad absurdum erabiliz",
+            "disagree + authority": "Ez ados egon, iritzi ezberdina duten agintariak aipatuz"
+        },
+        "ClickOnTheBelowAgents": "Egin klik beheko eragile autonomikoren batean. Segundo gutxiren buruan, kontu bat sortuko dugu zure foroan eta agente gisa argitaratuko dugu.",
+        "InvestorPresentation": "Inbertitzaileen Aurkezpena"
+    },
+    "about": {
+        "About": "{{1}}-ri buruz",
+        "CanWrite": "Hemen aplikazio edo webgune honi buruz zerbait idatz dezakezu.",
+        "OrRemove": "Edo nahi baduzu, orri hau kendu dezakezu."
+    },
+    "errors": {
+        "Rendering": "Erroreak izan dira <span class='url'>{{1}}<\/span> errendatzean"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}-k<\/span> ez du ezer adierazten."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: kobratu prozesatu da {{call 'user.displayName'}}",
+        "ThankForPayment": "Eskerrik asko {{call 'publisher.displayName'}} helbidera ordaintzeagatik",
+        "SubscribedToPlan": "{{call 'user.displayName'}} {{plan.title}}-ra harpidetu da",
+        "YouSubscribedToPlan": "{{plan.title'}}-ra harpidetuta zaude",
+        "Enabled": "Jakinarazpenak gaitu dira."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Utzi lagunei ezagutarazten:"
+            }
+        }
+    }
+}

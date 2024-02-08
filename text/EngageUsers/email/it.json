@@ -1,0 +1,33 @@
+{
+    "activation": {
+        "Subject": "Benvenuto! Per cortesia verifichi il suo indirizzo email.",
+        "Thanks": "Benvenuto in {{1}}",
+        "ReallyYourEmail": "Questo è davvero il tuo indirizzo email, {{1}}? In tal caso, fai clic <a href='{{2}}'>qui<\/a> per impostare la passphrase e attivare il tuo account.",
+        "SeeYou": "Ci vediamo su <a href='{{1}}'>{{2}}<\/a> !"
+    },
+    "identifier": {
+        "Subject": "Benvenuto! Verifica il tuo indirizzo email."
+    },
+    "resend": {
+        "Subject": "Ehi, hai dimenticato la passphrase?",
+        "Thanks": "Grazie per aver visitato {{1}}",
+        "YouAreReceiving": "Hai ricevuto questa e-mail perché qualcuno ha inserito il tuo indirizzo e-mail e ha fatto clic su &quot;passphrase dimenticata&quot;. Se non sei stato tu, ignora semplicemente questo messaggio.",
+        "Reset": "Per reimpostare la passphrase, fai clic su {{1}}",
+        "SetUpPassphrase": "Imposta passphrase",
+        "DomainCode": "Se la pagina web è già aperta nel tuo browser, puoi inserire il codice <strong>{{code}}<\/strong>"
+    },
+    "SeeYou": "Ci vediamo su {{1}}!",
+    "LinkToUnsubscribe": "Ecco un link per <a href='{{1}}'>annullare l&#39;iscrizione<\/a> se non vuoi più ricevere email.",
+    "Greetings": "Saluti da {{1}}.",
+    "SeeHistory": "Visualizza la cronologia dei pagamenti per {{1}}",
+    "charge": {
+        "HasBeenCharged": "Ciao, questo è solo per informarti che a {{1}} è stato addebitato {{2}} per {{3}} da {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Ciao {{1}}, questa è solo una rapida conferma che hai pagato correttamente {{2}} a {{3}} per {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Ciao {{1}}, hai avviato il tuo abbonamento a {{2}} con {{3}} a {{4}} per {{5}} mesi.",
+        "HasStarted": "Questo è solo per informarti che {{1}} ha avviato l&#39;abbonamento a {{2}} con {{3}} alle ore {{4}} per {{5}} mesi."
+    }
+}

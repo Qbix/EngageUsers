@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Jídelní lístek",
+        "Home": "Domov",
+        "Welcome": "Vítejte",
+        "About": "O",
+        "LogIn": "přihlásit se",
+        "LogOut": "odhlásit se",
+        "People": "Lidé",
+        "Conversations": "Chaty",
+        "Events": "Události",
+        "Me": "Mě",
+        "SetMobileNumber": "Nastavit číslo mobilního telefonu",
+        "SetEmailAddress": "Nastavte e-mailovou adresu"
+    },
+    "welcome": {
+        "Title": "{{1}}: vítejte",
+        "Description": "Vítejte v aplikaci {{1}}.",
+        "Welcome": "Vítejte!",
+        "ToStart": "Chcete-li spustit novou aplikaci, postupujte podle pokynů <a href='{{1}}'>zde<\/a> .",
+        "RenderedInMs": "Jo, a mimochodem, toto se vykreslilo za {{1}} ms.",
+        "RefreshPage": "Několikrát stránku obnovte a uvidíte, jak efektivní může být platforma Qbix.",
+        "EvenFaster": "Ve skutečnosti to může fungovat <a href='{{1}}'>ještě rychleji<\/a> .",
+        "TryItOut": "Vyzkoušej to!",
+        "GoToYourForum": "Přejděte na své fórum.",
+        "DontHaveAForum?": "Nemáte fórum?",
+        "GetInTouchWithUs": "Spojte se s námi – pomůžeme vám vybudovat celé komunitní portály!",
+        "GenerateAPIKey": "vygenerovat API klíč",
+        "OnlyForumOwners": "Tuto službu mohou používat pouze vlastníci fóra.",
+        "PasteAPIKey": "Vložit klíč API:",
+        "URLOfTopicOrPost": "URL vašeho tématu nebo příspěvku:",
+        "ChooseAnAttitude": "Vyberte si postoj k vyjádření:",
+        "WhatShouldItBe?": "co by to mělo být?",
+        "attitudes": {
+            "agree + actionable": "Souhlasit s příspěvkem a navrhnout nápady",
+            "agree + expand": "Souhlaste, ale poté rozveďte širší důležitý problém",
+            "agree + changeSubject": "Souhlasím, ale pak nastolte související, ale odlišný problém",
+            "disagree + respectful": "Uctivě nesouhlaste a vysvětlete proč",
+            "disagree + emotive": "Nesouhlasit emotivním a názorovým způsobem",
+            "disagree + absurd": "Mírně sarkastickým způsobem nesouhlasit s použitím reductio ad absurdum",
+            "disagree + authority": "Mírně nesouhlaste citováním úřadů, které mají jiný názor"
+        },
+        "ClickOnTheBelowAgents": "Klikněte na kteréhokoli z níže uvedených autonomních agentů. Během několika sekund vytvoříme účet na vašem fóru a zveřejníme jej jako zástupce.",
+        "InvestorPresentation": "Prezentace pro investory"
+    },
+    "about": {
+        "About": "O aplikaci {{1}}",
+        "CanWrite": "Zde můžete napsat něco o této aplikaci nebo webu.",
+        "OrRemove": "Nebo pokud chcete, můžete tuto stránku odstranit."
+    },
+    "errors": {
+        "Rendering": "Při vykreslování došlo k chybám <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> na nic neukazuje."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: platba zpracována za {{call 'user.displayName'}}",
+        "ThankForPayment": "Děkujeme za vaši platbu na adresu {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} se přihlásil k odběru {{plan.title}}",
+        "YouSubscribedToPlan": "Byli jste přihlášeni k odběru {{plan.title'}}",
+        "Enabled": "Oznámení byla povolena."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Umožněte přátelům, aby vás poznali:"
+            }
+        }
+    }
+}

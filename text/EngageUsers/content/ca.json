@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Menú",
+        "Home": "Casa",
+        "Welcome": "Benvingut",
+        "About": "Sobre",
+        "LogIn": "iniciar Sessió",
+        "LogOut": "tancar sessió",
+        "People": "Gent",
+        "Conversations": "Xats",
+        "Events": "Esdeveniments",
+        "Me": "jo",
+        "SetMobileNumber": "Estableix el número de mòbil",
+        "SetEmailAddress": "Estableix l&#39;adreça de correu electrònic"
+    },
+    "welcome": {
+        "Title": "{{1}}: benvingut",
+        "Description": "Benvingut a l&#39;aplicació {{1}}.",
+        "Welcome": "Benvingut!",
+        "ToStart": "Per iniciar una aplicació nova, heu de seguir les instruccions <a href='{{1}}'>aquí<\/a> .",
+        "RenderedInMs": "Ah, i per cert, això es representa en {{1}} ms.",
+        "RefreshPage": "Actualitzeu la pàgina unes quantes vegades i comproveu com d&#39;eficaç pot ser la plataforma Qbix.",
+        "EvenFaster": "De fet, es pot executar <a href='{{1}}'>encara més ràpid<\/a> .",
+        "TryItOut": "Intenta-ho!",
+        "GoToYourForum": "Aneu al vostre fòrum.",
+        "DontHaveAForum?": "No tens fòrum?",
+        "GetInTouchWithUs": "Posa&#39;t en contacte amb nosaltres: t&#39;ajudem a crear portals comunitaris sencers!",
+        "GenerateAPIKey": "generar una clau API",
+        "OnlyForumOwners": "Només els propietaris del fòrum poden utilitzar aquest servei.",
+        "PasteAPIKey": "Enganxa la clau de l&#39;API:",
+        "URLOfTopicOrPost": "URL del vostre tema o publicació:",
+        "ChooseAnAttitude": "Trieu una actitud per expressar:",
+        "WhatShouldItBe?": "Què hauria de ser?",
+        "attitudes": {
+            "agree + actionable": "Estar d&#39;acord amb la publicació i suggerir idees",
+            "agree + expand": "Estar d&#39;acord però després ampliar el tema important més ampli",
+            "agree + changeSubject": "D&#39;acord, però després planteja un tema relacionat però diferent",
+            "disagree + respectful": "Discrepa amb respecte i explica per què",
+            "disagree + emotive": "Estar en desacord d&#39;una manera emotiva i opinió",
+            "disagree + absurd": "Estar en desacord d&#39;una manera lleugerament sarcàstica, utilitzant reductio ad absurdum",
+            "disagree + authority": "Discrepeu lleument citant autoritats que tenen una opinió diferent"
+        },
+        "ClickOnTheBelowAgents": "Feu clic a qualsevol dels agents autònoms a continuació. En pocs segons, crearem un compte al vostre fòrum i publicarem com a agent.",
+        "InvestorPresentation": "Presentació inversor"
+    },
+    "about": {
+        "About": "Sobre {{1}}",
+        "CanWrite": "Aquí podeu escriure alguna cosa sobre aquesta aplicació o lloc web.",
+        "OrRemove": "O si voleu, podeu eliminar aquesta pàgina."
+    },
+    "errors": {
+        "Rendering": "Hi ha hagut errors en renderitzar <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> no apunta a res."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: càrrec processat per {{call 'user.displayName'}}",
+        "ThankForPayment": "Gràcies pel pagament a {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} s&#39;ha subscrit a {{plan.title}}",
+        "YouSubscribedToPlan": "T&#39;has subscrit a {{plan.title'}}",
+        "Enabled": "S&#39;han habilitat les notificacions."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Deixa que els teus amics et reconeguin:"
+            }
+        }
+    }
+}

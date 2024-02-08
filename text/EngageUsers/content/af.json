@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Spyskaart",
+        "Home": "Tuis",
+        "Welcome": "Welkom",
+        "About": "Oor",
+        "LogIn": "teken aan",
+        "LogOut": "teken uit",
+        "People": "Mense",
+        "Conversations": "Geselsies",
+        "Events": "Gebeurtenisse",
+        "Me": "Ek",
+        "SetMobileNumber": "Stel selfoonnommer in",
+        "SetEmailAddress": "Stel e-posadres in"
+    },
+    "welcome": {
+        "Title": "{{1}}: welkom",
+        "Description": "Welkom by {{1}} aansoek.",
+        "Welcome": "Welkom!",
+        "ToStart": "Om &#39;n nuwe toepassing te begin, moet jy die instruksies <a href='{{1}}'>hier<\/a> volg.",
+        "RenderedInMs": "O, en terloops, dit is in {{1}} me.",
+        "RefreshPage": "Verfris die bladsy &#39;n paar keer en kyk hoe doeltreffend die Qbix-platform kan wees.",
+        "EvenFaster": "Trouens, dit kan <a href='{{1}}'>selfs vinniger<\/a> uitgevoer word.",
+        "TryItOut": "Probeer dit!",
+        "GoToYourForum": "Gaan na jou forum.",
+        "DontHaveAForum?": "Het jy nie &#39;n forum nie?",
+        "GetInTouchWithUs": "Kom in kontak met ons – ons help om hele gemeenskapsportaal vir jou te bou!",
+        "GenerateAPIKey": "genereer &#39;n API-sleutel",
+        "OnlyForumOwners": "Slegs forumeienaars kan hierdie diens gebruik.",
+        "PasteAPIKey": "Plak API-sleutel:",
+        "URLOfTopicOrPost": "URL van jou onderwerp of plasing:",
+        "ChooseAnAttitude": "Kies &#39;n houding om uit te druk:",
+        "WhatShouldItBe?": "Wat moet dit wees?",
+        "attitudes": {
+            "agree + actionable": "Stem saam met plasing en stel idees voor",
+            "agree + expand": "Stem saam maar brei dan uit op die wyer belangrike saak",
+            "agree + changeSubject": "Stem saam, maar bring dan &#39;n verwante maar ander kwessie na vore",
+            "disagree + respectful": "Verskil met respek en verduidelik hoekom",
+            "disagree + emotive": "Verskil op &#39;n emosionele en eiesinnige manier",
+            "disagree + absurd": "Stem op &#39;n effens sarkastiese manier nie saam nie, gebruik reductio ad absurdum",
+            "disagree + authority": "Verskil liggies deur owerhede aan te haal wat &#39;n ander mening het"
+        },
+        "ClickOnTheBelowAgents": "Klik op enige van die outonome agente hieronder. Binne sekondes sal ons &#39;n rekening op jou forum skep en as daardie agent plaas.",
+        "InvestorPresentation": "Beleggersaanbieding"
+    },
+    "about": {
+        "About": "Oor {{1}}",
+        "CanWrite": "Hier kan jy iets oor hierdie toepassing of webwerf skryf.",
+        "OrRemove": "Of as jy wil, kan jy hierdie bladsy verwyder."
+    },
+    "errors": {
+        "Rendering": "Daar was foute tydens die lewering van <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> wys na niks nie."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: heffing verwerk vir {{call 'user.displayName'}}",
+        "ThankForPayment": "Dankie vir jou betaling aan {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} het ingeteken op {{plan.title}}",
+        "YouSubscribedToPlan": "Jy is ingeteken op {{plan.title'}}",
+        "Enabled": "Kennisgewings is geaktiveer."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Laat vriende jou herken:"
+            }
+        }
+    }
+}

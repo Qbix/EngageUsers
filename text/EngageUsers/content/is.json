@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Matseðill",
+        "Home": "Heim",
+        "Welcome": "Velkominn",
+        "About": "Um",
+        "LogIn": "skrá inn",
+        "LogOut": "að skrá þig út",
+        "People": "Fólk",
+        "Conversations": "Spjall",
+        "Events": "Viðburðir",
+        "Me": "Ég",
+        "SetMobileNumber": "Stilltu farsímanúmer",
+        "SetEmailAddress": "Stilltu netfang"
+    },
+    "welcome": {
+        "Title": "{{1}}: velkominn",
+        "Description": "Velkomin í {{1}} forritið.",
+        "Welcome": "Velkominn!",
+        "ToStart": "Til að byrja á nýju forriti ættirðu að fylgja leiðbeiningunum <a href='{{1}}'>hér<\/a> .",
+        "RenderedInMs": "Ó, og við the vegur, þetta var birt á {{1}} ms.",
+        "RefreshPage": "Endurnýjaðu síðuna nokkrum sinnum og sjáðu hversu skilvirkur Qbix pallurinn getur verið.",
+        "EvenFaster": "Reyndar getur það keyrt <a href='{{1}}'>enn hraðar<\/a> .",
+        "TryItOut": "Prufaðu það!",
+        "GoToYourForum": "Farðu á spjallborðið þitt.",
+        "DontHaveAForum?": "Ertu ekki með spjallborð?",
+        "GetInTouchWithUs": "Hafðu samband við okkur - við aðstoðum við að byggja upp heilar samfélagsgáttir fyrir þig!",
+        "GenerateAPIKey": "búa til API lykil",
+        "OnlyForumOwners": "Aðeins eigendur spjallborðs geta notað þessa þjónustu.",
+        "PasteAPIKey": "Límdu API lykil:",
+        "URLOfTopicOrPost": "Vefslóð efnis eða færslu:",
+        "ChooseAnAttitude": "Veldu viðhorf til að tjá:",
+        "WhatShouldItBe?": "Hvað ætti það að vera?",
+        "attitudes": {
+            "agree + actionable": "Sammála innlegginu og koma með hugmyndir",
+            "agree + expand": "Sammála en víkka síðan út hinu mikilvæga máli",
+            "agree + changeSubject": "Sammála en komdu svo með tengt en öðru máli",
+            "disagree + respectful": "Vertu ósammála með virðingu og útskýrðu hvers vegna",
+            "disagree + emotive": "Ósammála á tilfinningaríkan og skoðanakenndan hátt",
+            "disagree + absurd": "Ósammála á vægast sagt kaldhæðnislegan hátt, nota reductio ad absurdum",
+            "disagree + authority": "Vertu vægast sagt ósammála með því að vitna í yfirvöld sem hafa aðra skoðun"
+        },
+        "ClickOnTheBelowAgents": "Smelltu á einhvern af sjálfstæðum umboðsmönnum hér að neðan. Innan nokkurra sekúndna munum við búa til reikning á spjallborðinu þínu og senda inn sem umboðsmanninn.",
+        "InvestorPresentation": "Kynning fyrir fjárfesta"
+    },
+    "about": {
+        "About": "Um {{1}}",
+        "CanWrite": "Hér getur þú skrifað eitthvað um þetta app eða vefsíðu.",
+        "OrRemove": "Eða ef þú vilt geturðu fjarlægt þessa síðu."
+    },
+    "errors": {
+        "Rendering": "Það komu upp villur við vinnslu <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> bendir ekki á neitt."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: gjaldfærsla afgreidd fyrir {{call 'user.displayName'}}",
+        "ThankForPayment": "Þakka þér fyrir greiðsluna til {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} gerðist áskrifandi að {{plan.title}}",
+        "YouSubscribedToPlan": "Þú hefur verið áskrifandi að {{plan.title'}}",
+        "Enabled": "Tilkynningar hafa verið virkjaðar."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Láttu vini þekkja þig:"
+            }
+        }
+    }
+}

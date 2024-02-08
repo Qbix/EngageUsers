@@ -1,0 +1,24 @@
+{
+    "activation": {
+        "Thanks": "Welkom bij {{1}}.",
+        "ClickHere": "Klik hier om uw account te activeren: {{1}}"
+    },
+    "resend": {
+        "DidYouWant": "Wil je je wachtwoordzin resetten in {{1}}?",
+        "ClickHere": "Klik dan hier: {{1}}"
+    },
+    "addMobile": {
+        "ClickHere": "Klik hier om je mobiele nummer te verifiëren: {{1}}"
+    },
+    "SeeHistory": "Betalingsgeschiedenis bekijken voor {{1}}",
+    "charge": {
+        "HasBeenCharged": "{{1}} is in rekening gebracht {{2}} voor {{3}} door {{4}}"
+    },
+    "charged": {
+        "HavePaid": "Hé {{1}}, dit is even een snelle bevestiging dat je {{2}} aan {{3}} hebt betaald voor {{4}}"
+    },
+    "subscription": {
+        "YouHaveStarted": "Je bent geabonneerd op {{2}} met {{3}} bij {{4}} voor {{5}} maanden.",
+        "HasStarted": "{{1}} heeft een abonnement op {{2}} met {{3}} bij {{4}} voor {{5}} maanden."
+    }
+}

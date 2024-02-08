@@ -1,0 +1,19 @@
+syntax: regexp
+
+#Common ignores
+\.DS_Store$
+^\.git$
+^\.idea/
+^local/
+^files/Q/
+^files/EngageUsers/uploads/Users/(?!.dir).+
+^files/EngageUsers/uploads/Streams/(?!.dir).+
+^text/(?!EngageUsers)
+^web/Q/uploads
+^web/Q/plugins
+^web/Q/text
+^web/Q/views
+^config/Q/urls/
+
+syntax: glob
+*.psd

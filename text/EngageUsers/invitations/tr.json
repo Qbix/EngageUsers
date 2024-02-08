@@ -1,0 +1,12 @@
+{
+    "flyer1": {
+        "YouAreInvited": "Sen davetlisin",
+        "Member": "{{1}} şirketinde üye",
+        "Explanation": "{{1}}, yeni web sitemizin lansmanını duyurmaktan mutluluk duyar. Büyüyen bir özellik listesi içerir, örneğin:",
+        "Public": "{{1}} hakkında herkese açık bilgiler",
+        "Private": "Her üye için özel bir kullanıcı hesabı",
+        "Notifications": "E-posta adresinizi veya cep telefonu numaranızı girerek, e-posta veya kısa mesaj yoluyla önemli bildirimler alabilirsiniz.",
+        "GetStarted": "Başlamak için, web tarayıcınızda lütfen <em>dikkatlice<\/em> şunu girin:<br>",
+        "IssuedToYou": "Bu kod size özel olarak verilmiştir."
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Jelovnik",
+        "Home": "Dom",
+        "Welcome": "Dobrodošli",
+        "About": "Oko",
+        "LogIn": "prijaviti se",
+        "LogOut": "Odjavite se",
+        "People": "narod",
+        "Conversations": "Chatovi",
+        "Events": "Događaji",
+        "Me": "Mi",
+        "SetMobileNumber": "Postavite broj mobitela",
+        "SetEmailAddress": "Postavite adresu e-pošte"
+    },
+    "welcome": {
+        "Title": "{{1}}: dobrodošli",
+        "Description": "Dobro došli u aplikaciju {{1}}.",
+        "Welcome": "Dobrodošli!",
+        "ToStart": "Da biste pokrenuli novu aplikaciju, trebali biste slijediti upute <a href='{{1}}'>ovdje<\/a> .",
+        "RenderedInMs": "Oh, usput, ovo je prikazano za {{1}} ms.",
+        "RefreshPage": "Osvježite stranicu nekoliko puta i pogledajte koliko Qbix platforma može biti učinkovita.",
+        "EvenFaster": "Zapravo, može se izvršiti <a href='{{1}}'>čak i brže<\/a> .",
+        "TryItOut": "Isprobaj!",
+        "GoToYourForum": "Idi na svoj forum.",
+        "DontHaveAForum?": "Nemate forum?",
+        "GetInTouchWithUs": "Stupite u kontakt s nama – mi vam pomažemo izgraditi cijele portale zajednice!",
+        "GenerateAPIKey": "generirajte API ključ",
+        "OnlyForumOwners": "Samo vlasnici foruma mogu koristiti ovu uslugu.",
+        "PasteAPIKey": "Zalijepi API ključ:",
+        "URLOfTopicOrPost": "URL vaše teme ili posta:",
+        "ChooseAnAttitude": "Odaberite stav koji želite izraziti:",
+        "WhatShouldItBe?": "Što bi trebalo biti?",
+        "attitudes": {
+            "agree + actionable": "Slažete se s objavom i predlažete ideje",
+            "agree + expand": "Složite se, ali zatim proširite šire važno pitanje",
+            "agree + changeSubject": "Složiti se, ali onda pokrenuti srodno, ali različito pitanje",
+            "disagree + respectful": "S poštovanjem, ne slažem se i objasnim zašto",
+            "disagree + emotive": "Ne slažete se na emotivan i samouvjeren način",
+            "disagree + absurd": "Ne slažem se na blago sarkastičan način, koristeći reductio ad absurdum",
+            "disagree + authority": "Blago se ne slažete navodeći autoritete koji imaju drugačije mišljenje"
+        },
+        "ClickOnTheBelowAgents": "Kliknite na bilo kojeg od autonomnih agenata u nastavku. U roku od nekoliko sekundi stvorit ćemo račun na vašem forumu i objaviti kao taj agent.",
+        "InvestorPresentation": "Prezentacija investitora"
+    },
+    "about": {
+        "About": "O {{1}}",
+        "CanWrite": "Ovdje možete napisati nešto o ovoj aplikaciji ili web stranici.",
+        "OrRemove": "Ili ako želite, možete ukloniti ovu stranicu."
+    },
+    "errors": {
+        "Rendering": "Došlo je do pogrešaka tijekom iscrtavanja <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> ne ukazuje ni na što."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: naplata obrađena za {{call 'user.displayName'}}",
+        "ThankForPayment": "Zahvaljujemo na uplati {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} se pretplatio na {{plan.title}}",
+        "YouSubscribedToPlan": "Pretplaćeni ste na {{plan.title'}}",
+        "Enabled": "Obavijesti su omogućene."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Neka vas prijatelji prepoznaju:"
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "meni",
+        "Home": "domov",
+        "Welcome": "dobrodošli",
+        "About": "O tem",
+        "LogIn": "Vpiši se",
+        "LogOut": "Odjava",
+        "People": "Ljudje",
+        "Conversations": "Klepeti",
+        "Events": "Dogodki",
+        "Me": "jaz",
+        "SetMobileNumber": "Nastavite mobilno številko",
+        "SetEmailAddress": "Nastavite e-poštni naslov"
+    },
+    "welcome": {
+        "Title": "{{1}}: dobrodošli",
+        "Description": "Dobrodošli v aplikaciji {{1}}.",
+        "Welcome": "Dobrodošli!",
+        "ToStart": "Če želite zagnati novo aplikacijo, sledite navodilom <a href='{{1}}'>tukaj<\/a> .",
+        "RenderedInMs": "Oh, mimogrede, tole upodobljeno v {{1}} ms.",
+        "RefreshPage": "Nekajkrat osvežite stran in preverite, kako učinkovita je lahko platforma Qbix.",
+        "EvenFaster": "Pravzaprav se lahko izvaja <a href='{{1}}'>še hitreje<\/a> .",
+        "TryItOut": "Poskusi!",
+        "GoToYourForum": "Pojdi na svoj forum.",
+        "DontHaveAForum?": "Nimate foruma?",
+        "GetInTouchWithUs": "Stopite v stik z nami – pomagamo zgraditi celotne portale skupnosti za vas!",
+        "GenerateAPIKey": "ustvari ključ API",
+        "OnlyForumOwners": "Samo lastniki forumov lahko uporabljajo to storitev.",
+        "PasteAPIKey": "Prilepite ključ API-ja:",
+        "URLOfTopicOrPost": "URL vaše teme ali objave:",
+        "ChooseAnAttitude": "Izberite odnos, ki ga želite izraziti:",
+        "WhatShouldItBe?": "Kaj bi moralo biti?",
+        "attitudes": {
+            "agree + actionable": "Strinjajte se z objavo in predlagajte ideje",
+            "agree + expand": "Strinjajte se, a nato razširite širše pomembno vprašanje",
+            "agree + changeSubject": "Strinjajte se, vendar nato izpostavite sorodno, vendar drugačno vprašanje",
+            "disagree + respectful": "Spoštljivo se ne strinjate in pojasnite, zakaj",
+            "disagree + emotive": "Ne strinjajte se na čustven in mnenjski način",
+            "disagree + absurd": "Ne strinjajte se na rahlo sarkastičen način z uporabo reductio ad absurdum",
+            "disagree + authority": "Rahlo se ne strinjate z navajanjem avtoritet, ki imajo drugačno mnenje"
+        },
+        "ClickOnTheBelowAgents": "Kliknite katerega koli od spodnjih avtonomnih agentov. V nekaj sekundah bomo ustvarili račun na vašem forumu in objavili kot ta agent.",
+        "InvestorPresentation": "Predstavitev investitorja"
+    },
+    "about": {
+        "About": "O {{1}}",
+        "CanWrite": "Tukaj lahko napišete nekaj o tej aplikaciji ali spletnem mestu.",
+        "OrRemove": "Če želite, lahko to stran odstranite."
+    },
+    "errors": {
+        "Rendering": "Med upodabljanjem je prišlo do napak <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> ne kaže na nič."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: obdelana bremenitev za {{call 'user.displayName'}}",
+        "ThankForPayment": "Hvala za vaše plačilo {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} naročen na {{plan.title}}",
+        "YouSubscribedToPlan": "Naročeni ste na {{plan.title'}}",
+        "Enabled": "Obvestila so omogočena."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Naj vas prijatelji prepoznajo:"
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "Menu": "Menu",
+        "Home": "Rumah",
+        "Welcome": "Selamat datang",
+        "About": "Tentang",
+        "LogIn": "log masuk",
+        "LogOut": "log keluar",
+        "People": "Orang ramai",
+        "Conversations": "Sembang",
+        "Events": "Peristiwa",
+        "Me": "saya",
+        "SetMobileNumber": "Tetapkan Nombor Mudah Alih",
+        "SetEmailAddress": "Tetapkan Alamat E-mel"
+    },
+    "welcome": {
+        "Title": "{{1}}: selamat datang",
+        "Description": "Selamat datang ke aplikasi {{1}}.",
+        "Welcome": "Selamat datang!",
+        "ToStart": "Untuk memulakan apl baharu, anda harus mengikut arahan <a href='{{1}}'>di sini<\/a> .",
+        "RenderedInMs": "Oh, dan omong-omong, ini dipaparkan dalam {{1}} ms.",
+        "RefreshPage": "Muat semula halaman beberapa kali dan lihat betapa cekapnya Platform Qbix.",
+        "EvenFaster": "Malah, ia boleh dilaksanakan <a href='{{1}}'>dengan lebih pantas<\/a> .",
+        "TryItOut": "Cubalah!",
+        "GoToYourForum": "Pergi ke forum anda.",
+        "DontHaveAForum?": "Tidak mempunyai forum?",
+        "GetInTouchWithUs": "Hubungi kami – kami membantu membina keseluruhan portal komuniti untuk anda!",
+        "GenerateAPIKey": "menjana kunci API",
+        "OnlyForumOwners": "Hanya pemilik forum boleh menggunakan perkhidmatan ini.",
+        "PasteAPIKey": "Tampal kunci API:",
+        "URLOfTopicOrPost": "URL topik atau siaran anda:",
+        "ChooseAnAttitude": "Pilih sikap untuk diungkapkan:",
+        "WhatShouldItBe?": "Apa yang sepatutnya?",
+        "attitudes": {
+            "agree + actionable": "Setuju dengan siaran dan cadangkan idea",
+            "agree + expand": "Setuju tetapi kemudian kembangkan isu penting yang lebih luas",
+            "agree + changeSubject": "Setuju tetapi kemudian membawa isu berkaitan tetapi berbeza",
+            "disagree + respectful": "Tidak bersetuju dengan hormat dan terangkan sebabnya",
+            "disagree + emotive": "Tidak bersetuju dengan cara yang emotif dan berpendirian",
+            "disagree + absurd": "Tidak bersetuju dengan cara yang agak menyindir, menggunakan reductio ad absurdum",
+            "disagree + authority": "Tidak bersetuju secara sederhana dengan memetik pihak berkuasa yang mempunyai pendapat berbeza"
+        },
+        "ClickOnTheBelowAgents": "Klik pada mana-mana ejen autonomi di bawah. Dalam beberapa saat, kami akan membuat akaun di forum anda dan menyiarkan sebagai ejen itu.",
+        "InvestorPresentation": "Persembahan Pelabur"
+    },
+    "about": {
+        "About": "Mengenai {{1}}",
+        "CanWrite": "Di sini anda boleh menulis sesuatu tentang apl atau tapak web ini.",
+        "OrRemove": "Atau jika anda mahu, anda boleh mengalih keluar halaman ini."
+    },
+    "errors": {
+        "Rendering": "Terdapat ralat semasa memaparkan <span class='url'>{{1}}<\/span>"
+    },
+    "notFound": {
+        "Explanation": "<span class='url'>{{1}}<\/span> tidak menunjuk kepada apa-apa."
+    },
+    "notifications": {
+        "ChargeProcessedFor": "{{call 'publisher.displayName'}}: caj diproses untuk {{call 'user.displayName'}}",
+        "ThankForPayment": "Terima kasih atas pembayaran anda kepada {{call 'publisher.displayName'}}",
+        "SubscribedToPlan": "{{call 'user.displayName'}} melanggan {{plan.title}}",
+        "YouSubscribedToPlan": "Anda telah melanggan {{plan.title'}}",
+        "Enabled": "Pemberitahuan telah didayakan."
+    },
+    "@override": {
+        "Streams\/content": {
+            "login": {
+                "prompt": "Biarkan rakan mengenali anda:"
+            }
+        }
+    }
+}
